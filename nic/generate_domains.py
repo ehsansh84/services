@@ -32,3 +32,8 @@ def xiya_domains():
             col.insert({'domain': a+'e'+b+'e', 'whois': '', 'available': '', 'type': 'xeye'})
             col.insert({'domain': a+'e'+b+'a', 'whois': '', 'available': '', 'type': 'xeya'})
             col.insert({'domain': a+'a'+b+'e', 'whois': '', 'available': '', 'type': 'xaye'})
+
+
+alpha3_domains()
+x4y_domains()
+xiya_domains()
