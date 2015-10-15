@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/root/projects/services")
 from public_data import db
 from crawl_tools import get_url
 from bs4 import BeautifulSoup
