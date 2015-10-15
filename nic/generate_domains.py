@@ -1,7 +1,7 @@
-__author__ = 'Ehsan'
 from public_data import db
-from crawl_tools import get_url
+import sys
 
+sys.path.append("/root/projects/services")
 
 col = db['ir_domains']
 
@@ -32,7 +32,6 @@ def xiya_domains():
             col.insert({'domain': a+'e'+b+'e', 'whois': '', 'available': '', 'type': 'xeye'})
             col.insert({'domain': a+'e'+b+'a', 'whois': '', 'available': '', 'type': 'xeya'})
             col.insert({'domain': a+'a'+b+'e', 'whois': '', 'available': '', 'type': 'xaye'})
-
 
 alpha3_domains()
 x4y_domains()
