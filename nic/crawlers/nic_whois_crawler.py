@@ -7,8 +7,11 @@ col = db['ir_domains']
 col_processed = db['ir_domains_processed']
 
 domains = col.find()
-
+domain_count = col.count()
+i = 0
 for domain in domains:
+    if i % 1000 == 0:
+        print(i)
     whois = ''
     try:
         print(domain['domain'])
@@ -27,5 +30,5 @@ for domain in domains:
         print('Error in domain: ' + domain['domain'])
     col.remove({'domain': domain['domain']})
     col_processed.insert({'domain': domain['domain'], 'whois': str(whois), 'available': 'x'})
-
+    i += 1
 
