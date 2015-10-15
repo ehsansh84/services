@@ -1,7 +1,6 @@
-from public_data import db
 import sys
-
 sys.path.append("/root/projects/services")
+from public_data import db
 
 col = db['ir_domains']
 
