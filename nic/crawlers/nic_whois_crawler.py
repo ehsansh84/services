@@ -12,7 +12,7 @@ domains = col.find()
 domain_count = col.count()
 i = 0
 for domain in domains:
-    if i % 1000 == 0:
+    if i % 100 == 0:
         print(i)
     whois = ''
     try:
