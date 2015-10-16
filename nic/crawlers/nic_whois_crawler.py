@@ -16,9 +16,9 @@ for domain in domains:
         print(i)
     whois = ''
     try:
-        print(domain['domain'])
+        # print(domain['domain'])
         link = "http://whois.nic.ir/WHOIS?name=%s.ir" % domain['domain']
-        print(link)
+        # print(link)
         html = get_url(link)
         soap = BeautifulSoup(html, "html.parser")
         try:
