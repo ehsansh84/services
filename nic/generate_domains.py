@@ -33,6 +33,13 @@ def xiya_domains():
             col.insert({'domain': a+'e'+b+'a', 'whois': '', 'available': '', 'type': 'xeya'})
             col.insert({'domain': a+'a'+b+'e', 'whois': '', 'available': '', 'type': 'xaye'})
 
-alpha3_domains()
-x4y_domains()
-xiya_domains()
+
+def trip_domains():
+    for a in alphabet:
+        col.insert({'domain': a+'trip', 'whois': '', 'available': '', 'type': 'atrip'})
+        col.insert({'domain': 'trip'+a, 'whois': '', 'available': '', 'type': 'tripa'})
+
+# alpha3_domains()
+# x4y_domains()
+# xiya_domains()
+trip_domains()
