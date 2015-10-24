@@ -11,7 +11,7 @@ def check_avail():
     domains = col.find()
     for domain in domains:
         available = avail_string in domain['whois']
-        print(available)
+        print(domain['domain'] + ':' + str(available))
 
 
 check_avail()
