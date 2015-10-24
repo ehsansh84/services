@@ -11,6 +11,8 @@ col_processed = db['ir_domains_processed']
 domains = col.find()
 domain_count = col.count()
 i = 0
+avail_string = 'ERROR:101: no entries found'
+
 for domain in domains:
     if i % 100 == 0:
         print(i)
@@ -31,6 +33,12 @@ for domain in domains:
         print(e.message)
         print('Error in domain: ' + domain['domain'])
     col.remove({'domain': domain['domain']})
-    col_processed.insert({'domain': domain['domain'], 'whois': str(whois), 'available': 'x', 'type': domain['type']})
+    available = avail_string in domain['whois']
+    col_processed.insert({
+        'domain': domain['domain'],
+        'whois': str(whois),
+        'type': domain['type'],
+        'available': available
+    })
     i += 1
 
