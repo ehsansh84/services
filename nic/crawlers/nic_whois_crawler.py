@@ -31,6 +31,6 @@ for domain in domains:
         print(e.message)
         print('Error in domain: ' + domain['domain'])
     col.remove({'domain': domain['domain']})
-    col_processed.insert({'domain': domain['domain'], 'whois': str(whois), 'available': 'x'})
+    col_processed.insert({'domain': domain['domain'], 'whois': str(whois), 'available': 'x', 'type': domain['type']})
     i += 1
 
