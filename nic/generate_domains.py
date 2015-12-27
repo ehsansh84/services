@@ -39,7 +39,29 @@ def trip_domains():
         col.insert({'domain': a+'trip', 'whois': '', 'available': '', 'type': 'atrip'})
         col.insert({'domain': 'trip'+a, 'whois': '', 'available': '', 'type': 'tripa'})
 
+def news_domains():
+    list = []
+    keywords = ['on', 'my', 'we', 'me', 'you', 'pub', 'cast', 'broad']
+    for c in alphabet:
+        list.append(c + 'news')
+        list.append('news' + c)
+
+    for k in keywords:
+        list.append(k + 'news')
+        list.append('news' + k)
+
+    for c in alphabet:
+        list.append(c + 'khabar')
+        list.append('khabar' + c)
+
+    for k in keywords:
+        list.append(k + 'khabar')
+        list.append('khabar' + k)
+
+
 # alpha3_domains()
 # x4y_domains()
 # xiya_domains()
-trip_domains()
+# trip_domains()
+
+news_domains()
