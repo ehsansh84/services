@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/root/projects/services")
+sys.path.append("/root/ehsan/services")
 from public_data import db
 
 
