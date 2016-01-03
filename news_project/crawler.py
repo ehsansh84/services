@@ -1,4 +1,6 @@
 __author__ = 'Ehsan'
+import sys
+sys.path.append("/root/ehsan/services")
 from public_data import *
 rss_link = 'http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml'
 col_news = db['news']
