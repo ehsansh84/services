@@ -9,6 +9,7 @@ import feedparser
 
 feed = feedparser.parse(rss_link)
 
+
 # print(feed["bozo"])
 # print(feed["url"])
 # print(feed["version"])
