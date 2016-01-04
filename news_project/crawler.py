@@ -20,7 +20,7 @@ for item in feed["items"]:
     news_item = {
         'title': item['title'],
         'summary': item['summary'],
-        'date': item['date'],
+        # 'date': item['date'],
         'date_parsed': item['date_parsed'],
         'link': item['link'],
         'text': ''
