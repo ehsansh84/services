@@ -79,6 +79,8 @@ def fetch(rss_item):
             if news_item['sub_category'] in t_item:
                 print('DUP news')
             else:
+                print('SUB_CAT:', news_item['sub_category']),
+                print(t_item)
                 news_item['sub_category'].append(t_item)
                 col_news.update_one({'link': news_item['link']}, {
                     "$set": {'sub_category': news_item['sub_category']}
