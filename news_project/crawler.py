@@ -52,7 +52,7 @@ def exists(link):
     results = col_news.find({'link': link})
     if results.count() <> 0:
         for item in results:
-            print('ITEM:', item)
+            # print('ITEM:', item)
             return item['sub_category']
     else:
         return 0
