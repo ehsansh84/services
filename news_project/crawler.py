@@ -6,13 +6,13 @@ import feedparser
 
 # rss_link = 'http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml'
 rss_links = [
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['world'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/World.xml'},
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['africa'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Africa.xml'},
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['americas'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Americas.xml'},
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['asia pacific'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml'},
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['europe'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Europe.xml'},
-    # {'source': 'nytimes', 'category': 'world', 'sub_category': ['middle east'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml'},
-    # {'source': 'nytimes', 'category': 'U.S', 'sub_category': ['U.S'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/US.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['world'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/World.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['africa'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Africa.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['americas'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Americas.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['asia pacific'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['europe'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Europe.xml'},
+    {'source': 'nytimes', 'category': 'world', 'sub_category': ['middle east'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml'},
+    {'source': 'nytimes', 'category': 'U.S', 'sub_category': ['U.S'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/US.xml'},
     {'source': 'nytimes', 'category': 'U.S', 'sub_category': ['education'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Education.xml'},
     {'source': 'nytimes', 'category': 'U.S', 'sub_category': ['politics'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Politics.xml'},
     {'source': 'nytimes', 'category': 'N.Y./Region', 'sub_category': ['N.Y./Region'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/NYRegion.xml'},
@@ -53,7 +53,8 @@ def exists(link):
     if results.count() <> 0:
         for item in results:
             # print('ITEM:', item)
-            return item['sub_category']
+            # print('RESULT OF EXISTS:', item['sub_category'][0])
+            return item['sub_category'][0]
     else:
         return 0
 
@@ -73,12 +74,15 @@ def fetch(rss_item):
             # 'date_parsed': item['date_parsed'],
         }
         t_item = exists(news_item['link'])
+
         if t_item == 0:
+            # print('t_ITEM is 0')
             col_news.insert(news_item)
         else:
             if t_item in news_item['sub_category']:
                 print('DUP news')
             else:
+                print('===========================================================')
                 print('SUB_CAT:', news_item['sub_category']),
                 print('ITEM:', t_item)
                 news_item['sub_category'].append(t_item)
