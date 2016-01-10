@@ -195,12 +195,12 @@ def fetch(rss_item):
                     "$set": {'sub_category': news_item['sub_category']}
                 })
                 # exit()
-    print('There are %s duplicates and %s new' % (dup_count, new_count))
+    print('There are %s duplicates and %s new from %s' % (dup_count, new_count, item['category']))
 
 print('Total news is:'),
 print(col_news.count())
 for item in rss_links:
-    print(item['category'])
+    # print(item['category'])
     fetch(item)
 print('Total news is:'),
 print(col_news.count())
