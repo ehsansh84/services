@@ -162,6 +162,7 @@ def exists(link):
 
 def fetch(rss_item):
     dup_count = 0
+    new_count = 0
     feed = feedparser.parse(rss_item['link'])
     for item in feed["items"]:
         news_item = {
@@ -180,6 +181,7 @@ def fetch(rss_item):
         if t_item == 0:
             # print('t_ITEM is 0')
             col_news.insert(news_item)
+            new_count += 1
         else:
             if t_item in news_item['sub_category']:
                 dup_count += 1
@@ -193,7 +195,7 @@ def fetch(rss_item):
                     "$set": {'sub_category': news_item['sub_category']}
                 })
                 # exit()
-    print('Duplicate news: %s' % dup_count)
+    print('There are %s duplicates and %s new' % (dup_count, new_count))
 
 print('Total news is:'),
 print(col_news.count())
