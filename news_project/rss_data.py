@@ -419,7 +419,7 @@ rss_links = [
 	{'source': 'latimes', 'category': 'All News', 'sub_category': [''], 'link': 'http://www.latimes.com/rss2.0.xml'},
 	# {'source': 'latimes', 'category': 'Local', 'sub_category': [''], 'link': 'http://www.latimes.com/local/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'sports', 'sub_category': [''], 'link': 'http://www.latimes.com/sports/rss2.0.xml'},
-	{'source': 'latimes', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.latimes.com/entertainment/rss2.0.xml'},
+	# {'source': 'latimes', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.latimes.com/entertainment/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'nation', 'sub_category': [''], 'link': 'http://www.latimes.com/nation/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'world', 'sub_category': [''], 'link': 'http://www.latimes.com/world/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'business', 'sub_category': [''], 'link': 'http://www.latimes.com/business/rss2.0.xml'},
