@@ -4,6 +4,7 @@ sys.path.append("/root/ehsan/services")
 from public_data import *
 import feedparser
 
+
 # rss_link = 'http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml'
 rss_links = [
     {'source': 'nytimes', 'category': 'world', 'sub_category': ['world'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/World.xml'},
