@@ -30,7 +30,7 @@ def fetch(rss_item):
             'category': rss_item['category'],
             'sub_category': rss_item['sub_category'],
             'title': item['title'],
-            'summary': item['summary'],
+            'su mmary': item['summary'],
             'link': item['link'],
             'text': ''
             # 'date': item['date'],
@@ -59,6 +59,7 @@ def fetch(rss_item):
 
 total_count_old = col_news.count()
 for item in rss_links:
+    print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
     fetch(item)
 total_count_new = col_news.count()
 
