@@ -265,7 +265,7 @@ rss_links = [
 
 	# xinhuanet
 	# {'source': 'xinhuanet', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/sportsrss.xml'},
-	{'source': 'xinhuanet', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/scirss.xml'},
+	# {'source': 'xinhuanet', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/scirss.xml'},
 	{'source': 'xinhuanet', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/healthrss.xml'},
 	{'source': 'xinhuanet', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/entertainmentrss.xml'},
 	{'source': 'xinhuanet', 'category': 'Culture', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/culturerss.xml'},
