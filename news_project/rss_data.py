@@ -196,6 +196,81 @@ rss_links = [
 	{'source': 'usnews', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.usnews.com/rss/science'},
 	{'source': 'usnews', 'category': 'Education', 'sub_category': [''], 'link': 'http://www.usnews.com/rss/education'},
 
+	# CRF.org
+	{'source': 'cfr', 'category': 'Economics', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/economics'},
+	{'source': 'cfr', 'category': 'Energy and Environment', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/energyenvironment'},
+	{'source': 'cfr', 'category': 'Technology', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/health_science_and_technology'},
+	{'source': 'cfr', 'category': 'Society', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/society_and_culture'},
+	{'source': 'cfr', 'category': 'Politics', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/us_strategy_and_politics'},
+	{'source': 'cfr', 'category': 'Elections', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/us_election_2012'},
+
+
+	# Deutsche Welle
+	{'source': 'Deutsche Welle', 'category': 'Sports', 'sub_category': [''], 'link': 'http://rss.dw.de/rdf/rss-en-sports'},
+	{'source': 'Deutsche Welle', 'category': 'Culture', 'sub_category': [''], 'link': 'http://rss.dw.de/rdf/rss-en-cul'},
+	{'source': 'Deutsche Welle', 'category': 'Business', 'sub_category': [''], 'link': 'http://rss.dw.de/rdf/rss-en-bus'},
+
+
+
+	# Freep
+	{'source': 'freep', 'category': 'Business', 'sub_category': [''], 'link': 'http://rssfeeds.freep.com/freep/business'},
+	{'source': 'freep', 'category': 'Sports', 'sub_category': [''], 'link': 'http://rssfeeds.freep.com/freep/sports'},
+	{'source': 'freep', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://rssfeeds.freep.com/freep/entertainment'},
+
+
+	# Mlive
+	{'source': 'Mlive', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.mlive.com/business/'},
+	{'source': 'Mlive', 'category': 'Education', 'sub_category': [''], 'link': 'http://www.mlive.com/education/'},
+	{'source': 'Mlive', 'category': 'Politics', 'sub_category': [''], 'link': 'http://www.mlive.com/politics/'},
+	{'source': 'Mlive', 'category': 'Movies', 'sub_category': [''], 'link': 'http://www.mlive.com/movies/'},
+	{'source': 'Mlive', 'category': 'Music', 'sub_category': [''], 'link': 'http://www.mlive.com/music/'},
+	{'source': 'Mlive', 'category': 'Food', 'sub_category': [''], 'link': 'http://www.mlive.com/food/'},
+	{'source': 'Mlive', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.mlive.com/health/'},
+
+
+
+	# SFGATE
+	{'source': 'SFGATE', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.sfgate.com/rss/feed/Top-Sports-Stories-RSS-Feed-487.php'},
+	{'source': 'SFGATE', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.sfgate.com/rss/feed/Business-and-Technology-News-448.php'},
+	{'source': 'SFGATE', 'category': 'Movies', 'sub_category': [''], 'link': 'http://www.sfgate.com/rss/feed/Movie-Reviews-540.php'},
+	{'source': 'SFGATE', 'category': 'Food', 'sub_category': [''], 'link': 'http://www.sfgate.com/rss/feed/Food-Dining-550.php'},
+
+
+	# BuzzFeed
+	{'source': 'buzzfeed', 'category': 'Politics', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/politics.xml'},
+	{'source': 'buzzfeed', 'category': 'Technology', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/tech.xml'},
+	{'source': 'buzzfeed', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/sports.xml'},
+	{'source': 'buzzfeed', 'category': 'Food', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/food.xml'},
+	{'source': 'buzzfeed', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/category/business.xml'},
+	{'source': 'buzzfeed', 'category': 'Culture', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/category/culture.xml'},
+	{'source': 'buzzfeed', 'category': 'Music', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/category/music.xml'},
+	{'source': 'buzzfeed', 'category': 'Movies', 'sub_category': [''], 'link': 'http://www.buzzfeed.com/category/movie.xml'},
+
+
+	# Independent
+	{'source': 'independent', 'category': 'Sports', 'sub_category': ['Tennis'], 'link': 'http://rss.feedsportal.com/c/266/f/3797/index.rss'},
+	{'source': 'independent', 'category': 'Sports', 'sub_category': ['Football'], 'link': 'http://www.independent.co.uk/sport/football/rss'},
+	{'source': 'independent', 'category': 'Sports', 'sub_category': ['Cricket'], 'link': 'http://rss.feedsportal.com/c/266/f/3792/index.rss'},
+	{'source': 'independent', 'category': 'Food', 'sub_category': [''], 'link': 'http://www.independent.co.uk/life-style/food-and-drink/rss'},
+	{'source': 'independent', 'category': 'Music', 'sub_category': [''], 'link': 'http://rss.feedsportal.com/c/266/f/3834/index.rss'},
+
+
+	# Indian Express
+	{'source': 'indianexpress', 'category': 'Sports', 'sub_category': [''], 'link': 'http://indianexpress.com/section/sports/feed/'},
+	{'source': 'indianexpress', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.indianexpress.com/section/lifestyle/health/feed/'},
+	{'source': 'indianexpress', 'category': 'Science', 'sub_category': [''], 'link': 'http://indianexpress.com/section/technology/feed/'},
+	{'source': 'indianexpress', 'category': 'Politics', 'sub_category': [''], 'link': 'http://indianexpress.com/section/india/politics/feed/'},
+	{'source': 'indianexpress', 'category': 'Movies', 'sub_category': [''], 'link': 'http://indianexpress.com/section/entertainment/movie-review/feed/'},
+
+
+	# xinhuanet
+	{'source': 'xinhuanet', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/sportsrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/scirss.xml'},
+	{'source': 'xinhuanet', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/healthrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/entertainmentrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Culture', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/culturerss.xml'},
+	{'source': 'xinhuanet', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/businessrss.xml'},
+
 
 
 
