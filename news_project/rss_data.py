@@ -385,17 +385,17 @@ rss_links = [
 
 
 	# New York Post
-	{'source': 'nypost', 'category': 'NYPost.com – News', 'sub_category': [''], 'link': 'http://nypost.com/news/feed'},
-	{'source': 'nypost', 'category': 'NYPost.com – Metro', 'sub_category': [''], 'link': 'http://nypost.com/metro/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Sports', 'sub_category': [''], 'link': 'http://nypost.com/sports/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Business', 'sub_category': [''], 'link': 'http://nypost.com/business/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Opinion', 'sub_category': [''], 'link': 'http://nypost.com/opinion/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Entertainment', 'sub_category': [''], 'link': 'http://nypost.com/entertainment/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Fashion', 'sub_category': [''], 'link': 'http://nypost.com/fashion/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Living', 'sub_category': [''], 'link': 'http://nypost.com/living/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Tech', 'sub_category': [''], 'link': 'http://nypost.com/tech/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Media', 'sub_category': [''], 'link': 'http://nypost.com/media/feed/'},
-	{'source': 'nypost', 'category': 'NYPost.com – Real Estate', 'sub_category': [''], 'link': 'http://nypost.com/real-estate/feed'},
+	{'source': 'nypost', 'category': 'News', 'sub_category': [''], 'link': 'http://nypost.com/news/feed'},
+	{'source': 'nypost', 'category': 'Metro', 'sub_category': [''], 'link': 'http://nypost.com/metro/feed/'},
+	{'source': 'nypost', 'category': 'Sports', 'sub_category': [''], 'link': 'http://nypost.com/sports/feed/'},
+	{'source': 'nypost', 'category': 'Business', 'sub_category': [''], 'link': 'http://nypost.com/business/feed/'},
+	{'source': 'nypost', 'category': 'Opinion', 'sub_category': [''], 'link': 'http://nypost.com/opinion/feed/'},
+	{'source': 'nypost', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://nypost.com/entertainment/feed/'},
+	{'source': 'nypost', 'category': 'Fashion', 'sub_category': [''], 'link': 'http://nypost.com/fashion/feed/'},
+	{'source': 'nypost', 'category': 'Living', 'sub_category': [''], 'link': 'http://nypost.com/living/feed/'},
+	{'source': 'nypost', 'category': 'Tech', 'sub_category': [''], 'link': 'http://nypost.com/tech/feed/'},
+	{'source': 'nypost', 'category': 'Media', 'sub_category': [''], 'link': 'http://nypost.com/media/feed/'},
+	{'source': 'nypost', 'category': 'Real Estate', 'sub_category': [''], 'link': 'http://nypost.com/real-estate/feed'},
 
 
 
