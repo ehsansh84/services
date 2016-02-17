@@ -1,5 +1,4 @@
 rss_links = [
-
 	# New York Times
 	{'source': 'nytimes', 'category': 'world', 'sub_category': ['world'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/World.xml'},
     {'source': 'nytimes', 'category': 'world', 'sub_category': ['africa'], 'link': 'http://www.nytimes.com/services/xml/rss/nyt/Africa.xml'},
