@@ -58,9 +58,15 @@ def fetch(rss_item):
     print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
 
 total_count_old = col_news.count()
+error_count = 0
 for item in rss_links:
-    print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
-    fetch(item)
+    try:
+        fetch(item)
+    except Exception, e:
+        print('ERROR: %s' % e.message)
+        print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
+        error_count += 1
 total_count_new = col_news.count()
 
 print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
+print('Oops! %s Errors happend!' % error_count)

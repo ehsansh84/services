@@ -196,6 +196,7 @@ rss_links = [
 	{'source': 'usnews', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.usnews.com/rss/science'},
 	{'source': 'usnews', 'category': 'Education', 'sub_category': [''], 'link': 'http://www.usnews.com/rss/education'},
 
+
 	# CRF.org
 	{'source': 'cfr', 'category': 'Economics', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/economics'},
 	{'source': 'cfr', 'category': 'Energy and Environment', 'sub_category': [''], 'link': 'http://feeds.cfr.org/issue/energyenvironment'},
@@ -264,12 +265,15 @@ rss_links = [
 
 
 	# xinhuanet
-	# {'source': 'xinhuanet', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/sportsrss.xml'},
-	# {'source': 'xinhuanet', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/scirss.xml'},
-	# {'source': 'xinhuanet', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/healthrss.xml'},
-	# {'source': 'xinhuanet', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/entertainmentrss.xml'},
-	# {'source': 'xinhuanet', 'category': 'Culture', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/culturerss.xml'},
-	# {'source': 'xinhuanet', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/businessrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Sports', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/sportsrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Science', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/scirss.xml'},
+	{'source': 'xinhuanet', 'category': 'Health', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/healthrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/entertainmentrss.xml'},
+	{'source': 'xinhuanet', 'category': 'Culture', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/culturerss.xml'},
+	{'source': 'xinhuanet', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.xinhuanet.com/english/rss/businessrss.xml'},
+
+
+
 
 
 
@@ -379,18 +383,19 @@ rss_links = [
 	{'source': 'cnet', 'category': 'CNET Smart Home', 'sub_category': [''], 'link': 'http://www.cnet.com/rss/smart-home/'},
 	{'source': 'cnet', 'category': 'All of CNET', 'sub_category': [''], 'link': 'http://www.cnet.com/rss/all/'},
 
+
 	# New York Post
-	{'source': 'npost', 'category': 'News', 'sub_category': [''], 'link': 'http://nypost.com/news/feed'},
-	{'source': 'nypost', 'category': 'Metro', 'sub_category': [''], 'link': 'http://nypost.com/metro/feed/'},
-	{'source': 'nypost', 'category': 'Sports', 'sub_category': [''], 'link': 'http://nypost.com/sports/feed/'},
-	{'source': 'nypost', 'category': 'Business', 'sub_category': [''], 'link': 'http://nypost.com/business/feed/'},
-	{'source': 'nypost', 'category': 'Opinion', 'sub_category': [''], 'link': 'http://nypost.com/opinion/feed/'},
-	{'source': 'nypost', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://nypost.com/entertainment/feed/'},
-	{'source': 'nypost', 'category': 'Fashion', 'sub_category': [''], 'link': 'http://nypost.com/fashion/feed/'},
-	{'source': 'nypost', 'category': 'Living', 'sub_category': [''], 'link': 'http://nypost.com/living/feed/'},
-	{'source': 'nypost', 'category': 'Tech', 'sub_category': [''], 'link': 'http://nypost.com/tech/feed/'},
-	{'source': 'nypost', 'category': 'Media', 'sub_category': [''], 'link': 'http://nypost.com/media/feed/'},
-	{'source': 'nypost', 'category': 'Real Estate', 'sub_category': [''], 'link': 'http://nypost.com/real-estate/feed'},
+	{'source': 'nypost', 'category': 'NYPost.com – News', 'sub_category': [''], 'link': 'http://nypost.com/news/feed'},
+	{'source': 'nypost', 'category': 'NYPost.com – Metro', 'sub_category': [''], 'link': 'http://nypost.com/metro/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Sports', 'sub_category': [''], 'link': 'http://nypost.com/sports/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Business', 'sub_category': [''], 'link': 'http://nypost.com/business/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Opinion', 'sub_category': [''], 'link': 'http://nypost.com/opinion/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Entertainment', 'sub_category': [''], 'link': 'http://nypost.com/entertainment/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Fashion', 'sub_category': [''], 'link': 'http://nypost.com/fashion/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Living', 'sub_category': [''], 'link': 'http://nypost.com/living/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Tech', 'sub_category': [''], 'link': 'http://nypost.com/tech/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Media', 'sub_category': [''], 'link': 'http://nypost.com/media/feed/'},
+	{'source': 'nypost', 'category': 'NYPost.com – Real Estate', 'sub_category': [''], 'link': 'http://nypost.com/real-estate/feed'},
 
 
 
@@ -442,12 +447,12 @@ rss_links = [
 	{'source': 'wallstreetjournal', 'category': 'Lifestyle', 'sub_category': [''], 'link': 'http://www.wsj.com/xml/rss/3_7201.xml'},
 
 
-	# TV Guid
+	# TV Guide
 	{'source': 'tvguid', 'category': 'Breaking News', 'sub_category': [''], 'link': 'http://rss.tvguide.com/breakingnews'},
 	{'source': 'tvguid', 'category': 'Movie News', 'sub_category': [''], 'link': 'http://rss.tvguide.com/Movie-News'},
 
 
-	# PC Wolrd
+	# PC World
 	{'source': 'pcwolrd', 'category': 'All Stories', 'sub_category': [''], 'link': 'http://www.pcworld.com/index.rss'},
 	{'source': 'pcwolrd', 'category': 'Reviews', 'sub_category': [''], 'link': 'http://www.pcworld.com/reviews/index.rss'},
 	{'source': 'pcwolrd', 'category': 'How-Tos', 'sub_category': [''], 'link': 'http://www.pcworld.com/howto/index.rss'},
@@ -492,13 +497,59 @@ rss_links = [
 
 	# LA times
 	{'source': 'latimes', 'category': 'All News', 'sub_category': [''], 'link': 'http://www.latimes.com/rss2.0.xml'},
-	# {'source': 'latimes', 'category': 'Local', 'sub_category': [''], 'link': 'http://www.latimes.com/local/rss2.0.xml'},
-	# {'source': 'latimes', 'category': 'sports', 'sub_category': [''], 'link': 'http://www.latimes.com/sports/rss2.0.xml'},
-	# {'source': 'latimes', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.latimes.com/entertainment/rss2.0.xml'},
+	{'source': 'latimes', 'category': 'Local', 'sub_category': [''], 'link': 'http://www.latimes.com/local/rss2.0.xml'},
+	{'source': 'latimes', 'category': 'sports', 'sub_category': [''], 'link': 'http://www.latimes.com/sports/rss2.0.xml'},
+	{'source': 'latimes', 'category': 'Entertainment', 'sub_category': [''], 'link': 'http://www.latimes.com/entertainment/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'nation', 'sub_category': [''], 'link': 'http://www.latimes.com/nation/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'world', 'sub_category': [''], 'link': 'http://www.latimes.com/world/rss2.0.xml'},
-	# {'source': 'latimes', 'category': 'business', 'sub_category': [''], 'link': 'http://www.latimes.com/business/rss2.0.xml'},
+	{'source': 'latimes', 'category': 'business', 'sub_category': [''], 'link': 'http://www.latimes.com/business/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'opinion', 'sub_category': [''], 'link': 'http://www.latimes.com/opinion/rss2.0.xml'},
 	{'source': 'latimes', 'category': 'lifestyle', 'sub_category': [''], 'link': 'http://www.latimes.com/style/rss2.0.xml'},
-	{'source': 'latimes', 'category': 'travel', 'sub_category': [''], 'link': 'http://www.latimes.com/travel/rss2.0.xml'}
+	{'source': 'latimes', 'category': 'travel', 'sub_category': [''], 'link': 'http://www.latimes.com/travel/rss2.0.xml'},
+
+
+	# thelocal.fr
+	{'source': 'thelocal', 'category': 'rss newsfeed', 'sub_category': [''], 'link': 'http://www.thelocal.fr/feeds/rss.php'},
+
+
+	# ChannelNewsAsia
+	{'source': 'ChannelNewsAsia', 'category': 'Latest News', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_frontpage_rss.xml'},
+	{'source': 'ChannelNewsAsia', 'category': 'Asia Pacific', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_asiapac_rss.xml'},
+	{'source': 'ChannelNewsAsia', 'category': 'Business', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_biz_rss.xml'},
+	{'source': 'ChannelNewsAsia', 'category': 'Singapore', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_sg_rss.xml'},
+	{'source': 'ChannelNewsAsia', 'category': 'Sport', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_sports_rss.xml'},
+	{'source': 'ChannelNewsAsia', 'category': 'World', 'sub_category': [''], 'link': 'http://www.channelnewsasia.com/rss/latest_cna_world_rss.xml'},
+
+	# Straits Times
+	{'source': 'straitstimes', 'category': 'lifestyle', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677432/index.rss'},
+	{'source': 'straitstimes', 'category': 'politics', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677429/index.rss'},
+	{'source': 'straitstimes', 'category': 'business', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677428/index.rss'},
+	{'source': 'straitstimes', 'category': 'opinion', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677423/index.rss'},
+	{'source': 'straitstimes', 'category': 'asia', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677431/index.rss'},
+	{'source': 'straitstimes', 'category': 'sport', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677430/index.rss'},
+	{'source': 'straitstimes', 'category': 'World', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677425/index.rss'},
+	{'source': 'straitstimes', 'category': 'tech', 'sub_category': [''], 'link': 'http://straitstimes.com.feedsportal.com/c/32792/f/677422/index.rss'},
+
+
+	# Today Online
+	{'source': 'todayonline', 'category': 'hot news', 'sub_category': [''], 'link': 'http://www.todayonline.com/hot-news/feed'},
+	{'source': 'todayonline', 'category': 'commentary', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/commentary'},
+	{'source': 'todayonline', 'category': 'world', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/world'},
+	{'source': 'todayonline', 'category': 'business', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/business'},
+	{'source': 'todayonline', 'category': 'tech', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/tech'},
+	{'source': 'todayonline', 'category': 'sports', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/sports'},
+	{'source': 'todayonline', 'category': 'entertainment', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/entertainment'},
+	{'source': 'todayonline', 'category': 'lifestyle', 'sub_category': [''], 'link': 'http://www.todayonline.com/feed/lifestyle'},
+
+
+	# Financial Times
+	{'source': 'FinancialTimes', 'category': 'asia', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/asia'},
+	{'source': 'FinancialTimes', 'category': 'europe', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/europe'},
+	{'source': 'FinancialTimes', 'category': 'india', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/india'},
+	{'source': 'FinancialTimes', 'category': 'middle east', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/middleeast'},
+	{'source': 'FinancialTimes', 'category': 'uk', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/uk'},
+	{'source': 'FinancialTimes', 'category': 'us', 'sub_category': [''], 'link': 'http://www.ft.com/rss/home/us'},
+	{'source': 'FinancialTimes', 'category': 'world', 'sub_category': [''], 'link': 'http://www.ft.com/rss/world'},
+
+
 ]
