@@ -1,0 +1,748 @@
+usa,9to5mac,http://feeds.feedburner.com/9To5Mac-MacAllDay,,tech,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/blotterheadlines,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/entertainmentheadlines,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/healthheadlines,,health,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/moneyheadlines,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/mostviewedslideshows,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/mostviewedvideos,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/politicsheadlines,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/sportsheadlines,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/technologyheadlines,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/thelawheadlines,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/travelheadlines,,travel,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/usheadlines,,world,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/abcnews/worldnewsheadlines,,world,FALSE,not mentioned:^none,en,guid,TRUE
+usa,abcnews,http://feeds.abcnews.com/businessblog,,business,FALSE,not mentioned:^none,en,comments,TRUE
+usa,abcnews,http://feeds.abcnews.com/entertainmentblog,,entertainment,FALSE,not mentioned:^none,en,comments,TRUE
+usa,abcnews,http://feeds.abcnews.com/healthblog,,health,FALSE,not mentioned:^none,en,comments,TRUE
+usa,abcnews,http://feeds.abcnews.com/lifestyleblog,,lifestyle,FALSE,not mentioned:^none,en,comments,TRUE
+usa,abcnews,http://feeds.abcnews.com/politicsblog,,politics,FALSE,not mentioned:^none,en,comments,TRUE
+usa,abcnews,http://feeds.abcnews.com/technologyblog,,tech,FALSE,not mentioned:^none,en,comments,TRUE
+usa,advocate,http://www.advocate.com/rss.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,alltop,http://holykaw.alltop.com/feed,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,androidauthority,http://feeds.feedburner.com/androidauthority,,tech,FALSE,og:^none,en,comments,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/347875155d53465d95cec892aeb06419,,sports,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/386c25518f464186bf7a2ac026580ce7,,world,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/3d281c11a96b4ad082fe88aa0db04305,,world,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/495d344a0d10421e9baa8ee77029cfbd,,tech,FALSE,None^None,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/4e67281c3f754d0696fbfdee0f3f1469,,entertainment,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/89ae8247abe8493fae24405546e9a1aa,,politics,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/aa9398e6757a46fa93ed5dea7bd3729e,,politics,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/b2f0ca3a594644ee9e50a8ec4ce2d6de,,science,FALSE,None^None,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/bbd825583c8542898e6fa7d440b9febc,,health,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5,,world,FALSE,div.ap_photo_wrapper img:src^loadingAnim.gif,en,link,TRUE
+usa,ap,http://hosted2.ap.org/atom/APDEFAULT/f70471f764144b2fab526d39972d37b3,,business,FALSE,None^None,en,link,TRUE
+usa,bbc,http://feeds.bbci.co.uk/news/magazine/rss.xml,,world,FALSE,div.caption img:src^none,en,link,TRUE
+usa,bbc,http://feeds.bbci.co.uk/news/video_and_audio/world/rss.xml,,video,FALSE,img#media-asset-placeholder:src^none,en,link,TRUE
+usa,bbc,http://feeds.bbci.co.uk/news/world/middle_east/rss.xml,,world,FALSE,div.caption img:src^none,en,link,TRUE
+usa,bbc,http://feeds.bbci.co.uk/sport/0/cricket/rss.xml?edition=uk,,sports,FALSE,div.full-width img:src^none,en,link,TRUE
+usa,bbc,http://feeds.bbci.co.uk/sport/0/snooker/rss.xml?edition=uk,,sports,FALSE,div.full-width img:src^none,en,link,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/athletics/rss.xml,,sports,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/latest_published_stories/rss.xml,guid,sports,FALSE,None^None,en,auto,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/motorsport/rss.xml,,sports,FALSE,None^None,en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/video_and_audio/rss.xml,guid,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,auto,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/athletics/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/boxing/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/disability_sport/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/football/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/football_focus/rss.xml,,sports,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/golf/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/horse_racing/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/motorsport/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/rugby_league/rss.xml,guid,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,auto,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/rugby_union/rss.xml,guid,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,auto,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/snooker/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://newsrss.bbc.co.uk/rss/sportplayer_uk_edition/tennis/rss.xml,,video,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,guid,TRUE
+usa,bbc,http://www.bbc.co.uk/blogs/theeditors/rss.xml,,opinion,FALSE,None^None,en,link,TRUE
+usa,beautyriot,http://www.beautyriot.com/rss,,lifestyle,FALSE,div.pictureFrame img:src^none,en,link,TRUE
+usa,bgr,http://feeds.feedburner.com/TheBoyGeniusReport,,tech,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,blorge,http://buy.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://gamer.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://green.blorge.com/feed/,,tech,FALSE,None^None,en,link,TRUE
+usa,blorge,http://ipad.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://iphonetouch.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://mac.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://mobile.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://photo.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://tablet.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,blorge,http://vista.blorge.com/feed/,,tech,FALSE,div.entry img:src^none,en,link,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/business/,,business,FALSE,None^None,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/business/healthcare/,,health,FALSE,None^None,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/business/technology/,,tech,TRUE,div.views-field img:src^none,en,guid,FALSE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/entertainment/,,entertainment,FALSE,div.views-field img:src^none,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/jobfind/news/healthcare/,,health,FALSE,None^None,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/news/,,world,FALSE,None^None,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/news/international/,,world,FALSE,None^None,en,guid,TRUE
+usa,bostonherald,http://feeds.feedburner.com/bostonherald/sports/,,sports,FALSE,div.views-field img:src^none,en,guid,TRUE
+usa,businessinsider,http://feedproxy.google.com/clusterstock?format=xml,,business,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feedproxy.google.com/typepad/alleyinsider/silicon_alley_insider,,tech,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/TheMoneyGame,,business,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/law,,politics,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/politics,,politics,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/science,,science,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/sportspage,,sports,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/thelife,,lifestyle,FALSE,og:^none,en,Exception,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/thewire,,entertainment,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/warroom,,business,FALSE,og:^none,en,guid,TRUE
+usa,businessinsider,http://feeds.feedburner.com/businessinsider/yourmoney,,business,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/advertising.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/careers.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/category/video.rss,,video,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/defense.rss,,politics,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/education.rss,,science,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/enterprise.rss,,tech,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/retail.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/smallbusiness.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/transportation.rss,,travel,FALSE,og:^none,en,link,TRUE
+usa,businessinsider,http://www.businessinsider.com/wealthadvisor.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/cb_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/cfb_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/golf_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/mlb_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/nba_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/nfl_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/nhl_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cbssports,http://www.cbssports.com/partners/feeds/rss/tennis_news,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnet,http://feeds.feedburner.com/CnetSoftwareDeals,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/FYsT,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/JZkn,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/NnTv,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/UTyZ,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/WhtY,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/YIff,,opinion,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/YxtC,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/bHsM,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/cgQn,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/kVSP,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/mHpI,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/nxye,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/pRza,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/qzeB,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/rEwS,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/sDKW,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/tcoc,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/wmdc,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/xWjr,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://feeds.feedburner.com/cnet/ymgM,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,cnet,http://news.cnet.com/8300-1001_3-92.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-1009_3-83.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-1023_3-93.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-1035_3-94.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-10805_3-75.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-13578_3-38.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-13579_3-37.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-13639_3-42.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-27083_3-247.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-30252_3-246.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://news.cnet.com/8300-31322_3-256.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://reviews.cnet.com/4924-3000_7-0.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,opinion,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4924-3118_7-0.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4924-3127_7-0.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4924-3504_7-0.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4924-6500_7-0.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4924-9020_7.xml?orderBy=-7rvDte&7rType=70-80&maxhits=10,link,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/4951-5_7.xml?vn=25,link,opinion,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://reviews.cnet.com/8300-18438_7-82.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://reviews.cnet.com/8300-19727_7-10170017.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://shopper.cnet.com/4926-5_9-0.xml?orderBy=-9pop&maxhits=3&9lwPrc=0-,link,business,FALSE,not mentioned:^none,en,auto,TRUE
+usa,cnet,http://www.cnet.com/8300-13553_1-32.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnet,http://www.cnet.com/8300-17918_1-85.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,cnn,http://feeds.feedburner.com/GolfToursNews,,sports,TRUE,og:^none,en,link,FALSE
+usa,cnn,http://rss.cnn.com/rss/cnn_allpolitics.rss,,politics,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_freevideo.rss,,video,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_health.rss,,health,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_living.rss,,lifestyle,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_showbiz.rss,,entertainment,FALSE,"\""link[rel=\""\""image_src\""\""]:href^none\""",en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_tech.rss,,tech,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_travel.rss,,travel,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_us.rss,,world,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/cnn_world.rss,,world,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/money_latest.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_highschool.rss,,sports,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_hockey.rss,,sports,FALSE,og:^none,en,guid,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_mlb.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_mma.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_motorsports.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_nba.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_ncaab.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_ncaaf.rss,,sports,FALSE,og:^none,en,link,TRUE
+usa,cnn,http://rss.cnn.com/rss/si_soccer.rss,,sports,FALSE,og:^none,en,guid,TRUE
+usa,crmbuyer,http://www.crmbuyer.com/perl/syndication/rssfull.pl,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,dailymail,http://www.dailymail.co.uk/home/index.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,dailymail,http://www.dailymail.co.uk/news/index.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,dailymail,http://www.dailymail.co.uk/sciencetech/index.rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,dailytech,http://www.dailytech.com/rss.aspx,,tech,FALSE,not mentioned:^none,en,Exception,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-blogs-captured,,entertainment,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-business,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-entertainment,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-entertainment-movies-blogs-mad_moviegoer,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-food,,health,FALSE,not mentioned:^none,en,link,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-lifestyles,,lifestyle,TRUE,not mentioned:^none,en,link,FALSE
+usa,denverpost,http://feeds.denverpost.com/dp-news-education,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-opinion,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-politics,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-sports,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+usa,denverpost,http://feeds.denverpost.com/dp-travel,,travel,FALSE,not mentioned:^none,en,guid,TRUE
+usa,designboom,http://www.designboom.com/feed/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,disney,http://blogs.disney.com/disney-playlist/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,disney,http://blogs.disney.com/disney-style/feed/,,lifestyle,FALSE,og:^none,en,link,TRUE
+usa,disney,http://blogs.disney.com/insider/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,disney,http://blogs.disney.com/oh-my-disney/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,ecommercetimes,http://www.ecommercetimes.com/perl/syndication/rssfull.pl,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,engadget,http://www.engadget.com/rss.xml,,tech,FALSE,og:^none,en,link,TRUE
+usa,eonline,http://feeds.eonline.com/eonline/fashion,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,eonline,http://feeds.eonline.com/eonline/thesoup,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,eonline,http://feeds.eonline.com/eonline/tvnews,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/answer.xml,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/celebrityphotos.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/redcarpet.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/trends.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,eonline,http://syndication.eonline.com/syndication/feeds/rssfeeds/video/index.xml,,entertainment,TRUE,not mentioned:^none,en,empty,FALSE
+usa,espn,http://search.espn.go.com/rss/bill-simmons/,guid,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,auto,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/mlb/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/nba/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/ncb/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/ncf/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/nfl/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/nhl/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/alabama/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/florida/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/fsu/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/georgia/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/lsu/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/michigan/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/oklahoma/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/oregon/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/osu/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/psu/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/tamu/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/texas/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/recruiting/washington/news,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,espn,http://sports.espn.go.com/espn/rss/rpm/news,,sports,FALSE,og:^/null.png&espn_facebook.png&espn_red.png,en,link,TRUE
+usa,espn,http://www.grantland.com/feed,,sports,TRUE,og:^/null.png&espn_facebook.png&espn_red.png,en,empty,FALSE
+usa,eurekalert,http://www.eurekalert.org/rss.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/agriculture.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/archaeology.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/atmospheric_science.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/biology.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/business.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/cancer.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/chemistry_physics.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/earth_science.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/education.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/infectious_emerging_diseases.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/mathematics.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/medicine_health.xml,,health,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/nanotechnology.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/oceanography.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/policy_ethics.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/social_behavioral.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/space_planetary.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,eurekalert,http://www.eurekalert.org/rss/technology_engineering.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/Euronews-NoComment/,guid,world,FALSE,None^None,en,auto,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/business?format=xml,,business,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/europa?format=xml,guid,politics,FALSE,og:^none,en,auto,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/home?format=xml,guid,politics,FALSE,None^None,en,auto,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/lifestyle?format=xml,guid,lifestyle,FALSE,og:^none,en,auto,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/picture-of-the-day?format=xml,guid,entertainment,FALSE,None^None,en,auto,TRUE
+usa,euronews,http://feeds.feedburner.com/euronews/en/sci-tech?format=xml,guid,science,FALSE,div.videoWrapper img:src^none,en,auto,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/albany,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/bakersfield,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/binghamton,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/buffalo,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/chico,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/chula-vista,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/elmira,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/eureka,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/fresno,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/glendale-ca,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/long-beach,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/long-island,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/los-angeles,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/modesto,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/monterey,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/national,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/new-york,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/rochester,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/seattle,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/spokane,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/syracuse,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/tacoma,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/utica,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/washington-dc,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/watertown,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,examiner,http://www.examiner.com/rss/recent/yakima,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,fansided,http://fansided.com/feed/,,sports,FALSE,og:^none,en,link,TRUE
+usa,fashionista,http://feeds.feedburner.com/fashionistacom?format=xml,,lifestyle,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,fastcompany,http://feeds.feedburner.com/fastcocreate/feed,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,fastcompany,http://feeds.feedburner.com/fastcodesign/feed,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,fastcompany,http://feeds.feedburner.com/fastcoexist/feed,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,fastcompany,http://feeds.feedburner.com/fastcolabs,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,fastcompany,http://feeds.feedburner.com/fastcompany/headlines,,business,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,forbes,http://www.forbes.com/asia_news/index.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/autos/feed/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/bonds/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/business/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/education/feed/,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/europe_news/index.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/feeds/popstories.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/finance/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/forbeswoman/index.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/healthcare/feed/,,health,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/leadership/index.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/markets/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/opinions/feed/,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/options/index.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/real-time/feed2/,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/sales-leadership/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/security/index.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/sportsmoney/feed/,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,forbes,http://www.forbes.com/technology/feed/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,fourfourtwo,http://www.fourfourtwo.com/news/rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/entertainment,,entertainment,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/health,,health,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/internal/travel/mixed,,travel,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/latest,,world,FALSE,None^None,en,link,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/most-popular,,entertainment,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/national,,world,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/opinion,,opinion,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/politics,,politics,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/science,,science,FALSE,None^None,en,link,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/section/lifestyle,,lifestyle,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/sports,,sports,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/tech,,tech,FALSE,None^None,en,link,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/video,,video,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,foxnews,http://feeds.foxnews.com/foxnews/world,,world,FALSE,og:^fn_128x128.png,en,guid,TRUE
+usa,ft,http://blogs.ft.com/tech-blog/,,tech,TRUE,div#storyContent img:src^none,en,empty,FALSE
+usa,ft,http://video.ft.com/services/rss/Latest,,video,FALSE,None^None,en,link,TRUE
+usa,ft,http://www.ft.com/rss/arts,,lifestyle,FALSE,div#storyContent img:src^none,en,link,TRUE
+usa,ft,http://www.ft.com/rss/arts/style,,lifestyle,FALSE,div#storyContent img:src^none,en,link,TRUE
+usa,ft,http://www.ft.com/rss/companies,guid,business,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/companies/financials,guid,business,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/companies/healthcare,guid,business,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/companies/technology,guid,tech,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/companies/travel-leisure,guid,business,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/house-home,,lifestyle,FALSE,div#storyContent img:src^none,en,link,TRUE
+usa,ft,http://www.ft.com/rss/life-arts/music,,lifestyle,FALSE,div#storyContent img:src^none,en,link,TRUE
+usa,ft,http://www.ft.com/rss/markets,guid,business,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/world,guid,world,FALSE,None^None,en,auto,TRUE
+usa,ft,http://www.ft.com/rss/world/us,guid,world,FALSE,None^None,en,auto,TRUE
+usa,gigaom,http://gigaom.com/feed/,,tech,FALSE,og:^none,en,link,TRUE
+usa,gizmodo,http://feeds.gawker.com/gizmodo/full,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,guardian,http://www.guardian.co.uk/audio/rss,,video,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/cartoon/rss,,video,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/inpictures/rss,,video,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/tone/blog/rss,,opinion,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/tone/comment/rss,,opinion,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/tone/matchreports/rss,,sports,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.guardian.co.uk/tone/obituaries/rss,,opinion,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.theguardian.com/film/rss,,entertainment,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.theguardian.com/mostviewed/rss,,world,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,guardian,http://www.theguardian.com/theobserver/rss,,opinion,FALSE,og:^gu-logo-fallback.png,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/books/index.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/business/index.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/comedy/index.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/crime/index.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/education/index.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/entertainment/index.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/food/index.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/green/index.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/healthy-living/index.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/latino-voices/index.xml,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/media/index.xml,,video,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/money/index.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/own/index.xml,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/politics/index.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/science/index.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/sports/index.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/style/index.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/technology/index.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/travel/index.xml,,travel,FALSE,not mentioned:^none,en,link,TRUE
+usa,huffingtonpost,http://www.huffingtonpost.com/feeds/verticals/world/index.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3495/index.rss,,world,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3779/index.rss,,science,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3784/index.rss,,sports,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3802/index.rss,,lifestyle,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3828/index.rss,,entertainment,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3851/index.rss,,travel,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,independent,http://rss.feedsportal.com/c/266/f/3863/index.rss,,business,FALSE,og:^eagle_logo.jpg,en,guid,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/21669/feed,,tech,FALSE,og:^/IFW.png,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/21735/feed,,tech,FALSE,og:^/IFW.png,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/2532/feed,,tech,FALSE,og:^/IFW.png,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/2535/feed,,tech,FALSE,div#blog-edit img:src^none,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/3209/feed,,tech,FALSE,div#tw-edit img:src^none,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/3215/feed,,tech,FALSE,og:^/IFW.png,en,link,TRUE
+usa,infoworld,http://www.infoworld.com/taxonomy/term/3217/feed,,tech,FALSE,div#blog-edit img:src^none,en,link,TRUE
+usa,iphonehacks,http://feeds.iphonehacks.com/iphonehacks,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,jezebel,http://feeds.gawker.com/jezebel/full,,lifestyle,FALSE,og:^jezebel-touch-icon-200x200.png,en,guid,TRUE
+usa,kotaku,http://feeds.gawker.com/kotaku/full,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,latimes,http://feeds.feedburner.com/latimes/entertainment/news/,link,entertainment,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.feedburner.com/latimes/entertainment/news/movies/,link,entertainment,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.feedburner.com/latimes/entertainment/news/music/,link,entertainment,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.feedburner.com/latimes/technology,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,latimes,http://feeds.latimes.com/OpinionLa,,opinion,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,latimes,http://feeds.latimes.com/features/books,link,entertainment,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/lanowblog,,politics,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/business,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/features/food/,link,lifestyle,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/latinamerica,link,politics,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/news/local/politics/cal/,link,politics,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/news/nationworld/world,link,world,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/news/politics/,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/news/science,,science,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/sports/,guid,sports,FALSE,not mentioned:^none,en,auto,TRUE
+usa,latimes,http://feeds.latimes.com/latimes/technology,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,latimes,http://www.latimes.com/features/image/alltherage/rss2.0.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,latimes,http://www.latimes.com/travel/deals/rss2.0.xml,link,travel,FALSE,not mentioned:^none,en,auto,TRUE
+usa,linuxinsider,http://www.linuxinsider.com/perl/syndication/rssfull.pl,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mashable,http://feeds.mashable.com/mashable/tech,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,mashable,http://feeds.mashable.com/mashable/video,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,mediabistro,http://feeds.feedburner.com/allfacebook,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,mediabistro,http://lostremote.com/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://socialtimes.com/category/web-video/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://socialtimes.com/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/10000words/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/agencyspy/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/alltwitter/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/appnewser/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/fishbowldc/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/fishbowlny/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/galleycat/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/mediajobsdaily/feed,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/prnewser/feed,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/tvnewser/feed,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/tvspy/feed,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,mediabistro,http://www.mediabistro.com/unbeige/feed,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,mlb,http://mlb.mlb.com/partnerxml/gen/news/rss/mlb.xml,,sports,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/fortuneapple20,,tech,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,money,http://rss.cnn.com/fortunemanagement,,opinion,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/fortunepostcards,,opinion,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/fortunetermsheet,,business,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,money,http://rss.cnn.com/rss/magazines_fortune.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/magazines_moneymag.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_markets_bondcenter.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_mostpopular.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_news_economy.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_news_international.rss,,world,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_pf.rss,,business,FALSE,None^None,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_pf_insurance.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/rss/money_pf_saving.rss,guid,business,FALSE,None^None,en,auto,TRUE
+usa,money,http://rss.cnn.com/rss/money_pf_taxes.rss,,business,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_realestate.rss,,lifestyle,FALSE,og:^none,en,guid,TRUE
+usa,money,http://rss.cnn.com/rss/money_retirement.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/rss/money_smbusiness.rss,,business,FALSE,og:^none,en,link,TRUE
+usa,money,http://rss.cnn.com/rss/money_video_business.rss,,video,FALSE,og:^none,en,link,TRUE
+usa,msn,http://edge1.catalog.video.msn.com/videoByTag.aspx?tag=most%20watched%20movies&ns=MSNVideo_Top_Cat&mk=us&sd=-1&sf=DailyCount&vs=0&st=1&ind=&ps=&rct=&ff=88&responseEncoding=rss&title=MSN%20Video:%20What's%20Hot%20%3E%20Most%20Watched%20%3E%20Movies,,video,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://edge4.catalog.video.msn.com/videoByTag.aspx?tag=most%20watched%20music&ns=MSNVideo_Top_Cat&mk=us&sd=-1&sf=DailyCount&vs=0&st=1&ind=&ps=&rct=&ff=88&responseEncoding=rss&title=MSN%20Video:%20What's%20Hot%20%3E%20Most%20Watched%20%3E%20Music,,video,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://edge4.catalog.video.msn.com/videoByTag.aspx?tag=most%20watched%20news&ns=MSNVideo_Top_Cat&mk=us&sd=-1&sf=DailyCount&vs=0&st=1&ind=&ps=&rct=&ff=88&responseEncoding=rss&title=MSN%20Video:%20What's%20Hot%20%3E%20Most%20Watched%20%3E%20News,,video,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://edge5.catalog.video.msn.com/videoByTag.aspx?mk=us&sf=HourlyCount&st=1&sd=-1&ns=VC_Supplier&tag=Fox%20Sports&vs=0&ind=&ps=&rct=&ff=88&responseEncoding=rss&title=FOX%20Sports%20Video%20on%20MSN:%20What's%20Hot,,video,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://feeds.wonderwall.com/rss/wall.xml,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,msn,http://healthyliving.msn.com/healthnewsrss,,health,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://healthyliving.msn.com/hottopicsrss,,health,TRUE,div.ss-main-image img:src^none,en,link,FALSE
+usa,msn,http://movies.msn.com/rss/topmovienews/,,entertainment,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://msn.com/rss/msnmoney.aspx,,business,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://msn.com/rss/sports.aspx,,sports,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://music.msn.com/rss/topmusicnews/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,msn,http://news.msn.com/rss/msnnews-politics,,politics,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://news.msn.com/rss/msnnews-pop-culture,,entertainment,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://news.msn.com/rss/msnnews-sci-tech,,tech,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://news.msn.com/rss/msnnews-us,,politics,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://news.msn.com/rss/msnnews-world,,world,TRUE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,FALSE
+usa,msn,http://tv.msn.com/rss/toptvnews/,,entertainment,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,msn,http://www.msn.com/rss/MsnEntertainment.aspx,,entertainment,FALSE,og:^/fscom.img.png&1be92be64f79a656afa046ea32e8a6.png,en,link,TRUE
+usa,nba,http://allball.blogs.nba.com/feed,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://hangtime.blogs.nba.com/feed/,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://tbt.blogs.nba.com/feed,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/assistofthenight/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/broadband/tnt_overtime.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/downlowonthedleague/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/dunkofthenight/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/nbatvtop10/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/playoftheday/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/powerrankings/rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/barkleyzone.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/david_aldridge.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/editorspick.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/fran_blinebury.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/highlights.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/john_schuhmann.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/nba_rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/scott_howard_cooper.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/sekou_smith.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/rss/steve_aschburner.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nba,http://www.nba.com/topvideo/rss.xml,,video,FALSE,not mentioned:^none,en,link,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/entertainment,,entertainment,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/health,,health,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/investigations,,opinion,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/science,,science,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/topvideo,,video,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/travel,,travel,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/weird,,world,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nbcnews,http://feeds.nbcnews.com/feeds/worldnews,,world,FALSE,og:^og_NBCNews.jpg&defaultog.jpg&defaultog.jpg,en,guid,TRUE
+usa,nesn,http://nesn.com/feed/,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,newscientist,http://feeds.newscientist.com/environment,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/health,,health,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/life,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/physics-math,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/science-in-society,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/space,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://feeds.newscientist.com/tech,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=1&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=2&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=3&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=4&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=5&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=6&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,newscientist,http://www.newscientist.com/feed/view?id=7&type=channel,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,nfl,http://www.nfl.com/rss/rsslanding?searchString=gamehighlightsVideo,,video,FALSE,not mentioned:^none,en,link,TRUE
+usa,nfl,http://www.nfl.com/rss/rsslanding?searchString=home,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,nhl,http://www.nhl.com/rss/features.xml,,sports,FALSE,"\""link[rel=\""\""image_src\""\""]:href^nhl_thumbnail.jpg\""",en,link,TRUE
+usa,nhl,http://www.nhl.com/rss/news.xml,,sports,FALSE,"\""link[rel=\""\""image_src\""\""]:href^nhl_thumbnail.jpg\""",en,link,TRUE
+usa,nhl,http://www.nhl.com/rss/nouvelles.xml,,sports,FALSE,"\""link[rel=\""\""image_src\""\""]:href^nhl_thumbnail.jpg\""",en,link,TRUE
+usa,nhl,http://www.nhl.com/rss/top-stories.xml,,sports,TRUE,"\""link[rel=\""\""image_src\""\""]:href^nhl_thumbnail.jpg\""",en,empty,FALSE
+usa,npr,http://www.npr.org/rss/rss.php?id=10004,,entertainment,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1003,,world,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1004,,world,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1006,,business,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1007,,health,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1008,,entertainment,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1012,,politics,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1017,,business,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1019,,tech,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1025,,entertainment,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1026,,science,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1039,,entertainment,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1045,,entertainment,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1055,,sports,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,npr,http://www.npr.org/rss/rss.php?id=1057,,opinion,FALSE,og:^nprlogo_138x46.gif,en,link,TRUE
+usa,nypost,http://nypost.com/business/feed/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,nypost,http://nypost.com/entertainment/feed/,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,nypost,http://nypost.com/fashion/feed/,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,nypost,http://nypost.com/opinion/feed/,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+usa,nypost,http://nypost.com/tech/feed/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,nytimes,http://atwar.blogs.nytimes.com/feed/,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://economix.blogs.nytimes.com/feed/,more_than_max,business,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://feeds.nytimes.com/nyt/rss/Business,more_than_max,business,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml,more_than_max,entertainment,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Books.xml,more_than_max,entertainment,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml,more_than_max,lifestyle,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/InternationalOpinion.xml,more_than_max,opinion,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Movies.xml,more_than_max,entertainment,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Music.xml,more_than_max,entertainment,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml,more_than_max,tech,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/Television.xml,more_than_max,entertainment,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://rss.nytimes.com/services/xml/rss/nyt/tmagazine.xml,more_than_max,lifestyle,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://thecaucus.blogs.nytimes.com/feed/,more_than_max,politics,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://topics.nytimes.com/top/opinion/editorialsandoped/editorials/index.html?rss=1,more_than_max,opinion,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://video.nytimes.com/video/playlist/opinion/1194811622299/index.html?rss=1,,video,FALSE,og:^t_logo_291_black.png,en,link,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Americas.xml,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Commercial.xml,more_than_max,business,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Economy.xml,more_than_max,business,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Education.xml,more_than_max,science,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Environment.xml,more_than_max,science,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Europe.xml,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Health.xml,more_than_max,health,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/HealthCarePolicy.xml,more_than_max,health,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/InternationalSports.xml,more_than_max,sports,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/MiddleEast.xml,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/NYRegion.xml,more_than_max,world,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Nutrition.xml,more_than_max,health,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Politics.xml,more_than_max,politics,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Research.xml,more_than_max,health,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Science.xml,more_than_max,science,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Space.xml,more_than_max,science,FALSE,og:^t_logo_291_black.png,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Sports.xml,more_than_max,sports,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/Travel.xml,more_than_max,travel,FALSE,div.image img:src^none,en,auto,TRUE
+usa,nytimes,http://www.nytimes.com/services/xml/rss/nyt/US.xml,more_than_max,politics,FALSE,div.image img:src^none,en,auto,TRUE
+usa,pcmag,http://feeds2.feedburner.com/ziffdavis/pcmag,,tech,TRUE,og:^none,en,feedburner_origlink,FALSE
+usa,pcmag,http://feeds2.feedburner.com/ziffdavis/pcmag/breakingnews,,tech,TRUE,og:^none,en,feedburner_origlink,FALSE
+usa,people,http://feeds.feedburner.com/people/photos,link,entertainment,FALSE,div#slide img:src^none,en,auto,TRUE
+usa,people,http://feeds.feedburner.com/people/stylewatch/offtherack,,lifestyle,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,people,http://rss.people.com/web/people/rss/tvwatch/index.xml,,entertainment,FALSE,div.image img:src^none,en,link,TRUE
+usa,pocket-lint,http://cdn.pocket-lint.com/rss/all.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,pocket-lint,http://www.pocket-lint.com/podcasts/pocketlintpodcast.xml,guid,tech,FALSE,not mentioned:^none,en,auto,TRUE
+usa,popcrush,http://popcrush.com/category/movie-news/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popcrush,http://popcrush.com/category/music-news/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popcrush,http://popcrush.com/category/music-videos/feed/,,entertainment,TRUE,og:^none,en,empty,FALSE
+usa,popcrush,http://popcrush.com/category/readers-poll/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popcrush,http://popcrush.com/category/songs/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popcrush,http://popcrush.com/category/top-10-video-countdown/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popcrush,http://popcrush.com/feed/,,entertainment,FALSE,og:^none,en,link,TRUE
+usa,popsugar,http://feeds.feedburner.com/popsugar,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,readwrite,http://readwrite.com/main/feed/articles.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,reuters,http://feeds.reuters.com/Reuters/PoliticsNews,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/Reuters/worldNews,,world,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/ReutersPictures,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,reuters,http://feeds.reuters.com/news/artsculture,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/news/economy,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/news/usmarkets,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/news/wealth,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoBreakingviews,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoBusiness,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoEntertainment,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoEnvironment,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoLifestyle,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoPolitics,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoRoughCuts,,video,FALSE,None^None,en,link,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoTechnology,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/USVideoWorldNews,,video,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/UShealthcareNews,,health,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/businessNews,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/entertainment,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/environment,,world,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/financialsNews,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/globalmarketsNews,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/healthNews,,health,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/industrialsNews,,business,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/lifestyle,,lifestyle,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/peopleNews,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/scienceNews,,science,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/sportsNews,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+usa,reuters,http://feeds.reuters.com/reuters/technologyNews,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+usa,rt,http://rt.com/rss/,,politics,FALSE,None^None,en,link,TRUE
+usa,sbnation,http://feeds.feedburner.com/sportsblogs/sbnation.xml,,sports,FALSE,og:^none,en,link,TRUE
+usa,sci-news,http://feeds.feedburner.com/BreakingScienceNews?format=xml,,science,FALSE,div.entry-content img:src^none,en,feedburner_origlink,TRUE
+usa,sciencedaily,http://feeds.sciencedaily.com/sciencedaily?format=xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/computers_math.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/earth_climate.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/fossils_ruins.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/health_medicine.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/matter_energy.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/mind_brain.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/plants_animals.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencedaily,http://www.sciencedaily.com/rss/space_time.xml,,science,FALSE,None^None,en,guid,TRUE
+usa,sciencemag,http://news.sciencemag.org/rss/weekly_news_email.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,sciencemag,http://sciencecareers.sciencemag.org/career_magazine/rss.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,sciencenews,https://www.sciencenews.org/feeds/headlines.rss,,science,FALSE,div.field-type-image img:src^none,en,link,TRUE
+usa,scitechdaily,http://feeds.feedburner.com/scitechdaily?format=xml,,science,FALSE,og:^none,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/education/feed/Education-News-from-SFGate-430.php,,science,FALSE,og:^/brand.png,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Business-and-Technology-News-448.php,,tech,FALSE,og:^/brand.png,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Daily-Dish-531.php,,entertainment,FALSE,og:^/brand.png,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Entertainment-530.php,,entertainment,FALSE,og:^/brand.png,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Politics-RSS-Feed-436.php,,politics,FALSE,li#hst_galleryitem_index1 img:src^none,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Top-Sports-Stories-RSS-Feed-487.php,,sports,FALSE,li#hst_galleryitem_index1 img:src^none,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/Travel-News-and-Features-520.php,,travel,FALSE,li#hst_galleryitem_index1 img:src^none,en,link,TRUE
+usa,sfgate,http://www.sfgate.com/rss/feed/World-News-From-SFGate-432.php,,world,FALSE,og:^/brand.png,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/1/business/,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/17/new-media,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/27/green-tech/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/31/innovation/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/6/digital-life/,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,siliconrepublic,http://siliconrepublic.com/feeds/video/,,video,FALSE,not mentioned:^none,en,link,TRUE
+usa,sky,http://news.sky.com/feeds/rss/business.xml,guid,business,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/entertainment.xml,guid,entertainment,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/politics.xml,guid,politics,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/strange.xml,guid,world,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/technology.xml,guid,tech,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/uk.xml,guid,world,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/us.xml,guid,politics,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,sky,http://news.sky.com/feeds/rss/world.xml,guid,world,FALSE,section#primary img:src^none,en,auto,TRUE
+usa,softpedia,http://news.softpedia.com/newsRSS/Global-0.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,softpedia,http://news.softpedia.com/newsRSS/Technology-and-Gadgets-3.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,sportingnews,http://www.sportingnews.com/rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,sportsgrid,http://www.sportsgrid.com/feed/,,sports,FALSE,div.blogpost img.size-full:src^none,en,link,TRUE
+usa,sportskeeda,http://www.sportskeeda.com/feed/,,sports,FALSE,og:^none,en,link,TRUE
+usa,techcrunch,http://feeds.feedburner.com/Mobilecrunch,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,link,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunch/fundings-exits,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunch/gaming,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunch/greentech,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,link,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunch/social,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunch/startups,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunchIT,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunchTV/In-The-Studio,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,link,TRUE
+usa,techcrunch,http://feeds.feedburner.com/TechCrunchTV/Speaking-Of,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,feedburner_origlink,TRUE
+usa,techcrunch,http://feeds.feedburner.com/crunchgear,,tech,FALSE,og:^techcrunch.global.thumb-placeholder.png,en,link,TRUE
+usa,technewsworld,http://www.technewsworld.com/perl/syndication/rssfull.pl,,tech,FALSE,not mentioned:^none,en,link,TRUE
+usa,technorati,http://feeds09.technorati.com/trarticles/,,tech,FALSE,div.inner center img:src^none,en,guid,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/homecinema,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/internet,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/mobilecomputing,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/networking,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/phone,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/photography,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/portabledevices,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/software,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/television,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/video,guid,video,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.feedburner.com/techradar/us/news/worldoftech,guid,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,auto,TRUE
+usa,techradar,http://feeds.webservice.techradar.com/us/rss/news/audio,,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,link,TRUE
+usa,techradar,http://feeds.webservice.techradar.com/us/rss/news/computing,,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,link,TRUE
+usa,techradar,http://feeds.webservice.techradar.com/us/rss/news/computing-components,,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,link,TRUE
+usa,techradar,http://feeds.webservice.techradar.com/us/rss/news/digital-home,,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,link,TRUE
+usa,techradar,http://feeds.webservice.techradar.com/us/rss/news/gaming,,tech,FALSE,"\""img[itemprop=\""\""image\""\""]:src^none\""",en,link,TRUE
+usa,telegraph,http://www.telegraph.co.uk/comment/rss,,opinion,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/culture/rss,,lifestyle,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/finance/personalfinance/rss,,business,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/finance/rss,,business,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/motoring/rss,,sports,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/news/picturegalleries/rss,,video,FALSE,og:^telegraphFacebook.jpg,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/news/politics/rss,,politics,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/news/uknews/rss,guid,world,FALSE,None^None,en,auto,TRUE
+usa,telegraph,http://www.telegraph.co.uk/news/worldnews/rss,,world,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/property/rss,,business,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/technology/rss,,tech,FALSE,None^None,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/topics/christmas/rss,,lifestyle,FALSE,og:^telegraphFacebook.jpg,en,guid,TRUE
+usa,telegraph,http://www.telegraph.co.uk/travel/travelnews/rss,,politics,FALSE,None^None,en,guid,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticBusinessChannel,,business,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticCulture,,entertainment,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticEducationChannel,,science,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticFood,,health,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticInternational,,world,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticNational,,world,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticPoliticsChannel,,politics,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticScienceAndTechnology,,tech,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/AtlanticVideo,,video,FALSE,og:^none,en,Exception,TRUE
+usa,theatlantic,http://feeds.feedburner.com/theatlantic/infocus,,world,FALSE,div#ifGalleryEntry img:src^none,en,Exception,TRUE
+usa,themalaysianinsider,http://www.themalaysianinsider.com/rss/drive,,lifestyle,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+usa,thenextweb,http://feeds2.feedburner.com/thenextweb,,tech,FALSE,og:^none,en,feedburner_origlink,TRUE
+usa,theverge,http://www.theverge.com/rss/frontpage,,tech,FALSE,og:^none,en,link,TRUE
+usa,tomsguide,http://www.tomsguide.com/us/feeds/rss2/tom-s-guide-us%2C21-1.xml,,tech,FALSE,span.iZoom img:src^none,en,link,TRUE
+usa,tomshardware,http://www.tomshardware.com/feeds/rss2/tom-s-hardware-us%2C18-1.xml,,tech,FALSE,og:^none,en,link,TRUE
+usa,toprankblog,http://feeds.feedburner.com/OnlineMarketingSEOBlog,,tech,FALSE,not mentioned:^none,en,feedburner_origlink,TRUE
+usa,upi,http://rss.upi.com/news/bn_si.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/business_news.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/emerging_threats.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/entertainment_news.rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/health_news.rss,,health,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/news.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/newstrack.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/odd_news.rss,,world,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/science_news.rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/sn_rw.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/sports_news.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,upi,http://rss.upi.com/news/top_news.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/News-Opinion,,politics,FALSE,div.image-wrap img:src^none,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/UsatodaycomSports-TopStories,,sports,FALSE,og:^breakingnews5.jpg,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/UsatodaycomTravel-TopStories,,travel,FALSE,div.image-wrap img:src^none,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/UsatodaycomWashington-TopStories,,science,FALSE,div#post-body a:href^none,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/UsatodaycomWorld-TopStories,,world,FALSE,div.image-wrap img:src^none,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/usatoday-LifeTopStories,,entertainment,FALSE,div.image-wrap img:src^none,en,guid,TRUE
+usa,usatoday,http://rssfeeds.usatoday.com/usatoday-TechTopStories,,tech,FALSE,None^None,en,guid,TRUE
+usa,venturebeat,http://feeds.venturebeat.com/VentureBeat,,tech,FALSE,og:^none,en,link,TRUE
+usa,vulture,http://feeds.feedburner.com/nymag/vulture,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/business,,business,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/entertainment,,entertainment,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/lifestyle,,lifestyle,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/local,,politics,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/national,,politics,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/opinions,,opinion,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/politics,,politics,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_early-lead,,sports,FALSE,og:^twp-200x200.jpg,en,comments,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_football-insider,,sports,FALSE,og:^twp-200x200.jpg,en,comments,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_house-divided,,opinion,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_nationals-journal,,sports,FALSE,og:^twp-200x200.jpg,en,comments,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_on-leadership,,opinion,FALSE,og:^twp-200x200.jpg,en,comments,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/rss_soccer-insider,,sports,FALSE,og:^twp-200x200.jpg,en,comments,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/sports,,sports,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,washingtonpost,http://feeds.washingtonpost.com/rss/world,,world,FALSE,og:^twp-200x200.jpg,en,guid,TRUE
+usa,wmpoweruser,http://feeds.feedburner.com/WmPowerUser,,tech,FALSE,None^None,en,feedburner_origlink,TRUE
+usa,wnba,http://www.wnba.com/rss/wnba_rss.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7014.xml,link,business,FALSE,None^None,en,auto,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7031.xml,link,business,FALSE,None^None,en,auto,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7041.xml,link,politics,FALSE,span.v-assett img:src^none,en,auto,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7085.xml,link,world,FALSE,span.v-assett img:src^none,en,auto,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7201.xml,link,lifestyle,FALSE,None^None,en,auto,TRUE
+usa,wsj,http://online.wsj.com/xml/rss/3_7455.xml,link,tech,FALSE,None^None,en,auto,TRUE

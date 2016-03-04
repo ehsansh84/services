@@ -1,0 +1,1393 @@
+country,sitename,RSSUrl,autoLinkType,category,firsttime,imagemethod,language,linkType,pubdate
+germany,bild,http://rss.bild.de/bild-auto.xml,,lifestyle,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-berlin.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-bremen.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-digital.xml,guid,tech,FALSE,None^None,de,auto,TRUE
+germany,bild,http://rss.bild.de/bild-dresden.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-duesseldorf.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-frankfurt-main.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-hamburg.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-hannover.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-koeln.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-leipzig.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-leserreporter.xml,,opinion,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-lifestyle.xml,guid,lifestyle,FALSE,None^None,de,auto,TRUE
+germany,bild,http://rss.bild.de/bild-muenchen.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-politik.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-ratgeber.xml,,lifestyle,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-ruhrgebiet.xml,,politics,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-sport.xml,,sports,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-stuttgart.xml,,politics,FALSE,not mentioned:^none,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild-unterhaltung.xml,,entertainment,FALSE,None^None,de,guid,TRUE
+germany,bild,http://rss.bild.de/bild.xml,guid,politics,FALSE,None^None,de,auto,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/feuilleton/,,entertainment,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/finanzen/,,business,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/gesellschaft/,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/lebensstil/drinnen-draussen/,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/lebensstil/essen-trinken/,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/lebensstil/leib-seele/,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/lebensstil/mode-design/,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/politik/,,politics,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/reise/,,travel,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/sport/,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/technik-motor/,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/wirtschaft/,,business,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/aktuell/wissen/,,science,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/multimedia/bildergalerien/,,video,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/multimedia/interaktiv/,,video,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/multimedia/slideshows/,,video,FALSE,not mentioned:^none,de,link,TRUE
+germany,faz,http://www.faz.net/rss/multimedia/videos/,,video,FALSE,not mentioned:^none,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/bildergalerien,,video,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/finanzen,,business,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/marktberichte,,business,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/meinung,,opinion,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/panorama,,lifestyle,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/politik,,politics,FALSE,not mentioned:^none,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/schlagzeilen,,politics,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/technologie,,tech,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/top-themen,,politics,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/unternehmen,,business,FALSE,None^None,de,link,TRUE
+germany,handelsblatt,http://www.handelsblatt.com/contentexport/feed/wirtschaft,,business,FALSE,None^None,de,link,TRUE
+germany,kicker,http://rss.kicker.de/news/aktuell,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,oe24,http://www.oe24.at/leute/xml/rss,,entertainment,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/auto/index.rss,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/gesundheit/diagnose/index.rss,,health,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/kultur/index.rss,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/netzwelt/gadgets/index.rss,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/panorama/index.rss,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/politik/index.rss,,politics,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/reise/index.rss,,travel,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/sport/index.rss,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/video/kino/index.rss,guid,lifestyle,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/video/kultur/index.rss,guid,lifestyle,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/video/panorama/index.rss,guid,lifestyle,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/video/politik_wirtschaft/index.rss,guid,politics,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/video/sport/index.rss,guid,sports,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/video/wissenschaft_technik/index.rss,guid,science,FALSE,not mentioned:^none,de,auto,TRUE
+germany,spiegel,http://www.spiegel.de/wirtschaft/index.rss,,business,FALSE,not mentioned:^none,de,link,TRUE
+germany,spiegel,http://www.spiegel.de/wissenschaft/index.rss,,science,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/auto,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/fussball,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/handy,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/lifestyle,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/nachrichten,,politics,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/reisen,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/spiele,,entertainment,FALSE,None^None,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/sport,,sports,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/unterhaltung,,opinion,FALSE,None^None,de,link,TRUE
+germany,t-online,http://feeds.t-online.de/rss/wirtschaft,,business,FALSE,not mentioned:^none,de,link,TRUE
+germany,t-online,http://themen.t-online.de/rss/digital,,tech,FALSE,not mentioned:^none,de,link,TRUE
+germany,welt,http://www.welt.de/finanzen/?service=Rss,,business,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/gesundheit/?service=Rss,,health,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/kultur/kino/?service=Rss,,entertainment,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/kultur/musik/?service=Rss,,entertainment,TRUE,None^None,de,empty,FALSE
+germany,welt,http://www.welt.de/lifestyle/?service=Rss,,lifestyle,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/politik/?service=Rss,,politics,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/regionales/?service=Rss,,video,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/reise/?service=Rss,,travel,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/spiele/?service=Rss,,entertainment,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/sport/?service=Rss,,sports,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/vermischtes/weltgeschehen/?service=Rss,,world,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/wirtschaft/?service=Rss,,business,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/wissenschaft/umwelt/?service=Rss,,science,FALSE,None^None,de,link,TRUE
+germany,welt,http://www.welt.de/wissenschaft/weltraum/?service=Rss,,science,FALSE,None^None,de,link,TRUE
+poland,dobreprogramy,http://feeds.feedburner.com/dobreprogramy/Gry,,sports,FALSE,not mentioned:^none,pl,link,TRUE
+poland,dobreprogramy,http://feeds.feedburner.com/dobreprogramy/Lab,,science,FALSE,not mentioned:^none,pl,link,TRUE
+poland,dobreprogramy,http://feeds.feedburner.com/dobreprogramy/NoweWersjeRozwojowe,,tech,FALSE,not mentioned:^none,pl,feedburner_origlink,TRUE
+poland,dobreprogramy,http://feeds.feedburner.com/dobreprogramy/Wszystkie,,opinion,FALSE,not mentioned:^none,pl,link,TRUE
+poland,interia,http://dzikikraj.interia.pl/feed,,politics,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://facet.interia.pl/feed,,lifestyle,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://fakty.interia.pl/ciekawostki/feed,,lifestyle,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://fakty.interia.pl/feed,,opinion,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://fakty.interia.pl/historia/feed,,science,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://fakty.interia.pl/nauka/feed,,science,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://fakty.interia.pl/polska/feed,,politics,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://gry.interia.pl/feed,,sports,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://kanaly.rss.interia.pl/biznes.xml,,business,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://kanaly.rss.interia.pl/film.xml,,entertainment,FALSE,div.articleFotoBig img:src^none,pl,guid,TRUE
+poland,interia,http://kanaly.rss.interia.pl/finanse.xml,,business,FALSE,div.articleFotoBig img:src^none,pl,guid,TRUE
+poland,interia,http://kanaly.rss.interia.pl/koneser.xml,guid,entertainment,FALSE,og:^none,pl,auto,TRUE
+poland,interia,http://kanaly.rss.interia.pl/motoryzacja.xml,,tech,FALSE,div.articleFotoBig img:src^none,pl,guid,TRUE
+poland,interia,http://kanaly.rss.interia.pl/turystyka.xml,,travel,FALSE,div.articleFotoBig img:src^none,pl,guid,TRUE
+poland,interia,http://kobieta.interia.pl/feed,,lifestyle,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://mamdziecko.interia.pl/feed,,lifestyle,FALSE,og:^none,pl,link,TRUE
+poland,interia,http://nt.interia.pl/feed,,tech,FALSE,og:^none,pl,guid,TRUE
+poland,interia,http://programtv.interia.pl/feed,,video,TRUE,og:^none,pl,link,FALSE
+poland,interia,http://sport.interia.pl/feed,guid,sports,FALSE,og:^none,pl,auto,TRUE
+poland,interia,http://sport.interia.pl/tenis/feed,guid,sports,FALSE,og:^none,pl,auto,TRUE
+poland,pomponik,http://pomponik.pl/feed,,entertainment,FALSE,not mentioned:^none,pl,guid,TRUE
+poland,tvn24,http://www.tvn24.pl/najnowsze.xml,,politics,FALSE,not mentioned:^none,pl,link,TRUE
+poland,tvn24,http://www.tvn24.pl/najwazniejsze.xml,guid,politics,FALSE,not mentioned:^none,pl,auto,TRUE
+poland,tvn24,http://www.tvn24.pl/zdjecia.xml,,video,FALSE,not mentioned:^none,pl,link,TRUE
+poland,wp,http://dlaprasy.wp.pl/rss,,opinion,FALSE,not mentioned:^none,pl,link,TRUE
+poland,wp,http://konflikty.wp.pl/rss.xml,guid,opinion,FALSE,not mentioned:^none,pl,auto,TRUE
+poland,wp,http://nasygnale.pl/rss.xml?ticaid=511b2a,guid,politics,FALSE,not mentioned:^none,pl,auto,TRUE
+poland,wp,http://odkrywcy.pl/rss.xml?smg4sticaid=611b2a,guid,science,TRUE,not mentioned:^none,pl,auto,FALSE
+poland,wp,http://politykier.pl/rss.xml?ticaid=511b2a,guid,politics,FALSE,not mentioned:^none,pl,auto,TRUE
+poland,wp,http://sondaz.wp.pl/rss.xml,,politics,FALSE,not mentioned:^none,pl,link,TRUE
+poland,wp,http://tv.wp.pl/rss.xml,guid,entertainment,FALSE,not mentioned:^none,pl,auto,TRUE
+netherlands,ad,http://www.ad.nl/rss.xml,,politics,FALSE,not mentioned:^none,de,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-0,,politics,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-12,,sports,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-12rn,,sports,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-13,,travel,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-13rn,,travel,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-14,,science,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-17rn,,opinion,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-2,,entertainment,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-3,,politics,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1277377288-4,,world,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1278070988-0,,business,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1283166782-0,,entertainment,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1283166782-1,,entertainment,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1283166782-12,,tech,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1303088437-0,,science,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1318986092-0,,lifestyle,FALSE,None^None,nl,link,TRUE
+netherlands,metronieuws,http://www.metronieuws.nl/rss.xml?c=1326420116-0,,world,FALSE,og:^metroglobex200.jpg,nl,link,TRUE
+netherlands,nos,http://feeds.feedburner.com/nossportalgemeen,,sports,FALSE,None^None,nl,link,TRUE
+netherlands,nos,http://feeds.nos.nl/jeugdjournaal,,entertainment,FALSE,not mentioned:^none,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/jeugdjournaalrn,,entertainment,TRUE,not mentioned:^none,nl,empty,FALSE
+netherlands,nos,http://feeds.nos.nl/nosjournaalaudio,,video,FALSE,not mentioned:^none,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosjournaalcolumns,guid,opinion,FALSE,not mentioned:^none,nl,auto,TRUE
+netherlands,nos,http://feeds.nos.nl/nosjournaalvideo,,video,FALSE,not mentioned:^none,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosnieuws,,politics,FALSE,not mentioned:^none,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosnieuwsbuitenland,,world,FALSE,None^None,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosnieuwseconomie,,business,FALSE,None^None,nl,link,TRUE
+netherlands,nos,http://feeds.nos.nl/nosnieuwskoningshuis,,lifestyle,FALSE,None^None,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosnieuwskoningshuisrn,,lifestyle,TRUE,None^None,nl,empty,FALSE
+netherlands,nos,http://feeds.nos.nl/nosnieuwsopmerkelijk,,lifestyle,FALSE,None^None,nl,link,TRUE
+netherlands,nos,http://feeds.nos.nl/nosop3,,politics,FALSE,not mentioned:^none,nl,guid,TRUE
+netherlands,nos,http://feeds.nos.nl/nosvoetbal,,sports,FALSE,None^None,nl,link,TRUE
+netherlands,nrc,http://www.nrc.nl/rss.php,,politics,FALSE,None^None,de,link,TRUE
+netherlands,nu,http://www.nu.nl/feeds/rss/algemeen.rss,,politics,FALSE,None^None,nl,link,TRUE
+netherlands,nu,http://www.nu.nl/feeds/rss/economie.rss,,business,FALSE,None^None,nl,link,TRUE
+netherlands,nu,http://www.nu.nl/feeds/rss/internet.rss,guid,tech,FALSE,None^None,nl,auto,TRUE
+netherlands,nu,http://www.nu.nl/feeds/rss/sport.rss,,sports,FALSE,None^None,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/,,politics,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/,,opinion,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Algemeen,,politics,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Algemeenrn,,politics,TRUE,not mentioned:^none,nl,empty,FALSE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Economie,,business,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Muziek%20%26%20Boek,,lifestyle,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Overig,,opinion,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Overigrn,,opinion,TRUE,not mentioned:^none,nl,empty,FALSE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Showbizz,,entertainment,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Sport,,sports,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=TV%20%26%20Film,,entertainment,TRUE,not mentioned:^none,nl,empty,FALSE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Tech%20%26%20Gadgets,,tech,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Verkeer,,opinion,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/?topic=Wetenschap,,science,FALSE,not mentioned:^none,nl,link,TRUE
+netherlands,nujij,http://www.nujij.nl/Rss/Nieuw/rn,,opinion,TRUE,not mentioned:^none,nl,empty,FALSE
+netherlands,powned,http://www.powned.tv/index.xml,,politics,FALSE,None^None,de,link,TRUE
+netherlands,spitsnieuws,http://www.spitsnieuws.nl/rss/buitenland/rss.xmlrn,,world,TRUE,None^None,nl,empty,FALSE
+netherlands,spitsnieuws,http://www.spitsnieuws.nl/rss/entertainment/rss.xmlrn,,entertainment,TRUE,None^None,nl,empty,FALSE
+netherlands,spitsnieuws,http://www.spitsnieuws.nl/rss/raar/rss.xmlrn,,world,TRUE,None^None,nl,empty,FALSE
+netherlands,spitsnieuws,http://www.spitsnieuws.nl/rss/sport/rss.xmlrn,,sports,TRUE,None^None,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/binnenland.xml,,politics,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/binnenland.xmlrn,,politics,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/buitenland.xml,,world,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/dft.bedrijven.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/dft.bedrijven.xmlrn,,business,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/digitaal.games.xml,,tech,FALSE,None^None,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/digitaal.xml,,tech,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/digitaal.xmlrn,,tech,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/filmenuitgaan.xml,,entertainment,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/filmenuitgaan.xmlrn,,entertainment,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/mijnbedrijf.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.beleggen.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.beleggen.xmlrn,,business,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.lenen.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.slim-zuinig.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.sparen.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/overgeld.vermogen.xml,,business,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/reiskrant.xml,guid,travel,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,auto,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/reiskrant.xmlrn,,travel,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/telesport.tour-de-france-2013.xml,,travel,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/telesport.xml,,sports,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/tv.xml,,entertainment,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/tv.xmlrn,,entertainment,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/vaarkrant.xml,,sports,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/vaarkrant.xmlrn,,sports,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/vrouw.xml,,lifestyle,FALSE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,guid,TRUE
+netherlands,telegraaf,http://www.telegraaf.nl/rss/vrouw.xmlrn,,lifestyle,TRUE,og:^default.v1500.png&telesport-logo-1500x1500.png,nl,empty,FALSE
+netherlands,trouw,http://www.trouw.nl/rss.xml,,politics,FALSE,not mentioned:^none,de,link,TRUE
+netherlands,volkskrant,http://www.volkskrant.nl/rss.xml,,politics,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Bildung,,science,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/EU,,world,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Gesundheit,,health,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Kultur,,lifestyle,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Leben,,lifestyle,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/MeinGeld,,business,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Meinung,,opinion,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Panorama,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Politik,,politics,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Recht,,opinion,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Science,,science,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Spectrum,,opinion,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Sport,,sports,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Tech,,tech,FALSE,None^None,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/Wirtschaft,,business,FALSE,not mentioned:^none,de,link,TRUE
+austria,diepresse,http://diepresse.com/rss/home,,politics,FALSE,not mentioned:^none,de,link,TRUE
+austria,futurezone,http://futurezone.at/digital-life/xml/rss,,video,FALSE,None^None,de,link,TRUE
+austria,heute,http://www.heute.at/storage/rss/rss/gesundheit.xml,,health,FALSE,None^None,de,link,TRUE
+austria,heute,http://www.heute.at/storage/rss/rss/news.xml,,politics,FALSE,None^None,de,link,TRUE
+austria,heute,http://www.heute.at/storage/rss/rss/sport.xml,,sports,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467094/index.rss,,lifestyle,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467095/index.rss,,sports,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467096/index.rss,,politics,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467097/index.rss,,politics,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467098/index.rss,,tech,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/467099/index.rss,,entertainment,FALSE,not mentioned:^none,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/32420/f/491242/index.rss,,business,FALSE,None^None,de,link,TRUE
+austria,kleinezeitung,http://rssfeeds.kleinezeitung.at/c/467093/f/467092/index.rss,,opinion,FALSE,None^None,de,link,TRUE
+austria,kurier,http://kurier.at/lebensart/motor/xml/rss,,tech,FALSE,not mentioned:^none,de,link,TRUE
+austria,kurier,http://kurier.at/lebensart/technik/xml/rss,,tech,FALSE,None^None,de,link,TRUE
+austria,kurier,http://kurier.at/lebensart/xml/rss,,opinion,FALSE,None^None,de,link,TRUE
+austria,kurier,http://kurier.at/sport/xml/rss,,sports,FALSE,None^None,de,link,TRUE
+austria,oe24,http://auto.oe24.at/xml/rss,,science,FALSE,None^None,de,link,TRUE
+austria,oe24,http://madonna.oe24.at/madonna/xml/rss,,lifestyle,FALSE,not mentioned:^none,de,link,TRUE
+austria,oe24,http://money.oe24.at/xml/rss,,business,FALSE,not mentioned:^none,de,link,TRUE
+austria,oe24,http://sport.oe24.at/xml/rss,,sports,FALSE,None^None,de,link,TRUE
+austria,oe24,http://www.oe24.at/lifestyle/xml/rss,,lifestyle,FALSE,None^None,de,link,TRUE
+austria,oe24,http://www.oe24.at/oesterreich/politik/xml/rss,,politics,FALSE,None^None,de,link,TRUE
+austria,oe24,http://www.oe24.at/welt/xml/rss,,world,FALSE,None^None,de,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/auto.xml,,tech,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/breakingnews.xml,,politics,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/business.xml,,business,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/life.xml,,lifestyle,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/news.xml,,politics,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/opinion.xml,,opinion,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/property.xml,,business,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/tect.xml,,tech,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/topstories.xml,,politics,FALSE,None^None,th,link,TRUE
+thailand,bangkokpost,http://www.bangkokpost.com/rss/data/travel.xml,,travel,FALSE,None^None,th,link,TRUE
+thailand,khaosod,http://www.khaosod.co.th/en/rss/breaking_news.xml,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,khaosod,http://www.khaosod.co.th/en/rss/features.xml,,opinion,FALSE,not mentioned:^none,th,link,TRUE
+thailand,khaosod,http://www.khaosod.co.th/en/rss/news.xml,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,khaosod,http://www.khaosod.co.th/en/rss/opinion.xml,,opinion,FALSE,not mentioned:^none,th,link,TRUE
+thailand,khaosod,http://www.khaosod.co.th/en/rss/topstory.xml,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,manager,http://www.manager.co.th/RSS/Crime/Crime.xml,link,politics,FALSE,not mentioned:^none,th,auto,TRUE
+thailand,manager,http://www.manager.co.th/RSS/Home/Breakingnews.xml,link,politics,FALSE,not mentioned:^none,th,auto,TRUE
+thailand,manager,http://www.manager.co.th/RSS/Pjkkuan/Pjkkuan.xml,link,opinion,FALSE,not mentioned:^none,th,auto,TRUE
+thailand,mthai,http://news.mthai.com/category/general-news/feed,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,mthai,http://news.mthai.com/category/mthai-toon/feed,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,mthai,http://news.mthai.com/category/news-clips/feed,,video,FALSE,not mentioned:^none,th,link,TRUE
+thailand,mthai,http://news.mthai.com/category/politics-news/feed,,politics,FALSE,not mentioned:^none,th,link,TRUE
+thailand,mthai,http://news.mthai.com/category/world-news/feed,,world,FALSE,not mentioned:^none,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/breakingnews.rss,,politics,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/business.rss,,business,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/life.rss,,lifestyle,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/mekong.rss,,politics,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/opinion.rss,,opinion,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/politics.rss,,politics,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/sports.rss,,sports,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/technology.rss,,tech,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/topstories.rss,,politics,FALSE,None^None,th,link,TRUE
+thailand,nationmultimedia,http://www.nationmultimedia.com/home/rss/travel.rss,,travel,FALSE,None^None,th,link,TRUE
+thailand,sanook,http://rssfeeds.sanook.com/rss/feeds/sanook/news.economic.xml,,business,FALSE,not mentioned:^none,th,link,TRUE
+thailand,sanook,http://rssfeeds.sanook.com/rss/feeds/sanook/news.politic.xml,,politics,FALSE,None^None,th,link,TRUE
+thailand,sanook,http://rssfeeds.sanook.com/rss/feeds/sanook/news.world.xml,,entertainment,FALSE,not mentioned:^none,th,link,TRUE
+pakistan,geo,http://feeds.feedburner.com/GeoHealth-GeoTvNetwork,guid,health,FALSE,not mentioned:^none,en,auto,TRUE
+pakistan,geo,http://feeds.feedburner.com/geo/wUIl,guid,world,FALSE,not mentioned:^none,en,auto,TRUE
+pakistan,geo,http://jang.net/tp_db_agg/jangfeeds/Education-News.xml,,science,TRUE,not mentioned:^none,ur,empty,FALSE
+pakistan,geo,http://jang.net/tp_db_agg/jangfeeds/USA-News.xml,,world,TRUE,not mentioned:^none,ur,empty,FALSE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Editorial,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Karachi,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Lahore,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-National,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Newspost,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Opinion,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/TheNewsInternational-Peshawar,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/World-TheNewsInternational,,world,FALSE,not mentioned:^none,en,guid,TRUE
+pakistan,thenews,http://feeds.feedburner.com/com/cwEr,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+france,journaldunet,http://www.journaldunet.com/,,politics,FALSE,not mentioned:^none,fr,guid,TRUE
+france,journaldunet,http://www.journaldunet.com/ /,,politics,FALSE,not mentioned:^none,fr,guid,TRUE
+france,journaldunet,http://www.journaldunet.com/business/ /,,business,FALSE,not mentioned:^none,fr,guid,TRUE
+france,journaldunet,http://www.journaldunet.com/business/rss/,,business,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://avis-vin.lefigaro.fr/rss/avis-du-vin_cache.xml#xtor=RSS-14,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lefigaro,http://www.feeds.lefigaro.fr/c/32266/f/438191/index,,politics,TRUE,None^None,fr,empty,FALSE
+france,lefigaro,http://www.lefigaro.fr/figaro_le-talk.xml,,opinion,TRUE,None^None,fr,empty,FALSE
+france,lefigaro,http://www.lefigaro.fr/figaro_lefigaromagazine.xml,,opinion,TRUE,None^None,fr,empty,FALSE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_assurance.xml,,business,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_bourse.xml,,business,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_conso.xml,,business,FALSE,not mentioned:^none,fr,empty,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_cyclisme.xml,link,sports,FALSE,None^None,fr,auto,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_impots.xml,,business,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_medias.xml,,tech,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_politique.xml,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_retraite.xml,,business,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_rugby.xml,link,sports,FALSE,None^None,fr,auto,TRUE
+france,lefigaro,http://www.lefigaro.fr/rss/figaro_sciences-technologies.xml,,tech,FALSE,not mentioned:^none,fr,link,TRUE
+france,lefigaro,http://www.madame.lefigaro.fr/tous/.xml,,opinion,TRUE,not mentioned:^none,fr,empty,FALSE
+france,lemonde,http://rss.lemonde.fr/c/205/f/3055/index.rss,,business,FALSE,None^None,fr,link,TRUE
+france,lemonde,http://rss.lemonde.fr/c/205/f/3056/index.rss,,tech,FALSE,not mentioned:^none,fr,link,TRUE
+france,lemonde,http://rss.lemonde.fr/c/205/f/3060/index.rss,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lemonde,http://rss.lemonde.fr/c/205/f/3061/index.rss,,tech,FALSE,None^None,fr,link,TRUE
+france,lemonde,http://www.lemonde.fr/c/205/f/3054/index,,business,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/c/205/f/3064/index,,science,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/rss/tag/mode.xml,,lifestyle,FALSE,None^None,fr,empty,TRUE
+france,lemonde,http://www.lemonde.fr/rss/tag/paris-style.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lemonde,http://www.lemonde.fr/rss/tag/sante.xml,,health,FALSE,None^None,fr,empty,TRUE
+france,lemonde,http://www.lemonde.fr/rss/tag/style.xml,,lifestyle,FALSE,None^None,fr,empty,TRUE
+france,lemonde,http://www.lemonde.fr/tag/disparitions.xml,,politics,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/emploi.xml,,politics,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/euro2012.xml,,travel,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/flottes-d-entreprise.xml,,business,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/le-magazine.xml,,opinion,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/mobilite.xml,,tech,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/mort-de-ben-laden.xml,,politics,TRUE,None^None,fr,empty,FALSE
+france,lemonde,http://www.lemonde.fr/tag/services-aux-internautes.xml,,opinion,TRUE,None^None,fr,empty,FALSE
+france,leparisien,http://rss.feedsportal.com/c/32267/f/470112/index.rss,guid,sports,FALSE,None^None,fr,auto,TRUE
+france,leparisien,http://rss.feedsportal.com/c/32267/f/470113/index.rss,guid,sports,FALSE,None^None,fr,auto,TRUE
+france,leparisien,http://rss.leparisien.fr/leparisien/rss/international.xml,,world,FALSE,None^None,fr,link,TRUE
+france,leparisien,http://rss.leparisien.fr/leparisien/rss/loisirs-et-spectacles.xml,,entertainment,FALSE,None^None,fr,link,TRUE
+france,leparisien,http://rss.leparisien.fr/leparisien/rss/politique.xml,,politics,FALSE,None^None,fr,link,TRUE
+france,leparisien,http://rss.leparisien.fr/leparisien/rss/psg-foot-paris-saint-germain.xml,,sports,FALSE,not mentioned:^none,fr,link,TRUE
+france,leparisien,http://rss.leparisien.fr/leparisien/rss/sports.xml,,sports,FALSE,None^None,fr,link,TRUE
+france,leparisien,http://www.leparisien.fr/actualite-people-medias/rss.xml,,tech,FALSE,None^None,fr,link,TRUE
+france,leparisien,http://www.leparisien.fr/hippisme/rss.xml,,sports,FALSE,not mentioned:^none,fr,link,TRUE
+france,leparisien,http://www.leparisien.fr/leparisien/faits-divers.xml,,world,TRUE,not mentioned:^none,fr,empty,FALSE
+france,leparisien,http://www.leparisien.fr/leparisien/une.xml,,politics,TRUE,not mentioned:^none,fr,empty,FALSE
+france,lequipe,http://www.lefigaro.fr/rss/figaro_sicav.xml,link,business,FALSE,None^None,fr,auto,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Cyclisme.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Football.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Moto.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Rallye.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Ski.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Voile.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/actu_rss_Volley.xml,,sports,FALSE,og:^tagFacebook.png,fr,link,TRUE
+france,lequipe,http://www.lequipe.fr/rss/ligue1_video.xml,,sports,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/attali/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/aularge/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/bd/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/cinema/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/conso/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/contre-bande/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/courantdr/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/femmes/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/judebox/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/les-couloirs-de-bercy/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/media/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/nouvelleformule/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/nycoste/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/sport/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/styles/cafe-mode/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/styles/restaurant/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/styles/tendance/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://blogs.lexpress.fr/theatre/feed/,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/24h-en-images.xml,,video,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/alaune.xml,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/arts-plastiques.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/christophebarbier.xml,,opinion,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/cinema.xml,,entertainment,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/culture.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/diaporamas-photos.xml,,video,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/dossiers.xml,,opinion,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/edito-video-christophe-barbier.xml,,video,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/environnement.xml,,science,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/fashion-weeks.xml,,lifestyle,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/francois-regis-gaudry.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/geraldine-dormoy.xml,,opinion,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/high-tech.xml,,tech,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/indiscrets.xml,,opinion,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/les-plus-des-internautes.xml,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/livres.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/medias.xml,,entertainment,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/monde.xml,,world,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/musique.xml,,entertainment,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/opinions.xml,,opinion,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/politique.xml,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/regions.xml,,politics,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/salon-du-livre.xml,,lifestyle,FALSE,not mentioned:^none,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/science-et-sante.xml,,science,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/societe.xml,,business,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/sport.xml,,sports,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles-beaute.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles-mode.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles-photos.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles-saveurs.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles-vip.xml,,lifestyle,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/styles.xml,,politics,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/tele.xml,,entertainment,FALSE,None^None,fr,link,TRUE
+france,lexpress,http://www.lexpress.fr/rss/videos.xml,,video,FALSE,None^None,fr,link,TRUE
+france,linternaute,http://www.linternaute.com/actualite/,,politics,TRUE,None^None,fr,empty,FALSE
+france,linternaute,http://www.linternaute.com/photo_numerique/,,video,TRUE,None^None,fr,empty,FALSE
+france,linternaute,http://www.linternaute.com/voyage/rss/,,travel,FALSE,not mentioned:^none,fr,link,TRUE
+nigeria,bellanaija,http://www.bellanaija.com/feed/,,politics,FALSE,not mentioned:^none,en,link,TRUE
+nigeria,dailytimes,http://www.dailytimes.com.ng/rss/articles/all,,politics,FALSE,not mentioned:^none,en,link,TRUE
+nigeria,nigeria-news-world,http://feeds.feedburner.com/NigeriaWorldNews,,politics,FALSE,table.tr-caption-container img:src^none,en,Exception,TRUE
+nigeria,nigeriannews,http://nigeriannews.com/nnews.rss,,politics,TRUE,not mentioned:^none,en,link,FALSE
+nigeria,punchng,http://www.punchng.com/feed/,,politics,FALSE,og:^/Logo.jpg,en,link,TRUE
+chile,df,http://www.df.cl/prontus_df/site/edic/base/rss/inicio.xml,,politics,TRUE,None^None,es,link,FALSE
+chile,elnaveghable,http://www.elnaveghable.cl/rss/noticias,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+chile,emol,http://rss.emol.com/rss.asp?canal=0,,politics,FALSE,not mentioned:^none,es,link,TRUE
+chile,emol,http://rss.emol.com/rss.asp?canal=1,,politics,FALSE,not mentioned:^none,es,link,TRUE
+chile,emol,http://rss.emol.com/rss.asp?canal=2,guid,world,FALSE,not mentioned:^none,es,auto,TRUE
+chile,lanacion,http://www.lanacion.cl/noticias/site/tax/port/all/rss____1.xml,,politics,FALSE,not mentioned:^none,es,empty,TRUE
+russia,kommersant,http://dynamic.feedsportal.com/pf/438813/http://feeds.kommersant.ru/RSS_Export/RU/section-accidents.xml,,world,FALSE,article.b-article img:src^none,ru,guid,TRUE
+russia,kommersant,http://dynamic.feedsportal.com/pf/438817/http://feeds.kommersant.ru/RSS_Export/RU/section-video.xml,,video,FALSE,article.b-article img:data-hisrc^none,ru,guid,TRUE
+russia,kp,http://kp.ru/rss/msk-sport.xml,,sports,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-culture.xml,,lifestyle,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-dacha.xml,,business,TRUE,None^None,ru,empty,FALSE
+russia,kp,http://www.kp.ru/rss/msk-digital.xml,,science,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-economics.xml,,business,TRUE,None^None,ru,link,FALSE
+russia,kp,http://www.kp.ru/rss/msk-education.xml,,science,TRUE,None^None,ru,link,FALSE
+russia,kp,http://www.kp.ru/rss/msk-gurman.xml,,business,TRUE,None^None,ru,empty,FALSE
+russia,kp,http://www.kp.ru/rss/msk-health.xml,,health,TRUE,not mentioned:^none,ru,link,FALSE
+russia,kp,http://www.kp.ru/rss/msk-home.xml,,business,TRUE,not mentioned:^none,ru,empty,FALSE
+russia,kp,http://www.kp.ru/rss/msk-incedent.xml,,world,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-kids.xml,,lifestyle,TRUE,None^None,ru,link,FALSE
+russia,kp,http://www.kp.ru/rss/msk-life.xml,,politics,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-politics.xml,,politics,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-science.xml,,science,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-sex.xml,,lifestyle,FALSE,None^None,ru,empty,TRUE
+russia,kp,http://www.kp.ru/rss/msk-shop.xml,,business,TRUE,None^None,ru,empty,FALSE
+russia,kp,http://www.kp.ru/rss/msk-stars.xml,,entertainment,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-tour.xml,,business,TRUE,None^None,ru,empty,FALSE
+russia,kp,http://www.kp.ru/rss/msk-tv.xml,,entertainment,FALSE,None^None,ru,link,TRUE
+russia,kp,http://www.kp.ru/rss/msk-urist.xml,,business,TRUE,None^None,ru,empty,FALSE
+russia,kp,http://www.sovsport.ru/gazeta_rss,link,sports,FALSE,None^None,ru,auto,TRUE
+russia,pravda,http://pravda.ru.feedsportal.com/c/33247/f/557906/index.rss,guid,science,FALSE,None^None,ru,auto,TRUE
+russia,pravda,http://www.missus.ru/?area=rssFeedArticle,,entertainment,FALSE,not mentioned:^none,ru,link,TRUE
+russia,pravda,http://www.missus.ru/?area=rssFeedNews,,entertainment,FALSE,not mentioned:^none,ru,empty,TRUE
+russia,pravda,http://www.pravda.ru/accidents/export-articles.xml,guid,politics,FALSE,None^None,ru,auto,TRUE
+russia,pravda,http://www.pravda.ru/accidents/export-news.xml,,politics,FALSE,not mentioned:^none,ru,link,TRUE
+russia,pravda,http://www.pravda.ru/accidents/export.xml,,politics,FALSE,not mentioned:^none,ru,link,TRUE
+russia,pravda,http://www.pravda.ru/science/export-news.xml,,science,FALSE,not mentioned:^none,ru,link,TRUE
+russia,pravda,http://www.pravda.ru/science/export.xml,,science,FALSE,not mentioned:^none,ru,link,TRUE
+russia,pravda,http://www.pravda.ru/week/export-articles.xml,,business,TRUE,not mentioned:^none,ru,empty,FALSE
+russia,pravda,http://www.pravda.ru/week/export-news.xml,,business,TRUE,not mentioned:^none,ru,empty,FALSE
+russia,pravda,http://www.pravda.ru/week/export.xml,,business,TRUE,not mentioned:^none,ru,empty,FALSE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/autonews.ru/comments.rss,guid,tech,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/autonews.ru/firstlook.rss,guid,tech,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/autonews.ru/luxury_cars.rss,,tech,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/autonews.ru/mainnews.rss,guid,tech,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/autonews.ru/testdrives.rss,guid,tech,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/biztorg.ru/mainnews.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/cnews.ru/mainnews.rss,,tech,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/autocredits.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/cards.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/credits.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/newsline.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/realty.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/credit.rbc.ru/recs.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/quote.ru/events.rss,,business,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/quote.ru/fondnewsline.rss,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/quote.ru/ipo.rss,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/quote.ru/mainnews.rss,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/quote.ru/merge.rss,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rating.rbc.ru/mainnews.rss,,business,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/economics.rss,,business,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/engfpnews_rss.rss,,politics,FALSE,not mentioned:^none,ru,link,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/funs.rss,,lifestyle,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/incidents.rss,,lifestyle,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/mainnews.rss,,politics,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/news.rss,,politics,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/newsline.rss,,politics,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/politics.rss,,politics,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/society.rss,,lifestyle,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/ug_last_topnews.rss,,politics,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ua/mainnews.rss,,politics,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/auto_cnews.rss,guid,tech,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/finance_news.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/focus_news.rss,guid,business,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/industry_news.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/last.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/mainnews.rss,,business,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/potreb_news.rss,,business,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/tek_news.rss,guid,tech,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbcdaily.ru/telecom_news.rss,,tech,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/realty.rbc.ru/mainnews.rss,guid,business,FALSE,None^None,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/realty.rbc.ru/top5.rss,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/research.rbc.ru/mainnews.rss,,business,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/seminar.rbc.ru/mainnews.rss,,opinion,FALSE,not mentioned:^none,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/spb.rbc.ru/news.rss,,politics,FALSE,None^None,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/basketball.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/extrime.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/f1.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/football.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/hockey.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/newsline.rss,,sports,FALSE,not mentioned:^none,ru,link,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/scandals.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/starred_news.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/tennis.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/sport.rbc.ru/winter.rss,,sports,FALSE,not mentioned:^none,ru,Exception,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/style.rbc.ru/mainnews.rss,,lifestyle,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/style.rbc.ru/popural.rss,,lifestyle,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/turist.ru/issues.rss,,travel,FALSE,None^None,ru,guid,TRUE
+russia,rbc,http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/turist.ru/news.rss,,travel,FALSE,None^None,ru,guid,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/archive/index.xml,guid,politics,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/business/index.xml,guid,business,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/culture/index.xml,guid,lifestyle,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/infographics/index.xml,guid,video,FALSE,None^None,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/photolents/index.xml,guid,video,FALSE,None^None,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/russia/index.xml,guid,politics,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/science/index.xml,guid,tech,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/society/index.xml,guid,lifestyle,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/sports/index.xml,guid,sports,FALSE,None^None,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/strange/index.xml,guid,world,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/video/index.xml,guid,video,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,rian,http://rss.feedsportal.com/c/860/fe.ed/en.rian.ru/export/rss2/world/index.xml,guid,world,FALSE,not mentioned:^none,ru,auto,TRUE
+russia,vedomosti,http://www.vedomosti.ru/newsline/out/rss.xml,,politics,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/newspaper/out/rss.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/out/friday.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/podcast/rss.xml,,video,FALSE,None^None,ru,guid,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/auto.xml,,tech,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/companies.xml,,business,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/finance.xml,,business,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/library-infographics.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/library-investigation.xml,,politics,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/library-persons.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/lifestyle.xml,,lifestyle,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/opinion.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/politics.xml,,politics,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/realty.xml,,business,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/sport.xml,,sports,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/tech.xml,,tech,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+russia,vedomosti,http://www.vedomosti.ru/rss/themes/topnews.xml,,opinion,FALSE,og:^fb_icon.jpg,ru,link,TRUE
+argentina,cronica,http://www.cronica.com.ar/rss/espectaculos.xml,,entertainment,TRUE,og:^fb_icon.jpg,es,empty,FALSE
+argentina,cronica,http://www.cronica.com.ar/rss/informacion-general.xml,,politics,TRUE,og:^fb_icon.jpg,es,empty,FALSE
+argentina,cronica,http://www.cronica.com.ar/rss/policiales.xml,,politics,TRUE,og:^fb_icon.jpg,es,empty,FALSE
+argentina,cronica,http://www.cronica.com.ar/rss/politica.xml,,politics,TRUE,og:^fb_icon.jpg,es,empty,FALSE
+argentina,cronica,http://www.cronica.com.ar/rss/suplementos.xml,,opinion,TRUE,og:^fb_icon.jpg,es,empty,FALSE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=131,guid,sports,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1312,guid,lifestyle,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1363,guid,business,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=28,guid,opinion,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=337,guid,opinion,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=347,guid,opinion,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=371,guid,tech,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=494,guid,opinion,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=504,guid,travel,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=6373,guid,business,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,lanacion,http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=7774,guid,politics,FALSE,not mentioned:^none,es,auto,TRUE
+argentina,minutouno,http://www.minutouno.com/rss/deportes.xml,,sports,FALSE,not mentioned:^none,es,link,TRUE
+argentina,minutouno,http://www.minutouno.com/rss/mundo.xml,,world,FALSE,not mentioned:^none,es,link,TRUE
+argentina,minutouno,http://www.minutouno.com/rss/politica.xml,,politics,FALSE,not mentioned:^none,es,link,TRUE
+argentina,minutouno,http://www.minutouno.com/rss/principal.xml,,politics,FALSE,not mentioned:^none,es,link,TRUE
+argentina,minutouno,http://www.minutouno.com/rss/tecnologia.xml,,tech,FALSE,not mentioned:^none,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/cash.xml,,business,FALSE,div.foto_nota img:src^none,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/espectaculos.xml,,opinion,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/futuro.xml,,opinion,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/las12.xml,,opinion,FALSE,div.foto_nota img:src^none,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/libero.xml,,politics,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/m2.xml,,politics,FALSE,div.foto_nota img:src^none,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/no.xml,,opinion,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/principal.xml,,entertainment,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/radar.xml,,opinion,FALSE,div.foto_nota img:src^none,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/rosario.xml,,politics,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/soy.xml,,opinion,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/turismo.xml,,travel,FALSE,None^None,es,link,TRUE
+argentina,pagina12,http://www.pagina12.com.ar/diario/rss/ultimas_noticias.xml,,politics,TRUE,div.foto_nota img:src^none,es,empty,FALSE
+argentina,perfil,http://www.perfil.com/rss/ciencia.xml,,science,FALSE,None^None,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/cultura.xml,,lifestyle,FALSE,og:^perfilcom-logo-secciones.png,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/deportes.xml,,sports,FALSE,None^None,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/espectaculos.xml,,entertainment,FALSE,None^None,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/internacional.xml,,world,FALSE,None^None,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/politica.xml,,politics,FALSE,None^None,es,link,TRUE
+argentina,perfil,http://www.perfil.com/rss/tecnologia.xml,,tech,FALSE,None^None,es,link,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621689/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621692/index.rss,,opinion,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621696/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621699/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621700/index.rss,,business,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621701/index.rss,,sports,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621702/index.rss,,sports,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621705/index.rss,,entertainment,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621710/index.rss,,entertainment,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621712/index.rss,,lifestyle,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621713/index.rss,,science,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621714/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621715/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621716/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621737/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621738/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621739/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621740/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621741/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621742/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621743/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621744/index.rss,,video,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621751/index.rss,,travel,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ansa,http://ansa.feedsportal.com/c/34225/f/621752/index.rss,,travel,FALSE,not mentioned:^none,it,guid,TRUE
+italy,corriere,http://feeds.feedburner.com/vitadigitale,,opinion,FALSE,None^None,it,feedburner_origlink,TRUE
+italy,corriere,http://static.video.corriereobjects.it/widget/content/playlist/xml/playlist_caec5e90-7de6-11df-a575-00144f02aabe_dateDesc.xml,,video,TRUE,None^None,it,empty,FALSE
+italy,corriere,http://xml.corriereobjects.it/rss/animali.xml,,lifestyle,FALSE,div#main-article img:src^none,it,link,TRUE
+italy,corriere,http://xml.corriereobjects.it/rss/english.xml,,politics,FALSE,None^None,it,link,TRUE
+italy,corriere,http://xml.corriereobjects.it/rss/salute.xml,,health,FALSE,div#main-article img:src^none,it,link,TRUE
+italy,corriere,http://xml.corriereobjects.it/rss/scienze.xml,guid,science,FALSE,div#main-article img:src^none,it,auto,TRUE
+italy,gazzetta,http://english.gazzetta.it/rss/english.xml,,sports,TRUE,not mentioned:^none,it,link,FALSE
+italy,gazzetta,http://www.gazzetta.it/rss/Formula1.xml,,sports,FALSE,None^None,it,link,TRUE
+italy,gazzetta,http://www.gazzetta.it/rss/Sport_Vari.xml,,sports,FALSE,None^None,it,link,TRUE
+italy,ilmessaggero,http://www.ilmessaggero.it/rss/primopiano.xml,,politics,FALSE,not mentioned:^none,it,link,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/438662/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566662/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566663/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566664/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566665/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566666/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566667/index.rss,,sports,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566668/index.rss,,politics,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566673/index.rss,,business,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566688/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566689/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566690/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566691/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566692/index.rss,,science,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566695/index.rss,,science,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566696/index.rss,,tech,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566699/index.rss,,lifestyle,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566701/index.rss,,lifestyle,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/566702/index.rss,,entertainment,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/582512/index.rss,,lifestyle,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643607/index.rss,,business,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643610/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643613/index.rss,,lifestyle,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643616/index.rss,,business,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643617/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,ilsole24ore,http://feeds.ilsole24ore.com/c/32276/f/643625/index.rss,,business,FALSE,not mentioned:^none,it,guid,TRUE
+italy,repubblica,http://rss.feedsportal.com/c/32275/f/438640/index.rss,,world,FALSE,not mentioned:^none,it,guid,TRUE
+italy,repubblica,http://rss.feedsportal.com/c/32275/f/438644/index.rss,,entertainment,FALSE,not mentioned:^none,it,guid,TRUE
+italy,repubblica,http://www.repubblica.it/rss/ambiente/rss2.0.xml,,science,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/cronaca/rss2.0.xml,,opinion,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/economia/rss2.0.xml,,business,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/gallerie/rss2.0.xml,,lifestyle,FALSE,None^None,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/motori/rss2.0.xml,,tech,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/politica/rss2.0.xml,,politics,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/scienze/rss2.0.xml,,science,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/scuola_e_universita/rss2.0.xml,,science,FALSE,not mentioned:^none,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/solidarieta/rss2.0.xml,,world,FALSE,None^None,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/sport/rss2.0.xml,,sports,FALSE,None^None,it,link,TRUE
+italy,repubblica,http://www.repubblica.it/rss/tecnologia/rss2.0.xml,,tech,FALSE,not mentioned:^none,it,link,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/663750/index.rss,guid,world,FALSE,None^None,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664149/index.rss,guid,lifestyle,FALSE,not mentioned:^none,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664150/index.rss,guid,tech,FALSE,None^None,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664151/index.rss,guid,video,FALSE,not mentioned:^none,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664152/index.rss,guid,entertainment,FALSE,None^None,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664153/index.rss,guid,sports,FALSE,None^None,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664154/index.rss,guid,politics,FALSE,None^None,it,auto,TRUE
+italy,tiscali,http://tiscali.it.feedsportal.com/c/35338/f/664156/index.rss,guid,tech,FALSE,None^None,it,auto,TRUE
+morocco,commentcamarche,http://www.commentcamarche.net/rss/,,tech,FALSE,None^None,fr,link,TRUE
+morocco,elbotola,http://www.elbotola.com/feeds/,,sports,TRUE,not mentioned:^none,ar,link,FALSE
+morocco,hespress,http://hespress.com/feed/index.rss,,politics,FALSE,not mentioned:^none,ar,guid,TRUE
+morocco,hihi2,http://hihi2.com/category/football-news/feed,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+morocco,hihi2,http://hihi2.com/category/video/feed,,video,FALSE,not mentioned:^none,ar,link,TRUE
+morocco,lavieeco,http://www.lavieeco.com/Rss/Culture.xml,,lifestyle,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,lavieeco,http://www.lavieeco.com/Rss/immobilier.xml,guid,business,FALSE,not mentioned:^none,fr,auto,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/culture/rss,,lifestyle,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/economie/rss,,business,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/general/rss,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/monde/rss,,world,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/politique/rss,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/regional/rss,,world,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/social/rss,,politics,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,map,http://www.map.co.ma/fr/actualites/sport/rss,,sports,FALSE,not mentioned:^none,fr,link,TRUE
+morocco,marocpress,http://www.marocpress.com/feed,,politics,FALSE,not mentioned:^none,ar,link,TRUE
+spain,elconfidencial,http://rss.blogs.elconfidencial.com/,,opinion,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/cultura/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/deportes/,,sports,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/mundo/,,world,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/otros/alimentacion-5601/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/bienestar-9331/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/educacion-9332/,,science,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/psicologia-9333/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/salud-9334/,,health,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/sexualidad-9335/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tags/temas/trabajo-5284/,,business,FALSE,not mentioned:^none,es,link,TRUE
+spain,elconfidencial,http://rss.elconfidencial.com/tecnologia/,,tech,FALSE,not mentioned:^none,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/costa.xml,,politics,TRUE,not mentioned:^none,es,empty,FALSE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/cultura.xml,,entertainment,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/deportes.xml,,sports,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/economia.xml,,business,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/general.xml,,politics,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/gente.xml,,lifestyle,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/internacional.xml,,world,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/margen_derecha.xml,,opinion,TRUE,og:^correo.jpg,es,empty,FALSE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/miranda.xml,,politics,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/opinion.xml,,opinion,TRUE,og:^correo.jpg,es,empty,FALSE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/politica.xml,,politics,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/sociedad.xml,,lifestyle,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/television.xml,,lifestyle,FALSE,og:^correo.jpg,es,link,TRUE
+spain,elcorreo,http://www.elcorreo.com/vizcaya/rss/feeds/ultima.xml,,politics,FALSE,og:^correo.jpg,es,link,TRUE
+spain,eldia,http://www.eldia.es/rss/afondo.rss,,politics,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/agenda.rss,,politics,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/criterios.rss,,sports,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/deportes.rss,,sports,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/espectaculos.rss,,entertainment,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/gastronomia.rss,,lifestyle,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/gente.rss,,lifestyle,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/internacional.rss,,world,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/nacional.rss,,world,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/television.rss,,entertainment,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/tendencias.rss,,politics,TRUE,not mentioned:^none,es,link,FALSE
+spain,eldia,http://www.eldia.es/rss/vidaycultura.rss,,politics,TRUE,not mentioned:^none,es,empty,FALSE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/ciencia.xml,,science,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/comunicacion.xml,,tech,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/cultura.xml,,lifestyle,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/economia.xml,,business,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/espana.xml,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/internacional.xml,,world,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/madrid.xml,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/paisvasco.xml,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/solidaridad.xml,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/suvivienda.xml,,lifestyle,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/television.xml,,entertainment,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundo/rss/union_europea.xml,,world,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundodeporte/rss/portada.xml,,sports,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundodeporte/rss/tenis.xml,,sports,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundomotor/rss/portada.xml,,tech,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://elmundo.feedsportal.com/elmundosalud/rss/portada.xml,,health,FALSE,not mentioned:^none,es,guid,TRUE
+spain,elmundo,http://rss.elmundo.es/rss/descarga-resumenes.htm?data2=1,,politics,TRUE,not mentioned:^none,es,empty,FALSE
+spain,elpais,http://elpais.com/tag/rss/arte/a/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/cine/a/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/educacion/a/,,science,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/libros/a/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/medio_ambiente/a/,,science,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/meteorologia/a/,,science,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/moda/a/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/musica/a/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/ocio/a/,,entertainment,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/religion/a/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://elpais.com/tag/rss/salud/a/,,health,FALSE,not mentioned:^none,es,link,TRUE
+spain,elpais,http://ep00.epimg.net/rss/deportes/portada.xml,,sports,FALSE,None^None,es,comments,TRUE
+spain,elpais,http://ep00.epimg.net/rss/internacional/portada.xml,,world,FALSE,None^None,es,comments,TRUE
+spain,elpais,http://ep00.epimg.net/rss/politica/portada.xml,,politics,FALSE,not mentioned:^none,es,comments,TRUE
+spain,elpais,http://ep00.epimg.net/rss/tags/c_ciencia.xml,,science,FALSE,not mentioned:^none,es,comments,TRUE
+spain,elpais,http://ep00.epimg.net/rss/tags/o_video.xml,,video,FALSE,not mentioned:^none,es,comments,TRUE
+spain,elpais,http://www.elpais.com/rss/feed.html?feedId=17187,,opinion,FALSE,not mentioned:^none,es,link,TRUE
+spain,lavanguardia,http://feeds.feedburner.com/lavanguardia/home,,politics,FALSE,not mentioned:^none,es,guid,TRUE
+spain,marca,http://marca.feedsportal.com/rss/portada.xml,,sports,FALSE,div.bloque-foto img:src^none,es,guid,TRUE
+spain,noticias,http://www.elcorreo.com/vizcaya/rss/feeds/guipuzcoa.xml,,politics,FALSE,not mentioned:^none,es,link,TRUE
+spain,noticias,http://www.elcorreo.com/vizcaya/rss/feeds/margen_izquierda.xml,,opinion,TRUE,not mentioned:^none,es,empty,FALSE
+spain,noticias,http://www.elcorreo.com/vizcaya/rss/feeds/nervion.xml,,politics,TRUE,not mentioned:^none,es,empty,FALSE
+spain,noticias,http://www.elcorreo.com/vizcaya/rss/feeds/vizcaya.xml,,politics,FALSE,not mentioned:^none,es,link,TRUE
+spain,vanitatis,http://rss.vanitatis.com/casas-reales/,,lifestyle,FALSE,not mentioned:^none,es,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Apps-updates,,tech,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-ArtNews,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Books,,lifestyle,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Business,,business,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Dontmiss,,politics,FALSE,not mentioned:^none,en,Exception,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Entertainment,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Fashion,,lifestyle,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Gadgets-updates,,tech,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-India,,world,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Multimedia-video,,video,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Amritsar,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Bathinda,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Chandigarh,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-DontMiss,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Jalandhar,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Ludhiana,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-Patiala,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-PunjabAbroadAustralia,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-PunjabAbroadBritain,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-PunjabAbroadCanada,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-PunjabAbroadUSA,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-PunjabBlogs,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-PunjabSection-TopStories,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Reviews,,tech,FALSE,None^None,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Sexandrelationships,,lifestyle,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-SocialMedia,,tech,FALSE,None^None,en,guid,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Sport,,sports,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Travel,,travel,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-Wellness,,health,FALSE,not mentioned:^none,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-World,,world,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-auto,,tech,FALSE,None^None,en,link,TRUE
+india,hindustantimes,http://feeds.hindustantimes.com/HT-brunch-topstories,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+egypt,almasryalyoum,http://www.almasryalyoum.com/news_homepage_feed,,politics,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_caricature/rss.xml,,science,TRUE,None^None,ar,empty,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_opinion/silence_forbidden/rss.xml,link,travel,TRUE,None^None,ar,auto,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_photo/rss.xml,,video,TRUE,None^None,ar,empty,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/14/rss.xml,,sports,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223231/rss.xml,,world,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223236/rss.xml,,world,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223241/rss.xml,,world,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223242/rss.xml,,lifestyle,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223257/rss.xml,,politics,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223262/rss.xml,,politics,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/223267/rss.xml,,opinion,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/24/rss.xml,,tech,TRUE,None^None,ar,link,FALSE
+egypt,almasryalyoum,http://www.almasryalyoum.com/rss_feed_term/7/rss.xml,,business,TRUE,None^None,ar,link,FALSE
+egypt,elfagr,http://new.elfagr.org/rss.aspx?secidMenu=4e,,entertainment,TRUE,None^None,ar,empty,FALSE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=10,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=11,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=13,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=14,guid,science,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=17,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=19,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=22,,opinion,TRUE,None^None,ar,empty,FALSE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=25,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=26,guid,health,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=28,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=3,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=30,guid,sports,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=32,guid,business,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=33,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=4,guid,world,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=5,guid,world,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=6,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=7,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=8,guid,lifestyle,FALSE,None^None,ar,auto,TRUE
+egypt,elshaab,http://elshaab.org/rss_feed.php?ch_id=9,guid,lifestyle,FALSE,None^None,ar,auto,TRUE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds,,politics,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=11,,lifestyle,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=12,,business,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=13,,politics,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=15,,sports,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=16,,world,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=17,,health,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=18,,world,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=19,,politics,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=2,,lifestyle,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=21,,opinion,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=27,,science,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=29,,entertainment,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=3,,politics,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=31,,lifestyle,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=32,,science,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=5,,opinion,TRUE,None^None,ar,empty,FALSE
+egypt,elwatannews,http://www.elwatannews.com/home/rssfeeds?sectionId=6,,tech,TRUE,None^None,ar,empty,FALSE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx?SecID=1,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx?SecID=23,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx?SecID=3,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx?SecID=5,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,filgoal,http://www.filgoal.com/Arabic/RSS/NewsRSS.aspx?SecID=9,,sports,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,masrawy,http://shorouknews.com/auto/concept/rss,,opinion,TRUE,not mentioned:^none,ar,empty,FALSE
+egypt,masrawy,http://shorouknews.com/auto/drive-test/rss,,opinion,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,masrawy,http://shorouknews.com/egypt/constitution2013/rss,,politics,TRUE,not mentioned:^none,ar,empty,FALSE
+egypt,masrawy,http://www.masrawy.com/rssfeed/202/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7,,world,TRUE,not mentioned:^none,ar,empty,FALSE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=16,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=18,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=23,guid,world,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=24,guid,lifestyle,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=27,guid,politics,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=29,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,onlinenewspapers,http://elshaab.org/rss_feed.php?ch_id=31,guid,opinion,FALSE,None^None,ar,auto,TRUE
+egypt,shorouknews,http://shorouknews.com/Culture/books/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Culture/fine-art/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Culture/thinkers%20-%20events/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Economy/bourse/rss,,business,FALSE,not mentioned:^none,ar,empty,TRUE
+egypt,shorouknews,http://shorouknews.com/Economy/market/rss,,business,FALSE,not mentioned:^none,ar,empty,TRUE
+egypt,shorouknews,http://shorouknews.com/Politics/arab/rss,,world,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Politics/press/rss,,world,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Politics/world/rss,,world,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Sci-Tech/Games-Software/rss,,science,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Sci-Tech/Hardware/rss,,science,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Sci-Tech/Internet-Comm/rss,,science,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/Sci-Tech/Sci-Environment/rss,,science,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/art/Radio-TV/rss,,entertainment,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/art/cinema/rss,,entertainment,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/art/music/rss,,entertainment,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/auto/opinion/rss,,opinion,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/egypt/Eg-Politics/rss,,politics,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/egypt/accidents/rss,,politics,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/people-life/Food-Health/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/people-life/Youth-Edu/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/people-life/family-relations/rss,,lifestyle,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,shorouknews,http://shorouknews.com/rss/main/,,politics,FALSE,not mentioned:^none,ar,link,TRUE
+egypt,upi,http://rss.upi.com/news/bn_si.rss,,tech,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/business_news.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/emerging_threats.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/entertainment_news.rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/health_news.rss,,health,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/news.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/newstrack.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/odd_news.rss,,world,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/science_news.rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/sn_rw.rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/sports_news.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+egypt,upi,http://rss.upi.com/news/top_news.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F1906,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F233,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F271,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F272,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F273,,sports,FALSE,None^None,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F6911,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F6917,,travel,FALSE,None^None,en,link,TRUE
+canada,calgaryherald,http://rss.canada.com/get/?F6918,,health,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/home/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/alberta/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/calgary/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/canada/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/weird/rss.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+canada,calgarysun,http://www.calgarysun.com/news/world/rss.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/arts.xml,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/business.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/canada.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/health.xml,,health,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/offbeat.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/politics.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/sports.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/technology.xml,,tech,FALSE,not mentioned:^none,en,link,TRUE
+canada,cbc,http://rss.cbc.ca/lineup/world.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+canada,lapresse,http://affaires.lapresse.ca/rss/100.xml,,business,FALSE,not mentioned:^none,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/178.xml,,politics,FALSE,None^None,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/179.xml,,world,FALSE,None^None,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/216.xml,,lifestyle,FALSE,None^None,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/225.xml,,politics,FALSE,None^None,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/229.xml,,sports,FALSE,None^None,fr,guid,TRUE
+canada,lapresse,http://www.lapresse.ca/rss/241.xml,,science,FALSE,None^None,fr,guid,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F1912,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F239,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F292,,sports,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F293,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F294,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F7773,,travel,FALSE,None^None,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F7784,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F7791,,lifestyle,FALSE,None^None,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F7796,,health,FALSE,None^None,en,link,TRUE
+canada,ottawacitizen,http://rss.canada.com/get/?F7813,,tech,TRUE,None^None,en,empty,FALSE
+canada,theprovince,http://rss.canada.com/get/?F1915,,lifestyle,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F228,,politics,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F6948,,entertainment,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F7504,,travel,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F7517,,lifestyle,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F7523,,health,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F7537,,business,FALSE,None^None,en,link,TRUE
+canada,theprovince,http://rss.canada.com/get/?F7539,,tech,TRUE,None^None,en,empty,FALSE
+canada,theprovince,http://rss.canada.com/get/?F7548,,video,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.business.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.entertainment.rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.initiatives.fresh_air_fund.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.initiatives.santa_claus_fund.rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.life.rss,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.news.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.opinion.rss,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.sports.rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestar,http://www.thestar.com/feeds.articles.yourtoronto.rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F1914,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F280,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F282,,sports,FALSE,None^None,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F283,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F285,,lifestyle,FALSE,None^None,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F7882,,entertainment,FALSE,None^None,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F7888,,travel,FALSE,None^None,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F7907,,health,FALSE,None^None,en,link,TRUE
+canada,thestarphoenix,http://rss.canada.com/get/?F7927,,tech,TRUE,None^None,en,empty,FALSE
+canada,thestarphoenix,http://rss.canada.com/get/?F7936,,video,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/business-rss-1.695,,business,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/entertainment-rss-1.719,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/life-rss-1.755,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/news-rss-1.769,,politics,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/opinion-rss-1.783,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+canada,timescolonist,http://www.timescolonist.com/cmlink/sports-rss-1.811,,sports,FALSE,not mentioned:^none,en,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/auto.xml,,tech,FALSE,div.left_zw img:src^none,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/edu.xml,,science,FALSE,None^None,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/finance.xml,,business,FALSE,div.left_zw img:src^none,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/gangao.xml,,politics,FALSE,None^None,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/importnews.xml,,politics,FALSE,None^None,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/sp.xml,,video,FALSE,None^None,zh,link,TRUE
+china,chinanews,http://www.chinanews.com/rss/world.xml,,world,FALSE,None^None,zh,link,TRUE
+china,globaltimes,http://www.globaltimes.cn/DesktopModules/DnnForge%20-%20NewsArticles/Rss.aspx?TabID=99&ModuleID=405&CategoryID=38&MaxCount=150&sortBy=StartDate&sortDirection=DESC,,world,TRUE,None^None,en,empty,FALSE
+china,globaltimes,http://www.globaltimes.cn/DesktopModules/DnnForge%20-%20NewsArticles/Rss.aspx?TabID=99&ModuleID=405&CategoryID=39&MaxCount=150&sortBy=StartDate&sortDirection=DESC,,world,TRUE,None^None,en,empty,FALSE
+china,globaltimes,http://www.globaltimes.cn/DesktopModules/DnnForge%20-%20NewsArticles/Rss.aspx?TabID=99&ModuleID=405&CategoryID=41&MaxCount=100&sortBy=StartDate&sortDirection=DESC,,world,TRUE,None^None,en,empty,FALSE
+china,ifeng,http://news.ifeng.com/rss/photo.xml,,video,FALSE,None^None,zh,link,TRUE
+china,qq,http://finance.qq.com/scroll/rss_scroll.xml,,business,FALSE,div.main img:src^none,zh,link,TRUE
+china,qq,http://tech.qq.com/web/rss_web.xml,,tech,FALSE,div.main img:src^none,zh,link,TRUE
+china,sina,http://movie.video.sina.com.cn/rss/TOP.xml,,video,FALSE,not mentioned:^none,zh,comments,TRUE
+china,sina,http://rss.sina.com.cn/blog/index/exc.xml,,opinion,FALSE,not mentioned:^none,zh,Exception,TRUE
+china,sina,http://rss.sina.com.cn/news/china/hktaiwan15.xml,,politics,FALSE,not mentioned:^none,zh,Exception,TRUE
+china,sina,http://rss.sina.com.cn/news/society/wonder15.xml,,opinion,FALSE,not mentioned:^none,zh,Exception,TRUE
+china,xinhuanet,http://rss.xinhuanet.com/rss/english/english_entertainment.xml,,entertainment,TRUE,not mentioned:^none,zh,empty,FALSE
+china,xinhuanet,http://rss.xinhuanet.com/rss/english/english_health.xml,,health,TRUE,not mentioned:^none,zh,empty,FALSE
+china,xinhuanet,http://rss.xinhuanet.com/rss/english/english_photos.xml,,video,TRUE,not mentioned:^none,zh,empty,FALSE
+china,xinhuanet,http://rss.xinhuanet.com/rss/english/english_worldnews.xml,,world,TRUE,not mentioned:^none,zh,empty,FALSE
+china,xinhuanet,http://www.xinhuanet.com/english/rss/chinarss.xml,link,politics,FALSE,not mentioned:^none,en,auto,TRUE
+china,xinhuanet,http://www.xinhuanet.com/english/rss/worldrss.xml,link,world,FALSE,not mentioned:^none,en,auto,TRUE
+brazil,r7,http://entretenimento.r7.com/famosos-e-tv/feed.xml,,entertainment,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://esportes.r7.com/mais-esportes/feed.xml,,sports,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://noticias.r7.com/brasil/feed.xml,,politics,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://noticias.r7.com/rio-de-janeiro/feed.xml,,politics,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://noticias.r7.com/saude/feed.xml,,health,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://www.r7.com//data/rss/promocoes.xml,,entertainment,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://www.r7.com//data/rss/receitasDietas.xml,,entertainment,FALSE,div#content img:src^none,pt,link,TRUE
+brazil,r7,http://www.r7.com/blogs/rss/entretenimento/,guid,entertainment,FALSE,div#content img:src^none,pt,auto,TRUE
+brazil,r7,http://www.r7.com/data/rss/Humor.xml,,entertainment,FALSE,None^None,pt,link,TRUE
+brazil,r7,http://www.r7.com/data/rss/automobilismo.xml,,sports,FALSE,None^None,pt,link,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530173/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530174/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530175/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530176/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530177/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530178/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,fanatik,http://rss.feedsportal.com/c/32892/f/530179/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,gazetevatan,http://rss.gazetevatan.com/rss/dunya.xml,,world,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,gazetevatan,http://rss.gazetevatan.com/rss/gundem.xml,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,haberler,http://feeds2.feedburner.com/son-dakika-haberleri,,politics,FALSE,not mentioned:^none,tr,feedburner_origlink,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/TvRehberi.aspx,,entertainment,TRUE,not mentioned:^none,tr,empty,FALSE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=1,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=13,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=14,,sports,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=2,,politics,FALSE,None^None,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=2035,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=2124,,health,FALSE,None^None,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=2158,,tech,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=2249,,science,FALSE,None^None,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/rss.aspx?sectionId=4,,business,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,hurriyet,http://rss.hurriyet.com.tr/webtv.aspx,,video,FALSE,None^None,tr,link,TRUE
+turkey,mackolik,http://www.mackolik.com/Rss,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/RssSD.xml,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_148.xml,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_176.xml,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_234.xml,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_24.xml,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_297.xml,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_30.xml,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_382.xml,,business,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,milliyet,http://www.milliyet.com.tr/D/rss/rss/Rss_4.xml,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,radikal,http://www.radikal.com.tr/d/rss/Rss_78.xml,,politics,TRUE,not mentioned:^none,tr,link,FALSE
+turkey,radikal,http://www.radikal.com.tr/d/rss/Rss_80.xml,,business,TRUE,not mentioned:^none,tr,link,FALSE
+turkey,radikal,http://www.radikal.com.tr/d/rss/Rss_81.xml,,world,TRUE,not mentioned:^none,tr,link,FALSE
+turkey,radikal,http://www.radikal.com.tr/d/rss/Rss_85.xml,,science,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606056/index.rss,,politics,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606057/index.rss,,business,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606059/index.rss,,world,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606060/index.rss,,sports,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606061/index.rss,,tech,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606062/index.rss,,tech,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606063/index.rss,,lifestyle,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606064/index.rss,,health,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606066/index.rss,,lifestyle,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://sabah.com.tr.feedsportal.com/c/33784/f/606068/index.rss,,entertainment,FALSE,not mentioned:^none,tr,guid,TRUE
+turkey,sabah,http://www.sabah.com.tr/rss/SonDakika.xml,,politics,FALSE,None^None,tr,link,TRUE
+turkey,samanyoluhaber,http://www.samanyoluhaber.com/rss.htm&id=6,,health,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,samanyoluhaber,http://www.samanyoluhaber.com/rss.htm&id=8,,tech,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,sozcu,http://sozcu.com.tr/rss.php,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/101.rss,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/102.rss,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/105.rss,,business,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/109.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/110.rss,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/116.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/117.rss,,travel,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/124.rss,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/130.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/132.rss,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/133.rss,,lifestyle,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/159.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/161.rss,,politics,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/349.rss,,science,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/352.rss,,business,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/5.rss,,sports,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/6.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+turkey,todayszaman,http://www.todayszaman.com/8.rss,,opinion,FALSE,not mentioned:^none,tr,link,TRUE
+mexico,cronica,http://www.cronica.com.mx/rss/rssSeccion.php?id=4rn,,business,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,cronica,http://www.cronica.com.mx/rss/rssSeccion.php?id=5rn,,politics,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,cronica,http://www.cronica.com.mx/rss/rssSeccion.php?id=8rn,,opinion,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,eleconomista,http://www.economista.com.mx/dinero/rss/rn,,business,FALSE,not mentioned:^none,es,link,TRUE
+mexico,eleconomista,http://www.economista.com.mx/empresas/rss/rn,,business,FALSE,not mentioned:^none,es,link,TRUE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_L2012.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_autos.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_box.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_charros.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_futmex.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_legion.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_otros.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,oem,http://www.oem.com.mx/esto/rss/rss_toros.xmlrn,,sports,TRUE,not mentioned:^none,es,empty,FALSE
+mexico,reforma,http://gruporeforma.reforma.com/suplementos/rss/reforma_gadgets.xml,guid,tech,FALSE,not mentioned:^none,es,auto,TRUE
+mexico,reforma,http://www.reforma.com/rss/ciencia.xml,guid,science,FALSE,not mentioned:^none,es,auto,TRUE
+mexico,reforma,http://www.reforma.com/rss/internacional.xml,guid,world,FALSE,not mentioned:^none,es,auto,TRUE
+mexico,reforma,http://www.reforma.com/rss/justicia.xml,guid,politics,FALSE,not mentioned:^none,es,auto,TRUE
+mexico,reforma,http://www.reforma.com/rss/nacional.xml,guid,politics,FALSE,not mentioned:^none,es,auto,TRUE
+mexico,reforma,http://www.reforma.com/rss/negocios.xml,guid,business,FALSE,not mentioned:^none,es,auto,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/in_pictures/rss.xml,,video,FALSE,div.caption img:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/rss.xml?edition=uk,,world,FALSE,div.caption img:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/rss.xml?edition=us,,world,FALSE,div.caption img:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/science_and_environment/rss.xml,,science,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/technology/rss.xml,,tech,FALSE,img#media-asset-placeholder:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/uk/rss.xml,,world,FALSE,div.caption img:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/video_and_audio/health/rss.xml,,video,FALSE,img#media-asset-placeholder:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/video_and_audio/politics/rss.xml,,video,FALSE,img#media-asset-placeholder:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/video_and_audio/technology/rss.xml,,video,FALSE,img#media-asset-placeholder:src^none,en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/news/world/rss.xml,,world,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,link,TRUE
+uk,bbc,http://feeds.bbci.co.uk/sport/0/rss.xml?edition=uk,,sports,FALSE,"\""param[name=\""\""holdingImage\""\""]:value^none\""",en,link,TRUE
+uk,businessblog,http://feeds2.feedburner.com/ft/businessblog,guid,opinion,FALSE,not mentioned:^none,en,auto,TRUE
+uk,dailymail,http://www.dailymail.co.uk/columnists/index.rss,,opinion,TRUE,not mentioned:^none,en,empty,FALSE
+uk,dailymail,http://www.dailymail.co.uk/femail/index.rss,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailymail,http://www.dailymail.co.uk/health/index.rss,,health,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailymail,http://www.dailymail.co.uk/tvshowbiz/index.rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailymail,http://www.dailymail.co.uk/video/index.rss,,video,TRUE,not mentioned:^none,en,empty,FALSE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Big-Brother,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Boxing,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Cars,,tech,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Columnists,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Diet-Fitness,,health,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Fashion-Beauty,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Football,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Galleries,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Hot-TV,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Just-Jane,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Money,,business,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Motorsport,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Movies,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Playlist,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Poker,,sports,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Racing,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Real-Life,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Rehab,,lifestyle,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Rugby,,sports,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Showbiz,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Strictly-Come-Dancing,,entertainment,TRUE,not mentioned:^none,en,link,FALSE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Tech,,tech,FALSE,not mentioned:^none,en,link,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-The-Goss,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+uk,dailystar,http://feeds.feedburner.com/daily-star-Travel,,travel,FALSE,not mentioned:^none,en,guid,TRUE
+uk,ft,http://www.ft.com/rss/companies/uk,guid,business,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/companies/uk-smaller-companies,guid,business,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/markets/uk,guid,business,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/world/uk,guid,world,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/world/uk/business,guid,business,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/world/uk/economy,guid,business,FALSE,None^None,en,auto,TRUE
+uk,ft,http://www.ft.com/rss/world/uk/politics,guid,politics,FALSE,None^None,en,auto,TRUE
+uk,sky,http://news.sky.com/feeds/rss/entertainment.xml,guid,entertainment,FALSE,section#primary img:src^none,en,auto,TRUE
+uk,sky,http://news.sky.com/feeds/rss/home.xml,guid,politics,FALSE,section#primary img:src^none,en,auto,TRUE
+uk,sky,http://news.sky.com/feeds/rss/uk.xml,guid,world,FALSE,section#primary img:src^none,en,auto,TRUE
+uk,sky,http://news.sky.com/feeds/rss/world.xml,guid,world,FALSE,section#primary img:src^none,en,auto,TRUE
+uk,standard,http://www.standard.co.uk/goingout/rss,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,telegraph,http://www.telegraph.co.uk/foodanddrink/rss,,lifestyle,FALSE,None^None,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/news/newstopics/howaboutthat/rss,,opinion,FALSE,og:^telegraphFacebook.jpg,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/news/rss,,world,FALSE,None^None,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/sport/football/rss,,sports,FALSE,None^None,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/technology/news/rss,,tech,FALSE,None^None,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/travel/rss,,travel,FALSE,None^None,en,guid,TRUE
+uk,telegraph,http://www.telegraph.co.uk/women/mother-tongue/rss,,lifestyle,FALSE,None^None,en,guid,TRUE
+uk,theguardian,http://feeds.theguardian.com/theguardian/uk/rss,,world,FALSE,not mentioned:^none,en,guid,TRUE
+uk,theguardian,http://www.theguardian.com/theguardian/rss,,world,FALSE,not mentioned:^none,en,link,TRUE
+uk,theguardian,http://www.theguardian.com/world/mostviewed/rss,,world,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/arts/rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/business/rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/education/rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/environment/rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/faith/rss,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/health/rss,,health,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/life/rss,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/money/rss,,business,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/news/politics/rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/news/world/rss,,world,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/opinion/rss,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/science/rss,,science,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/sport/rss,,sports,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/technology/gadgets/rss,,tech,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/technology/games/rss,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/technology/internet/rss,,tech,FALSE,not mentioned:^none,en,link,TRUE
+uk,thetimes,http://www.thetimes.co.uk/tto/technology/rss,,tech,FALSE,not mentioned:^none,en,link,TRUE
+kenya,businessdailyafrica,http://www.businessdailyafrica.com/-/539444/539444/-/view/asFeed/-/xs2vhb/-/index.xml,,business,TRUE,not mentioned:^none,en,link,FALSE
+kenya,nation,http://www.nation.co.ke/-/1148/1148/-/view/asFeed/-/vtvnjq/-/index.xml,,politics,TRUE,not mentioned:^none,en,link,FALSE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/business.php,guid,business,FALSE,not mentioned:^none,en,auto,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/columnists.php,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/entertainment.php,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/evewoman.php,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/kenya.php,,politics,FALSE,not mentioned:^none,en,link,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/politics.php,,politics,FALSE,not mentioned:^none,en,link,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/sports.php,guid,sports,FALSE,not mentioned:^none,en,auto,TRUE
+kenya,standardmedia,http://www.standardmedia.co.ke/rss/world.php,,world,FALSE,not mentioned:^none,en,link,TRUE
+kenya,theeastafrican,http://www.theeastafrican.co.ke/-/2456/2456/-/view/asFeed/-/13blr5d/-/index.xml,,politics,TRUE,not mentioned:^none,en,link,FALSE
+kenya,thepeople,http://www.thepeople.co.ke/feed/,,politics,FALSE,not mentioned:^none,en,link,TRUE
+kenya,thezambezian,http://feeds.feedburner.com/TheZambezian,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Agama,,lifestyle,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Dunia,,world,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Ekonomi,,business,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Hip,,entertainment,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=MukaDepan,,politics,TRUE,not mentioned:^none,ms,empty,FALSE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Mutakhir,,politics,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Pendidikan,,science,TRUE,not mentioned:^none,ms,empty,FALSE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Ratu,,lifestyle,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Rencana,,opinion,FALSE,not mentioned:^none,ms,empty,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Sukan,,sports,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,bharian,http://www.bharian.com.my/bharian/RSS/rss_html?section=Wilayah,,politics,TRUE,not mentioned:^none,ms,empty,FALSE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=Arena,,sports,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=BeritaUtama,,politics,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=Bisnes,,business,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=Hati,,lifestyle,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=Mutakhir,,politics,FALSE,not mentioned:^none,ms,link,TRUE
+malaysia,hmetro,http://www.hmetro.com.my/myMetro/rss/rss_html?section=Rap,,lifestyle,TRUE,not mentioned:^none,ms,link,FALSE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613033/index.rss,guid,politics,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613038/index.rss,guid,business,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613053/index.rss,guid,politics,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613055/index.rss,guid,tech,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613059/index.rss,guid,opinion,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613069/index.rss,guid,business,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613071/index.rss,guid,entertainment,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613074/index.rss,guid,politics,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613075/index.rss,guid,lifestyle,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613076/index.rss,guid,lifestyle,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://theedgemalaysia.feedsportal.com/c/33912/f/613077/index.rss,guid,business,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,theedgemalaysia,http://www.theedgemalaysia.com/index2.php?option=com_rd_rss&task=edit&hidemainmenu=1&id=9,guid,business,FALSE,og:^button_ipad.jpg,en,auto,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss,,politics,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/drive,,tech,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/eat-drink,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/features,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/malaysia,,politics,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/showbiz,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/sports,,sports,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/tech-gadgets,,tech,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/travel,,travel,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaymailonline,http://www.themalaymailonline.com/feed/rss/what-you-think,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/bahasa,,lifestyle,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/books,,science,TRUE,og:^tmiicon300.jpg,ms,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/business,,business,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/features,,opinion,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/feed,,politics,TRUE,og:^tmiicon300.jpg,ms,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/food,,lifestyle,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/malaysia,,politics,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/opinion,,opinion,TRUE,None^None,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/rencana,,opinion,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/showbiz,,business,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/sideviews,,politics,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/technology,,tech,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/travel,,lifestyle,TRUE,og:^tmiicon300.jpg,en,link,FALSE
+malaysia,themalaysianinsider,http://www.themalaysianinsider.com/rss/world,guid,world,TRUE,og:^tmiicon300.jpg,en,auto,FALSE
+malaysia,thestar,http://www.thestar.com.my/RSS/Business/Business-News,,business,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Home/Videos,,video,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/Books,,entertainment,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/Entertainment,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/Food,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/Health,,health,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/People,,lifestyle,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Lifestyle/Women,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/News/World,guid,world,FALSE,not mentioned:^none,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Opinion/Columnists,guid,opinion,FALSE,not mentioned:^none,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Opinion/Editorial,guid,opinion,FALSE,not mentioned:^none,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Badminton,,sports,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Football,guid,sports,FALSE,None^None,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Golf,guid,sports,FALSE,None^None,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Motorsport,,sports,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Other-Sports,guid,sports,FALSE,not mentioned:^none,en,auto,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Sport/Tennis,,sports,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Tech/Tech-News,,tech,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Tech/Tech-Views,,tech,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Travel/Americas.aspx,,travel,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Travel/Asia.aspx,,travel,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Travel/Europe.aspx,,travel,FALSE,None^None,en,link,TRUE
+malaysia,thestar,http://www.thestar.com.my/RSS/Travel/Malaysia,,travel,FALSE,None^None,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/business,,business,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/education,,science,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/gear-up,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/latest,,politics,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/letters,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/food,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/health,,health,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/parenting,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/reviews,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/tech,,tech,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/lifestyle/travel,,travel,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/local,,politics,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/media-marketing,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/opinion,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/property,,business,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/showbiz,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/sports,,sports,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/style,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,thesundaily,http://www.thesundaily.my/rss/world,,world,FALSE,not mentioned:^none,en,link,TRUE
+malaysia,utusan,http://utusan.com.my/utusan/rss.asp?sec=,,politics,FALSE,not mentioned:^none,ms,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/1340/rss.xml,,science,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/1534/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/1616/rss.xml,,health,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/2164/rss.xml,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/45910/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/46182/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/news/feed/51120/rss.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/newsradio/rss/FILM.xml,,entertainment,FALSE,None^None,en,link,TRUE
+australia,abc,http://www.abc.net.au/sport/syndicate/sport_all.xml,,sports,FALSE,not mentioned:^none,en,link,TRUE
+australia,abc,http://www.abc.net.au/syndication/rss-childrens-epg.xml,,lifestyle,TRUE,not mentioned:^none,en,empty,FALSE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/business.xml,guid,business,FALSE,not mentioned:^none,en,auto,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/entertainment.xml,,entertainment,FALSE,not mentioned:^none,en,guid,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/national.xml,guid,politics,FALSE,not mentioned:^none,en,auto,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/opinion/article/rss.xml,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/technology.xml,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/top.xml,guid,politics,FALSE,not mentioned:^none,en,auto,TRUE
+australia,canberratimes,http://www.canberratimes.com.au/rssheadlines/world.xml,,world,FALSE,not mentioned:^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphbreakingbusnewsndm,,business,FALSE,None^None,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphbreakingnewsndm,,politics,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphbusinessnewsndm,,business,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphentertainmentnewsndm,,entertainment,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphlifestylenewsndm,,lifestyle,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphmusicndm,,entertainment,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphnationalnewsndm,,politics,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphnswact,,politics,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.feedburner.com/dailytelegraphworldnewsndm,,world,FALSE,div.image-frame img:src^none,en,guid,TRUE
+australia,dailytelegraph,http://feeds.news.com.au/rss/newslocal/dt_nlocal_news_3213.xml,,politics,FALSE,div.image-frame img:src^none,en,link,TRUE
+australia,dailytelegraph,http://feeds.news.com.au/rss/newslocal/dt_nlocal_parra_comps_3200.xml,,sports,FALSE,div.image-frame img:src^none,en,link,TRUE
+australia,dailytelegraph,http://feeds.news.com.au/rss/newslocal/dt_nlocal_sport_3214.xml,,sports,FALSE,div.image-frame img:src^none,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Business_3344.xml,,business,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Confidential_3349.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Local%20Sport_3347.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Property_3343.xml,,business,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Suns_3348.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_Titans_3345.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,goldcoastbulletin,http://feeds.news.com.au/public/rss/2.0/GC_TopNews_3341.xml,,politics,FALSE,None^None,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_andrewbolt_2782.xml,,opinion,FALSE,None^None,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_breakingnews_2800.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_business_2783.xml,,business,FALSE,not mentioned:^none,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_morenews_2794.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_opinion_2788.xml,,opinion,FALSE,None^None,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_sport_2789.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_technology_2790.xml,,tech,FALSE,None^None,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_topstories_2803.xml,,politics,FALSE,not mentioned:^none,en,link,TRUE
+australia,heraldsun,http://feeds.news.com.au/heraldsun/rss/heraldsun_news_worldnews_2793.xml,,world,FALSE,not mentioned:^none,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/business_top_stories_346.xml,,business,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_lifestyle_3171.xml,,lifestyle,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_money_505.xml,,business,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_national_3354.xml,,politics,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_realestate_2969.xml,,business,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_sport_3168.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_tech_506.xml,,tech,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_theworld_3356.xml,,world,FALSE,None^None,en,link,TRUE
+australia,news,http://feeds.news.com.au/public/rss/2.0/news_travel_3325.xml,,travel,FALSE,None^None,en,link,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/entertainment.xml,guid,entertainment,FALSE,not mentioned:^none,en,auto,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/national.xml,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/sport.xml,guid,sports,FALSE,not mentioned:^none,en,auto,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/technology.xml,,tech,FALSE,not mentioned:^none,en,guid,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/top.xml,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+australia,smh,http://feeds.smh.com.au/rssheadlines/world.xml,,world,FALSE,not mentioned:^none,en,guid,TRUE
+australia,smh,http://www.smh.com.au/rssheadlines/business.xml,guid,business,FALSE,not mentioned:^none,en,auto,TRUE
+australia,smh,http://www.smh.com.au/rssheadlines/comment/article/rss.xml,,opinion,FALSE,not mentioned:^none,en,guid,TRUE
+australia,smh,http://www.smh.com.au/rssheadlines/federal-politics/article/rss.xml,,politics,FALSE,not mentioned:^none,en,guid,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/entertainment.xml,guid,entertainment,FALSE,og:^facebook-thumb-theage.png,en,auto,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/national.xml,,politics,FALSE,og:^facebook-thumb-theage.png,en,guid,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/sport.xml,,sports,FALSE,og:^facebook-thumb-theage.png,en,guid,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/technology.xml,,tech,FALSE,og:^facebook-thumb-theage.png,en,guid,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/top.xml,guid,politics,FALSE,og:^facebook-thumb-theage.png,en,auto,TRUE
+australia,theage,http://feeds.theage.com.au/rssheadlines/world.xml,,world,FALSE,og:^facebook-thumb-theage.png,en,guid,TRUE
+australia,theage,http://www.theage.com.au/rssheadlines/business.xml,guid,business,FALSE,og:^facebook-thumb-theage.png,en,auto,TRUE
+australia,theage,http://www.theage.com.au/rssheadlines/opinion/article/rss.xml,,politics,FALSE,og:^facebook-thumb-theage.png,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianArt,,entertainment,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianBusFinancialMarkets,,business,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianBusNews,,business,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianBusWealth,,business,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianBusinessWorldBusNews,,business,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianExecutiveLifestyle,,lifestyle,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianHigherEducationNews,,science,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianMediaNews,,video,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianOpinion,,opinion,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianPolitics,,politics,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianSportsNews,,sports,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianTheWorld,,world,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.feedburner.com/TheAustralianTravelAndIndulgence,,travel,FALSE,None^None,en,guid,TRUE
+australia,theaustralian,http://feeds.news.com.au/public/rss/2.0/ausit_exec_topstories_385.xml,,tech,FALSE,None^None,en,link,TRUE
+australia,theaustralian,http://feeds.news.com.au/public/rss/2.0/ausit_itnews_topstories_367.xml,,tech,FALSE,None^None,en,link,TRUE
+australia,themercury,http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20%7C%20Entertainment_3306.xml,,entertainment,FALSE,None^None,en,link,TRUE
+australia,themercury,http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20%7C%20Lifestyle_3308.xml,,lifestyle,FALSE,None^None,en,link,TRUE
+australia,themercury,http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20%7C%20Property_3307.xml,,business,FALSE,None^None,en,link,TRUE
+australia,themercury,http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20%7C%20Sport_3305.xml,,sports,FALSE,None^None,en,link,TRUE
+australia,themercury,http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20%7C%20Top%20Stories_3304.xml,,politics,FALSE,None^None,en,link,TRUE
+philipines,abs-cbnnews,http://www.abs-cbnnews.com/entertainment/feed,,entertainment,FALSE,None^None,en,link,TRUE
+philipines,abs-cbnnews,http://www.abs-cbnnews.com/nation/metro-manila/feed,,politics,FALSE,None^None,en,link,TRUE
+philipines,abs-cbnnews,http://www.abs-cbnnews.com/pinoy-migration/feed,,world,FALSE,None^None,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/arts-and-culture,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/breakingnews,,politics,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/business,,business,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/entertainment,,entertainment,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/fashion-and-beauty,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/gadgets,,tech,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/modern-living,,lifestyle,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/nation,,politics,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/opinion,,opinion,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/real-estate,,business,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/science-and-technology,,business,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/sports,,sports,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/travel-and-tourism,,travel,FALSE,not mentioned:^none,en,link,TRUE
+philipines,philstar,http://www.philstar.com/rss/world,,world,FALSE,not mentioned:^none,en,link,TRUE
