@@ -11,5 +11,5 @@ for r in results:
     summary = r['summary']
     summary = re.sub("<.*?>", "", summary)
     print(summary)
-    output.write(summary)
+    output.write(summary.encode('utf-8'))
 output.close()
