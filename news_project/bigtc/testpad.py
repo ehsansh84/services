@@ -12,4 +12,5 @@ for r in results:
     summary = re.sub("<.*?>", "", summary)
     print(summary)
     output.write(summary.encode('utf-8'))
+    output.write('\n')
 output.close()
