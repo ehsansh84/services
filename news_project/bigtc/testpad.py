@@ -28,6 +28,9 @@ def import_xls_rss():
     sheet_names = xl_workbook.sheet_names()
     sheet = xl_workbook.sheet_by_name(sheet_names[0])
     col_rss = db['rss']
+    rss_new = 0
+    rss_dup = 0
+
     for i in range(2524):
         link = str(sheet.cell(i, 2))[7:-1]
         source = str(sheet.cell(i, 1))[7:-1]
@@ -36,7 +39,11 @@ def import_xls_rss():
         # print(source)
 
         count = col_rss.find({'link': link}).count()
-        print(count)
+        if count == 0:
+            rss_new += 1
+            print(count)
+        else:
+            rss_dup += 1
         # if count > 0:
         #     print(link)
 
