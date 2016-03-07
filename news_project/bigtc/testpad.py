@@ -29,8 +29,8 @@ def import_xls_rss():
     sheet = xl_workbook.sheet_by_name(sheet_names[0])
     col_rss = db['rss']
     for i in range(2524):
-        link = str(sheet.cell(i, 2))
-        source = str(sheet.cell(i, 1))
+        link = str(sheet.cell(i, 2))[7:-1]
+        source = str(sheet.cell(i, 1))[7:-1]
         if source == 'cnn':
             print(link)
         print(source)
