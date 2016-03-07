@@ -14,9 +14,9 @@ try:
     for item in news:
         if not item['category'] in categories:
             categories.append(item['category'])
-            print(str(i) + 'ADDED: ' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
-        else:
-            print(str(i) + 'NOT ADDED' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
+            # print(str(i) + 'ADDED: ' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
+        # else:
+        #     print(str(i) + 'NOT ADDED' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
         # if not item['sub_category'] in sub_categories:
         #     categories.append(item['sub_category'])
         print(i)
@@ -24,7 +24,7 @@ try:
 
         # if i % 1000 == 0:
         #     print(i)
-        if i % 10 == 0:
+        if i % 1000 == 0:
             break
 except Exception, e:
     print(e.message)
