@@ -34,6 +34,7 @@ def import_xls_rss():
         if source == 'cnn':
             print(link)
         print(source)
+
         # count = col_rss.find({'link': link}).count()
         # print(count)
         # if count > 0:
