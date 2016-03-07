@@ -86,6 +86,7 @@ for item in rss_links:
         print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
         error_count += 1
         i += 1
+    print(i)
     # print('Took %s seconds for this item' % t.end())
 
 total_count_new = col_news.count()
