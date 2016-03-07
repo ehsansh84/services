@@ -29,7 +29,7 @@ def import_xls_rss():
     sheet = xl_workbook.sheet_by_name(sheet_names[0])
     col_rss = db['rss']
     for i in range(2524):
-        link = sheet.cell(i, 2)
+        link = str(sheet.cell(i, 2))
         count = col_rss.find({'link': link}).count()
         print(count)
         # if count > 0:
