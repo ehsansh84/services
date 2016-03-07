@@ -34,7 +34,7 @@ def fetch(rss_item):
     new_count = 0
     feed = feedparser.parse(rss_item['link'])
     for item in feed["items"]:
-        t.start()
+        # t.start()
         news_item = {
             'source': rss_item['source'],
             'category': rss_item['category'],
@@ -46,10 +46,10 @@ def fetch(rss_item):
             # 'date': item['date'],
             # 'date_parsed': item['date_parsed'],
         }
-        t1 = timer()
-        t1.start()
+        # t1 = timer()
+        # t1.start()
         t_item = exists(news_item['link'])
-        exist_time = t1.end()
+        # exist_time = t1.end()
 
         if t_item == 0:
             # print('t_ITEM is 0')
@@ -70,21 +70,23 @@ def fetch(rss_item):
             #         "$set": {'sub_category': news_item['sub_category']}
             #     })
                 # exit()
-        print('Total %s seconds - Check Exists %s' % (t.end(), exist_time))
+        # print('Total %s seconds - Check Exists %s' % (t.end(), exist_time))
 
     print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
 
 total_count_old = col_news.count()
 error_count = 0
+i = 1
 for item in rss_links:
-    t.start()
+    # t.start()
     try:
         fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
-        print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
+        print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
         error_count += 1
-    print('Took %s seconds for this item' % t.end())
+        i += 1
+    # print('Took %s seconds for this item' % t.end())
 
 total_count_new = col_news.count()
 
