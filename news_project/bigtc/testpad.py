@@ -31,22 +31,33 @@ def import_xls_rss():
     rss_new = 0
     rss_dup = 0
 
-    for i in range(2524):
+    for i in range(1,2524):
         link = str(sheet.cell(i, 2))[7:-1]
         source = str(sheet.cell(i, 1))[7:-1]
         catrgory = str(sheet.cell(i, 4))[7:-1]
+        country = str(sheet.cell(i, 0))[7:-1]
         # if source == 'cnn':
         #     print(link)
         # print(source)
 
-        count = col_rss.find({'link': link}).count()
-        if count == 0:
-            rss_new += 1
-            print(catrgory)
-            print(count)
-        else:
-            rss_dup += 1
-        # if count > 0:
-        #     print(link)
+        if country == 'usa':
+            count = col_rss.find({'link': link}).count()
+            if count == 0:
+                rss_new += 1
+                col_rss.insert({
+                    'category': catrgory,
+                    'sub_category': [],
+                    'source': source,
+                    'link': link,
+                    'active': 1,
+                    'handy': 0
+                })
+                print(catrgory)
+                print(count)
+            else:
+                rss_dup += 1
+            # if count > 0:
+            #     print(link)
+    print('NEW: %s DUP: %s' % (rss_new, rss_dup))
 
 import_xls_rss()
