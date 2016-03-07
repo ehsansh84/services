@@ -17,6 +17,8 @@ for item in news:
     i += 1
     if i % 1000 == 0:
         print(i)
+    if i % 10000 == 0:
+        break
 
 print('CATS:')
 print(categories)
