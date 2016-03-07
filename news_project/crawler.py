@@ -8,6 +8,7 @@ from rss_data import rss_links
 from tools import timer
 
 col_news = db['news']
+t = timer()
 
 # col_rss = db['rss']
 # for item in rss_links:
@@ -43,11 +44,15 @@ def fetch(rss_item):
             # 'date': item['date'],
             # 'date_parsed': item['date_parsed'],
         }
+        t.start()
         t_item = exists(news_item['link'])
+        print('Took %s seconds for exists!' % t.end())
 
         if t_item == 0:
             # print('t_ITEM is 0')
+            t.start()
             col_news.insert(news_item)
+            print('Took %s seconds for insert!' % t.end())
             new_count += 1
         else:
             if t_item in news_item['sub_category']:
@@ -66,16 +71,13 @@ def fetch(rss_item):
 
 total_count_old = col_news.count()
 error_count = 0
-t = timer()
 for item in rss_links:
-    t.start()
     try:
         fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
         print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
         error_count += 1
-    print('Took %s second!' % t.end())
 total_count_new = col_news.count()
 
 print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
