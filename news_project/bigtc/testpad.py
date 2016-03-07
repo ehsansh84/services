@@ -30,8 +30,11 @@ def import_xls_rss():
     col_rss = db['rss']
     for i in range(2524):
         link = str(sheet.cell(i, 2))
-        count = col_rss.find({'link': link}).count()
-        print(count)
+        source = str(sheet.cell(i, 1))
+        if source == 'cnn':
+            print(link)
+        # count = col_rss.find({'link': link}).count()
+        # print(count)
         # if count > 0:
         #     print(link)
 
