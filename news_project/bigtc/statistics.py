@@ -17,7 +17,9 @@ try:
             categories.append(item['category'])
         # if not item['sub_category'] in sub_categories:
         #     categories.append(item['sub_category'])
+        print(i)
         i += 1
+
         # if i % 1000 == 0:
         #     print(i)
         if i % 10 == 0:
