@@ -34,6 +34,7 @@ def import_xls_rss():
     for i in range(2524):
         link = str(sheet.cell(i, 2))[7:-1]
         source = str(sheet.cell(i, 1))[7:-1]
+        catrgory = str(sheet.cell(i, 4))[7:-1]
         # if source == 'cnn':
         #     print(link)
         # print(source)
@@ -41,6 +42,7 @@ def import_xls_rss():
         count = col_rss.find({'link': link}).count()
         if count == 0:
             rss_new += 1
+            print(catrgory)
             print(count)
         else:
             rss_dup += 1
