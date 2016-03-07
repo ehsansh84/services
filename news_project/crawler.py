@@ -18,7 +18,7 @@ t = timer()
 # exit()
 
 def exists(link):
-    return col_news.find({'link': link}).limit(1).size()
+    return col_news.find({'link': link}).limit(1).count()
     # results = col_news.find({'link': link})
     # if results.count() <> 0:
     #     for item in results:
