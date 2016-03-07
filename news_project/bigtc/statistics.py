@@ -3,7 +3,9 @@ sys.path.append("/root/ehsan/services")
 from public_data import *
 
 col = db['news']
-# col_statistics = db['statistics']
+col_statistics = db['statistics']
+col_categories = db['categories']
+col_sub_categories = db['sub_categories']
 
 categories = []
 sub_categories = []
@@ -32,6 +34,9 @@ except Exception, e:
 
 print('CATS:')
 print(categories)
+
+for item in categories:
+    col_categories.insert({'name': item})
 # print('SUB CATS:')
 # print(sub_categories)
 
