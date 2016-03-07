@@ -5,6 +5,7 @@ from public_data import *
 import feedparser
 # import rss_data
 from rss_data import rss_links
+from tools import timer
 
 col_news = db['news']
 
@@ -65,13 +66,16 @@ def fetch(rss_item):
 
 total_count_old = col_news.count()
 error_count = 0
+t = timer()
 for item in rss_links:
+    t.start()
     try:
         fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
         print('Source: %s, Category: %s, Sub Category: %s' % (item['source'], item['category'], item['sub_category']))
         error_count += 1
+    print('Took %s second!' % t.end())
 total_count_new = col_news.count()
 
 print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
