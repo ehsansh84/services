@@ -46,7 +46,10 @@ def fetch(rss_item):
             # 'date': item['date'],
             # 'date_parsed': item['date_parsed'],
         }
+        t1 = timer()
+        t1.start()
         t_item = exists(news_item['link'])
+        exist_time = t1.end()
 
         if t_item == 0:
             # print('t_ITEM is 0')
@@ -67,7 +70,7 @@ def fetch(rss_item):
             #         "$set": {'sub_category': news_item['sub_category']}
             #     })
                 # exit()
-        print('Took %s seconds for a news' % t.end())
+        print('Total %s seconds - Check Exists %s' % (t.end(), exist_time))
 
     print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
 
