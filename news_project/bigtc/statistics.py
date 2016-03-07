@@ -17,11 +17,9 @@ try:
     for item in news:
         if not item['category'] in categories:
             categories.append(item['category'])
-            # print(str(i) + 'ADDED: ' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
-        # else:
-        #     print(str(i) + 'NOT ADDED' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
-        # if not item['sub_category'] in sub_categories:
-        #     categories.append(item['sub_category'])
+
+        if not item['sub_category'] in sub_categories:
+            sub_categories.append(item['sub_category'])
         # print(i)
         i += 1
 
@@ -37,6 +35,8 @@ print(categories)
 
 for item in categories:
     col_categories.insert({'name': item})
+
+
 # print('SUB CATS:')
 # print(sub_categories)
 
