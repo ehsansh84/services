@@ -34,6 +34,7 @@ def fetch(rss_item):
     new_count = 0
     feed = feedparser.parse(rss_item['link'])
     for item in feed["items"]:
+        t.start()
         news_item = {
             'source': rss_item['source'],
             'category': rss_item['category'],
@@ -66,6 +67,8 @@ def fetch(rss_item):
             #         "$set": {'sub_category': news_item['sub_category']}
             #     })
                 # exit()
+        print('Took %s seconds for a news' % t.end())
+
     print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
 
 total_count_old = col_news.count()
