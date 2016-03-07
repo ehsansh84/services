@@ -3,6 +3,7 @@ sys.path.append("/root/ehsan/services")
 from public_data import *
 
 col = db['news']
+# col_statistics = db['statistics']
 
 categories = []
 sub_categories = []
@@ -24,7 +25,7 @@ try:
 
         # if i % 1000 == 0:
         #     print(i)
-        if i % 1000 == 0:
+        if i % 10000 == 0:
             break
 except Exception, e:
     print(e.message)
