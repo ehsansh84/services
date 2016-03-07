@@ -20,7 +20,6 @@ try:
 
         if not item['sub_category'] in sub_categories:
             sub_categories.append(item['sub_category'])
-        # print(i)
         i += 1
 
         if i % 1000 == 0:
