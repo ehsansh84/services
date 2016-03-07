@@ -4,10 +4,11 @@ sys.path.append("/root/ehsan/services")
 from public_data import *
 import feedparser
 # import rss_data
-from rss_data import rss_links
+# from rss_data import rss_links
 from tools import timer
 
 col_news = db['news']
+col_rss = db['rss']
 t = timer()
 
 # col_rss = db['rss']
@@ -77,6 +78,7 @@ def fetch(rss_item):
 total_count_old = col_news.count()
 error_count = 0
 i = 1
+rss_links = col_rss.find({})
 for item in rss_links:
     print(i),
     # t.start()
