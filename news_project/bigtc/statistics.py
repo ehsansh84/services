@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/root/ehsan/services")
 from public_data import *
 
 col = db['news']
