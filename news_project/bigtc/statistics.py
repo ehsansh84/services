@@ -34,4 +34,5 @@ news = col.find({})
 r_categories = col_categories.find({})
 for category in r_categories:
     news_count = col.count({'category': category})
-    print(news_count)
+    print(news_count),
+    print(category)
