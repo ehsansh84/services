@@ -13,7 +13,7 @@ try:
 
     for item in news:
         if not item['category'] in categories:
-            print('Cur Cat: %s Cats: %s' % (item['category'], categories))
+            print(str(i) + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
             categories.append(item['category'])
         # if not item['sub_category'] in sub_categories:
         #     categories.append(item['sub_category'])
