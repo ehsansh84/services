@@ -18,14 +18,15 @@ t = timer()
 # exit()
 
 def exists(link):
-    results = col_news.find({'link': link})
-    if results.count() <> 0:
-        for item in results:
-            # print('ITEM:', item)
-            # print('RESULT OF EXISTS:', item['sub_category'][0])
-            return item['sub_category'][0]
-    else:
-        return 0
+    return col_news.find({'link': link}).limit(1).size()
+    # results = col_news.find({'link': link})
+    # if results.count() <> 0:
+    #     for item in results:
+    #         # print('ITEM:', item)
+    #         # print('RESULT OF EXISTS:', item['sub_category'][0])
+    #         return item['sub_category'][0]
+    # else:
+    #     return 0
 
 
 def fetch(rss_item):
@@ -55,17 +56,17 @@ def fetch(rss_item):
             print('Took %s seconds for insert!' % t.end())
             new_count += 1
         else:
-            if t_item in news_item['sub_category']:
-                dup_count += 1
+            # if t_item in news_item['sub_category']:
+            dup_count += 1
                 # print('DUP news')
-            else:
-                print('===========================================================')
-                print('SUB_CAT:', news_item['sub_category']),
-                print('ITEM:', t_item)
-                news_item['sub_category'].append(t_item)
-                col_news.update_one({'link': news_item['link']}, {
-                    "$set": {'sub_category': news_item['sub_category']}
-                })
+            # else:
+            #     print('===========================================================')
+            #     print('SUB_CAT:', news_item['sub_category']),
+            #     print('ITEM:', t_item)
+            #     news_item['sub_category'].append(t_item)
+            #     col_news.update_one({'link': news_item['link']}, {
+            #         "$set": {'sub_category': news_item['sub_category']}
+            #     })
                 # exit()
     print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
 
