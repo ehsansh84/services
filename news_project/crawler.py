@@ -7,10 +7,13 @@ import feedparser
 from rss_data import rss_links
 
 col_news = db['news']
+
 col_rss = db['rss']
 for item in rss_links:
+    item['handy'] = 1
     col_rss.insert(item)
 exit()
+
 def exists(link):
     results = col_news.find({'link': link})
     if results.count() <> 0:
