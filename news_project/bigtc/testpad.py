@@ -31,12 +31,12 @@ def import_xls_rss():
     for i in range(2524):
         link = str(sheet.cell(i, 2))[7:-1]
         source = str(sheet.cell(i, 1))[7:-1]
-        if source == 'cnn':
-            print(link)
-        print(source)
+        # if source == 'cnn':
+        #     print(link)
+        # print(source)
 
-        # count = col_rss.find({'link': link}).count()
-        # print(count)
+        count = col_rss.find({'link': link}).count()
+        print(count)
         # if count > 0:
         #     print(link)
 
