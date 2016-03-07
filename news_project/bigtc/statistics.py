@@ -20,13 +20,13 @@ try:
         #     print(str(i) + 'NOT ADDED' + 'Cur Cat: %s Cats: %s' % (item['category'], categories))
         # if not item['sub_category'] in sub_categories:
         #     categories.append(item['sub_category'])
-        print(i)
+        # print(i)
         i += 1
 
-        # if i % 1000 == 0:
-        #     print(i)
-        if i % 10000 == 0:
-            break
+        if i % 1000 == 0:
+            print(i)
+        # if i % 10000 == 0:
+        #     break
 except Exception, e:
     print(e.message)
 
