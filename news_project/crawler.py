@@ -78,6 +78,7 @@ total_count_old = col_news.count()
 error_count = 0
 i = 1
 for item in rss_links:
+    print(i),
     # t.start()
     try:
         fetch(item)
@@ -85,8 +86,7 @@ for item in rss_links:
         print('ERROR: %s' % e.message)
         print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
         error_count += 1
-        i += 1
-    print(i)
+    i += 1
     # print('Took %s seconds for this item' % t.end())
 
 total_count_new = col_news.count()
