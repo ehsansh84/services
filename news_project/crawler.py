@@ -83,7 +83,8 @@ for item in rss_links:
     print(i),
     # t.start()
     try:
-        fetch(item)
+        if item['active'] == 1:
+            fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
         print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
