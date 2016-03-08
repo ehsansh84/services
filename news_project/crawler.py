@@ -6,9 +6,11 @@ import feedparser
 # import rss_data
 # from rss_data import rss_links
 from tools import timer
+from datetime import  datetime
 
 col_news = db['news']
 col_rss = db['rss']
+col_rss_log = db['rss_log']
 t = timer()
 
 # col_rss = db['rss']
@@ -73,9 +75,27 @@ def fetch(rss_item):
             #     })
                 # exit()
         # print('Total %s seconds - Check Exists %s' % (t.end(), exist_time))
+    duration = t.end()
+    link = rss_item['link']
+    print('DUP: %s NEW: %s TIME: %s SOURCE: %s LINK: %s' % (dup_count, new_count, duration, rss_item['category'], link))
+    total_count = new_count + dup_count
+    last_read = datetime.now()
+    col_rss.update({'link': link}, {"$set": {
+        'total_count': total_count,
+        'duplicates': dup_count,
+        'new': new_count,
+        'last_read': last_read,
+        'duration': duration
+    }})
 
-    print('DUP: %s NEW: %s SOURCE: %s TIME: %s' % (dup_count, new_count, rss_item['category'], t.end()))
-
+    col_rss_log.insert({
+        'link': link,
+        'total_count': total_count,
+        'duplicates': dup_count,
+        'new': new_count,
+        'last_read': last_read,
+        'duration': duration
+    })
 total_count_old = col_news.count()
 error_count = 0
 i = 1
