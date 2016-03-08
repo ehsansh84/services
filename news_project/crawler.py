@@ -31,6 +31,7 @@ def exists(link):
 
 
 def fetch(rss_item):
+    t.start()
     dup_count = 0
     new_count = 0
     feed = feedparser.parse(rss_item['link'])
@@ -73,7 +74,7 @@ def fetch(rss_item):
                 # exit()
         # print('Total %s seconds - Check Exists %s' % (t.end(), exist_time))
 
-    print('There are %s duplicates and %s new from %s' % (dup_count, new_count, rss_item['category']))
+    print('DUP: %s NEW: %s SOURCE: %s TIME: %s' % (dup_count, new_count, rss_item['category'], t.end()))
 
 total_count_old = col_news.count()
 error_count = 0
