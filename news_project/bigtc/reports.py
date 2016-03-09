@@ -9,11 +9,23 @@ def rss_statistics():
     total_time = 0
 
     rss_count = col_rss.count()
+    rss_active_count = col_rss.count({'active': 1})
+    rss_active_duration = 0
+    rss_inactive_count = col_rss.count({'active': 0})
+    rss_inactive_duration = 0
     for item in rss_list:
         try:
             total_time += item['duration']
+            if item['active'] == 1:
+                rss_active_duration += item['duration']
+            else:
+                rss_inactive_duration += item['duration']
+
         except Exception, ex:
             print(ex.message)
+    print('RSS count: %s - Active: Count=>%s Duration=> %s - Inactive: Count=>%s Duration %s' % (
+        rss_count, rss_active_count, rss_active_duration , rss_inactive_count, rss_inactive_duration
+    ))
     print(total_time)
     print(rss_count)
 
