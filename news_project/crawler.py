@@ -11,6 +11,7 @@ from datetime import  datetime
 print(str(sys.argv))
 exit()
 
+
 col_news = db['news']
 col_rss = db['rss']
 col_rss_log = db['rss_log']
