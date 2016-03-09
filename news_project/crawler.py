@@ -9,6 +9,11 @@ from tools import timer
 from datetime import  datetime
 
 print(str(sys.argv))
+try:
+    s = sys.argv[1]
+except:
+    pass
+print(s)
 exit()
 
 
@@ -103,6 +108,7 @@ def fetch(rss_item):
 total_count_old = col_news.count()
 error_count = 0
 i = 1
+
 rss_links = col_rss.find({})
 for item in rss_links:
     print(i),
