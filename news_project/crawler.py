@@ -104,7 +104,7 @@ for item in rss_links:
     print(i),
     # t.start()
     try:
-        if item['active'] == 1:
+        if item['active'] == 0:
             fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
