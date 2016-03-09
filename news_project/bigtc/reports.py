@@ -26,8 +26,14 @@ def rss_statistics():
     print('RSS count: %s - Active: Count=>%s Duration=> %s - Inactive: Count=>%s Duration %s' % (
         rss_count, rss_active_count, rss_active_duration , rss_inactive_count, rss_inactive_duration
     ))
-    print(total_time)
-    print(rss_count)
+
+def rss_list():
+    rss_list = col_rss.find().sort({'duration': -1})
+
+    for item in rss_list:
+        print('Duration: %s Link: %s' % (item['duration'], item['link']))
 
 
 rss_statistics()
+
+rss_list()
