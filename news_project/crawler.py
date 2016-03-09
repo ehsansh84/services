@@ -8,13 +8,13 @@ import feedparser
 from tools import timer
 from datetime import  datetime
 
-print(str(sys.argv))
-try:
-    s = sys.argv[1]
-except:
-    pass
-print(s)
-exit()
+# print(str(sys.argv))
+# try:
+#     s = sys.argv[1]
+# except:
+#     pass
+# print(s)
+# exit()
 
 
 col_news = db['news']
@@ -108,8 +108,21 @@ def fetch(rss_item):
 total_count_old = col_news.count()
 error_count = 0
 i = 1
+exec_type = 'all'
+try:
+    exec_type = sys.argv[1]
+except:
+    pass
+if exec_type == 'all':
+    rss_links = col_rss.find({})
+elif exec_type == 'micro':
+    rss_links = col_rss.find({'duration': {'$lt': 6}})
+elif exec_type == 'small':
+    rss_links = col_rss.find({'duration': {'$lt': 10}})
+elif exec_type == 'large':
+    rss_links = col_rss.find({'duration': {'$gte': 10}})
 
-rss_links = col_rss.find({})
+
 for item in rss_links:
     print(i),
     # t.start()
