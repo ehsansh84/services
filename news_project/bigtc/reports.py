@@ -28,7 +28,7 @@ def rss_statistics():
     ))
 
 def rss_list():
-    rss_list = col_rss.find().sort({'duration': -1})
+    rss_list = col_rss.find().sort([('duration', -1)])
 
     for item in rss_list:
         print('Duration: %s Link: %s' % (item['duration'], item['link']))
