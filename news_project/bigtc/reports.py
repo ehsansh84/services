@@ -7,7 +7,8 @@ col_rss = db['rss']
 def rss_statistics():
     rss_list = col_rss.find()
     total_time = 0
-    rss_count = len(rss_list)
+
+    rss_count = col_rss.count()
     for item in rss_list:
         try:
             total_time += item['duration']
