@@ -105,9 +105,15 @@ def fetch(rss_item):
         'last_read': last_read,
         'duration': duration
     })
+
+
+
+
+
 total_count_old = col_news.count()
 error_count = 0
 i = 1
+
 exec_type = 'all'
 try:
     exec_type = sys.argv[1]
@@ -124,10 +130,10 @@ elif exec_type == 'large':
 
 
 for item in rss_links:
-    print(i),
     # t.start()
     try:
-        if item['active'] == 0:
+        if item['active'] == 1:
+            print(i),
             fetch(item)
     except Exception, e:
         print('ERROR: %s' % e.message)
