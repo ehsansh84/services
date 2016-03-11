@@ -113,7 +113,7 @@ def extract_sources():
         if not item['source'] in source_list:
             source_list.append(item['source'])
     for item in source_list:
-        col_sources.insert({item.encode('utf-8')})
+        col_sources.insert({str(item)})
     print(source_list)
 # cat_mapping()
 
