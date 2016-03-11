@@ -7,6 +7,7 @@ col_statistics = db['statistics']
 col_categories = db['categories']
 col_sub_categories = db['sub_categories']
 col_rss = db['rss']
+col_sources = db['sources']
 
 
 def extract_categories():
@@ -111,6 +112,8 @@ def extract_sources():
     for item in rss:
         if not item['source'] in source_list:
             source_list.append(item['source'])
+    for item in source_list:
+        col_sources.insert({item})
     print(source_list)
 # cat_mapping()
 
