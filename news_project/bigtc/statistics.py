@@ -29,7 +29,7 @@ try:
         if i % 1000 == 0:
             print(i)
 except Exception, e:
-    print(e.message)
+    print('ERROR: '+e.message)
 
 # Send them to collection
 for item in categories:
