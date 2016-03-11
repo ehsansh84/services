@@ -105,8 +105,17 @@ def news_mapping():
                     print('Updating %s to %s' % (item['category'],cat['name']))
                     col.update({'link': item['link']}, {'$set': {'category': cat['name']}})
 
+def extract_sources():
+    rss = col_rss.find()
+    source_list = []
+    for item in rss:
+        if not item['source'] in source_list:
+            source_list.append(item['source'])
+    print(source_list)
 # cat_mapping()
 
 # news_mapping()
 
-extract_categories()
+# extract_categories()
+
+extract_sources()
