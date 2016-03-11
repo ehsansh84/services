@@ -6,44 +6,74 @@ col = db['news']
 col_statistics = db['statistics']
 col_categories = db['categories']
 col_sub_categories = db['sub_categories']
+col_rss = db['rss']
 
-categories = []
-sub_categories = []
 
-i = 0
-news = col.find({})
+def extract_categories():
+    categories = []
+    sub_categories = []
 
-# Extract all news categories and sub categories
-try:
-    for item in news:
-        if not item['category'] in categories:
-            categories.append(item['category'])
+    i = 0
+    news = col.find({})
 
-        # if len(item['sub_category']) == 1:
-        #     if not item['sub_category'] in sub_categories:
-        #         sub_categories.append(item['sub_category'])
-        # else:
-        #     print(item['sub_category'])
-        i += 1
+    # Extract all news categories and sub categories
+    try:
+        for item in news:
+            if not item['category'] in categories:
+                categories.append(item['category'])
 
-        if i % 1000 == 0:
-            print(i)
-except Exception, e:
-    print('ERROR: '+e.message)
+            # if len(item['sub_category']) == 1:
+            #     if not item['sub_category'] in sub_categories:
+            #         sub_categories.append(item['sub_category'])
+            # else:
+            #     print(item['sub_category'])
+            i += 1
 
-# Send them to collection
-for item in categories:
-    col_categories.insert({'name': item})
-for item in sub_categories:
-    col_sub_categories.insert({'name': item})
+            if i % 1000 == 0:
+                print(i)
+    except Exception, e:
+        print('ERROR: '+e.message)
 
-# Update categories with statistics info
-r_categories = col_categories.find({})
-for category in r_categories:
-    news_count = col.count({'category': category['name']})
-    col_categories.update({'name': category['name']}, {'$set': {'count': news_count}} )
+    # Send them to collection
+    for item in categories:
+        col_categories.insert({'name': item})
+    for item in sub_categories:
+        col_sub_categories.insert({'name': item})
 
-# r_sub_categories = col_sub_categories.find({})
-# for sub_category in r_sub_categories:
-#     news_count = col.count({'sub_category': sub_categories['name']})
-#     col_categories.update({'name': sub_categories['name']}, {'count': news_count})
+    # Update categories with statistics info
+    r_categories = col_categories.find({})
+    for category in r_categories:
+        news_count = col.count({'category': category['name']})
+        col_categories.update({'name': category['name']}, {'$set': {'count': news_count}} )
+
+    # r_sub_categories = col_sub_categories.find({})
+    # for sub_category in r_sub_categories:
+    #     news_count = col.count({'sub_category': sub_categories['name']})
+    #     col_categories.update({'name': sub_categories['name']}, {'count': news_count})
+
+def cat_mapping():
+    cat_data = [
+        {'name': 'Sport', 'labels': ['sports','Sports', 'sport']},
+        {'name': 'World', 'labels': ['world']},
+        {'name': 'Tech', 'labels': ['Technology', 'tech']},
+        {'name': 'Business', 'labels': ['business']},
+        {'name': 'Health', 'labels': ['health']},
+        {'name': 'Entertainment', 'labels': ['entertainment']},
+        {'name': 'Arts', 'labels': ['arts', 'Arts & Culture']},
+        {'name': 'Politics', 'labels': ['politics', 'Politics Headlines']},
+        {'name': 'Lifestyle', 'labels': ['lifestyle', 'Style', 'Living']},
+        {'name': 'U.S', 'labels': ['U.S.', 'US', 'US Headlines', 'U.S.	', 'US News', 'us']},
+        {'name': 'Science', 'labels': ['science']},
+        {'name': 'Women', 'labels': []},
+        {'name': 'Travel', 'labels': ['travel']}
+    ]
+
+    # map_rss
+    rss = col_rss.find()
+    for item in rss:
+        for cat in cat_data:
+            for label in cat['labels']:
+                if item['category'] == label:
+                    col_rss.update({'link': item['link']}, {'$set': {'category': cat['name']}})
+
+cat_mapping()
