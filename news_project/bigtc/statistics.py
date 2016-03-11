@@ -107,4 +107,6 @@ def news_mapping():
 
 # cat_mapping()
 
-news_mapping()
+# news_mapping()
+
+extract_categories()
