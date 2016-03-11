@@ -115,10 +115,18 @@ def extract_sources():
     for item in source_list:
         col_sources.insert({'name': item})
     print(source_list)
+
+def update_source_info():
+    sources = col_sources.find()
+    for item in sources:
+        count = col.count({'source': item['name']})
+        col_sources.update({'$set': {'news_count': count}})
 # cat_mapping()
 
 # news_mapping()
 
 # extract_categories()
 
-extract_sources()
+# extract_sources()
+
+update_source_info()
