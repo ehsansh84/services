@@ -120,7 +120,7 @@ def update_source_info():
     sources = col_sources.find()
     for item in sources:
         count = col.count({'source': item['name']})
-        col_sources.update({'$set': {'news_count': count}})
+        col_sources.update({'name': item['name']}, {'$set': {'news_count': count}})
 # cat_mapping()
 
 # news_mapping()
