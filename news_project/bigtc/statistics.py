@@ -75,5 +75,36 @@ def cat_mapping():
             for label in cat['labels']:
                 if item['category'] == label:
                     col_rss.update({'link': item['link']}, {'$set': {'category': cat['name']}})
+def news_mapping():
+    cat_data = [
+        {'name': 'Sport', 'labels': ['sports','Sports', 'sport']},
+        {'name': 'World', 'labels': ['world']},
+        {'name': 'Tech', 'labels': ['Technology', 'tech']},
+        {'name': 'Business', 'labels': ['business']},
+        {'name': 'Health', 'labels': ['health']},
+        {'name': 'Entertainment', 'labels': ['entertainment']},
+        {'name': 'Arts', 'labels': ['arts', 'Arts & Culture']},
+        {'name': 'Politics', 'labels': ['politics', 'Politics Headlines']},
+        {'name': 'Lifestyle', 'labels': ['lifestyle', 'Style', 'Living']},
+        {'name': 'U.S', 'labels': ['U.S.', 'US', 'US Headlines', 'U.S.	', 'US News', 'us']},
+        {'name': 'Science', 'labels': ['science']},
+        {'name': 'Women', 'labels': []},
+        {'name': 'Travel', 'labels': ['travel']}
+    ]
 
-cat_mapping()
+    i = 0
+    # map_rss
+    news = col.find()
+    for item in news:
+        i += 1
+        if i % 1000 == 0:
+            print('==================== %s ====================' % i)
+        for cat in cat_data:
+            for label in cat['labels']:
+                if item['category'] == label:
+                    print('Updating %s to %s' % (item['category'],cat['name']))
+                    col.update({'link': item['link']}, {'$set': {'category': cat['name']}})
+
+# cat_mapping()
+
+news_mapping()
