@@ -13,16 +13,17 @@ sub_categories = []
 i = 0
 news = col.find({})
 
+# Extract all news categories and sub categories
 try:
     for item in news:
         if not item['category'] in categories:
             categories.append(item['category'])
 
-        if len(item['sub_category']) == 1:
-            if not item['sub_category'] in sub_categories:
-                sub_categories.append(item['sub_category'])
-        else:
-            print(item['sub_category'])
+        # if len(item['sub_category']) == 1:
+        #     if not item['sub_category'] in sub_categories:
+        #         sub_categories.append(item['sub_category'])
+        # else:
+        #     print(item['sub_category'])
         i += 1
 
         if i % 1000 == 0:
@@ -30,12 +31,13 @@ try:
 except Exception, e:
     print(e.message)
 
-
+# Send them to collection
 for item in categories:
     col_categories.insert({'name': item})
 for item in sub_categories:
     col_sub_categories.insert({'name': item})
 
+# Update categories with statistics info
 r_categories = col_categories.find({})
 for category in r_categories:
     news_count = col.count({'category': category['name']})
