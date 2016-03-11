@@ -113,7 +113,7 @@ def extract_sources():
         if not item['source'] in source_list:
             source_list.append(item['source'])
     for item in source_list:
-        col_sources.insert({str(item)})
+        col_sources.insert({'name': item})
     print(source_list)
 # cat_mapping()
 
