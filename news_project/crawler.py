@@ -143,7 +143,7 @@ try:
         # print('Took %s seconds for this item' % t.end())
 
     total_count_new = col_news.count()
+    print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
+    print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
     print('Error:= => %s' % e.message)
-print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
-print('Oops! %s Errors happend!' % error_count)
