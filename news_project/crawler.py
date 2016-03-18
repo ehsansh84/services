@@ -128,21 +128,22 @@ elif exec_type == 'small':
 elif exec_type == 'large':
     rss_links = col_rss.find({'duration': {'$gte': 10}})
 
+try:
+    for item in rss_links:
+        # t.start()
+        try:
+            if item['active'] == 1:
+                print(i),
+                fetch(item)
+        except Exception, e:
+            print('ERROR: %s' % e.message)
+            print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
+            error_count += 1
+        i += 1
+        # print('Took %s seconds for this item' % t.end())
 
-for item in rss_links:
-    # t.start()
-    try:
-        if item['active'] == 1:
-            print(i),
-            fetch(item)
-    except Exception, e:
-        print('ERROR: %s' % e.message)
-        print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
-        error_count += 1
-    i += 1
-    # print('Took %s seconds for this item' % t.end())
-
-total_count_new = col_news.count()
-
+    total_count_new = col_news.count()
+except Exception, e:
+    print('Error:= => %s' % e.message)
 print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
 print('Oops! %s Errors happend!' % error_count)
