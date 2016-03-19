@@ -3,7 +3,8 @@ import re
 sys.path.append("/root/ehsan/services")
 from public_data import *
 import xlrd
-
+from bs4 import BeautifulSoup
+import urllib2
 col = db['news']
 col_temp = db['temp']
 
@@ -60,4 +61,14 @@ def import_xls_rss():
             #     print(link)
     print('NEW: %s DUP: %s' % (rss_new, rss_dup))
 
-import_xls_rss()
+# import_xls_rss()
+
+def news_text_fetch():
+    link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
+    selector = '#js-article-text > div:nth-child(8)'
+    doc = urllib2.urlopen(link)
+    soup = BeautifulSoup(doc, 'html.parser')
+    news_text = soup.select(selector)
+    print(news_text)
+
+news_text_fetch()
