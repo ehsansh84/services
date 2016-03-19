@@ -68,7 +68,7 @@ def news_text_fetch():
     selector = '#js-article-text > div:nth-child(8)'
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
-    news_text = soup.select(selector)
+    news_text = soup.select('div[itemprop="articleBody"]')
     print(news_text)
 
 news_text_fetch()
