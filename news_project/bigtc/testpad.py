@@ -71,6 +71,6 @@ def news_text_fetch():
     news_area = soup.select('div[itemprop="articleBody"]')
     # news_text = BeautifulSoup(news_area, 'html.parser')
     print(len(news_area))
-    print(news_area)
+    print(news_area[0])
 
 news_text_fetch()
