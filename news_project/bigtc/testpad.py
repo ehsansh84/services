@@ -69,7 +69,7 @@ def news_text_fetch():
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
     news_area = soup.select('div[itemprop="articleBody"]')
-    news_text = BeautifulSoup(news_area, 'html.parser')
-    print(news_text)
+    # news_text = BeautifulSoup(news_area, 'html.parser')
+    print(news_area)
 
 news_text_fetch()
