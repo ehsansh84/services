@@ -106,10 +106,6 @@ def fetch(rss_item):
         'duration': duration
     })
 
-
-
-
-
 total_count_old = col_news.count()
 error_count = 0
 i = 1
@@ -119,14 +115,15 @@ try:
     exec_type = sys.argv[1]
 except:
     pass
-if exec_type == 'all':
-    rss_links = col_rss.find({})
-elif exec_type == 'micro':
+if exec_type == 'micro':
     rss_links = col_rss.find({'duration': {'$lt': 6}})
 elif exec_type == 'small':
     rss_links = col_rss.find({'duration': {'$lt': 10}})
 elif exec_type == 'large':
     rss_links = col_rss.find({'duration': {'$gte': 10}})
+else:
+    rss_links = col_rss.find({})
+
 
 try:
     for item in rss_links:
