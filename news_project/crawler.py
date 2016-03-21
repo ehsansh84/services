@@ -128,6 +128,8 @@ else:
 try:
     for item in rss_links:
         # t.start()
+        if i < 100:
+            continue
         try:
             if item['active'] == 1:
                 print(i),
@@ -144,3 +146,4 @@ try:
     print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
     print('Error:= => %s' % e.message)
+    print('Error:= => %s' % str(e.args))
