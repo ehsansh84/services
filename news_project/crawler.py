@@ -130,6 +130,7 @@ try:
         # t.start()
         if i < 90:
             print(i)
+            i += 1
             continue
         try:
             if item['active'] == 1:
