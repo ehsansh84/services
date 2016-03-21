@@ -128,7 +128,8 @@ else:
 try:
     for item in rss_links:
         # t.start()
-        if i < 100:
+        if i < 90:
+            print(i)
             continue
         try:
             if item['active'] == 1:
