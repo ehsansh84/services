@@ -65,12 +65,12 @@ def import_xls_rss():
 
 def news_text_fetch():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
-    selector = '#js-article-text > div:nth-child(8)'
+    # selector = '#js-article-text > div:nth-child(8)'
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
     news_area = soup.select('div[itemprop="articleBody"]')
     # news_text = BeautifulSoup(news_area, 'html.parser')
-    print(len(news_area))
-    print(news_area[0])
+    # print(len(news_area))
+    print(news_area[0].text)
 
 news_text_fetch()
