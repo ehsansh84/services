@@ -73,6 +73,6 @@ def news_text_fetch():
         script.extract()
     # news_text = BeautifulSoup(news_area, 'html.parser')
     # print(len(news_area))
-    print(news_area[0].text)
+    print(news_area.text)
 
 news_text_fetch()
