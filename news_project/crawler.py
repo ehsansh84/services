@@ -69,7 +69,7 @@ def fetch(rss_item):
             if t_item == 0:
                 # print('t_ITEM is 0')
                 # t.start()
-                col_news.insert(news_item)
+                # col_news.insert(news_item)
                 # print('Took %s seconds for insert!' % t.end())
                 new_count += 1
             else:
