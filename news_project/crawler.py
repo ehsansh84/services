@@ -135,6 +135,7 @@ try:
         try:
             if item['active'] == 1:
                 print(i),
+                print(str(item))
                 fetch(item)
         except Exception, e:
             log.color_print(text=log.get_exception(), color=Color.BLUE)
