@@ -137,6 +137,7 @@ try:
                 print(i),
                 fetch(item)
         except Exception, e:
+            log.color_print(text=log.get_exception(), color=Color.BLUE)
             print('ERROR: %s' % e.message)
             print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
             error_count += 1
