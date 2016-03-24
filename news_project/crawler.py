@@ -147,6 +147,6 @@ try:
     print('Total news was %s and now it''s %s, added %s:' % (total_count_old, total_count_new, total_count_new - total_count_old)),
     print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
-    log.color_print(text=log.get_exception(), Color.RED)
+    log.color_print(text=log.get_exception(), color=Color.RED)
     print('Error:= => %s' % e.message)
     print('Error:= => %s' % str(e.args))
