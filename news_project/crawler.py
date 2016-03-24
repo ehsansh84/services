@@ -46,6 +46,7 @@ def fetch(rss_item):
         t.start()
         dup_count = 0
         new_count = 0
+        log.color_print(color=Color.CYAN, text=rss_item['link'])
         feed = feedparser.parse(rss_item['link'])
         for item in feed["items"]:
             # t.start()
