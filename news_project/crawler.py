@@ -34,6 +34,7 @@ def fetch(rss_item):
             }
             t_item = exists(news_item['link'])
             if t_item == 0:
+                log.color_print(text='News Item Added!', color=Color.LIME)
                 col_news.insert(news_item)
                 new_count += 1
             else:
