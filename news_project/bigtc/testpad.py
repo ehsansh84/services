@@ -97,37 +97,40 @@ def add_empty_selector_field_to_sources():
 
 
 def news_text_fetch():
-    sources = col_sources.find()
-    for source in sources:
-        selector = source['selector']
-        if selector != '':
-            unread_news_count = col.count({'source': source['name'], 'text': ''})
-            log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
-            news = col.find({'source': source['name'], 'text': ''})
-            i = 0
-            for item in news:
-                link = item['link']
-                # log.color_print(color=Color.BLUE, text=link)
-                doc = urllib2.urlopen(link)
-                # soup = BeautifulSoup(str(doc).lower(), 'html.parser')
-                soup = BeautifulSoup(doc, 'html.parser')
-                # log.color_print(color=Color.YELLOW, text=selector)
-                # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
-                # news_area = soup.select(selector)
-                # news_area = soup.select('div[itemprop="articleBody"]')[0]
-                news_area = soup.select(selector)[0]
-                # log.color_print(color=Color.CYAN, text=news_area)
-                for script in news_area(["script", "style"]):
-                    script.extract()
-                # print(news_area.text)
-                col.update({'link': link}, {'$set': {'text': news_area.text}})
-                i += 1
-                # log.color_print(color=Color.RED, text=40 * '=')
-                if i % 100 == 0:
-                    log.color_print(color=Color.YELLOW, text=i)
+    try:
+        sources = col_sources.find()
+        for source in sources:
+            selector = source['selector']
+            if selector != '':
+                unread_news_count = col.count({'source': source['name'], 'text': ''})
+                log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
+                news = col.find({'source': source['name'], 'text': ''})
+                i = 0
+                for item in news:
+                    link = item['link']
+                    # log.color_print(color=Color.BLUE, text=link)
+                    doc = urllib2.urlopen(link)
+                    # soup = BeautifulSoup(str(doc).lower(), 'html.parser')
+                    soup = BeautifulSoup(doc, 'html.parser')
+                    # log.color_print(color=Color.YELLOW, text=selector)
+                    # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
+                    # news_area = soup.select(selector)
+                    # news_area = soup.select('div[itemprop="articleBody"]')[0]
+                    news_area = soup.select(selector)[0]
+                    # log.color_print(color=Color.CYAN, text=news_area)
+                    for script in news_area(["script", "style"]):
+                        script.extract()
+                    # print(news_area.text)
+                    col.update({'link': link}, {'$set': {'text': news_area.text}})
+                    i += 1
+                    # log.color_print(color=Color.RED, text=40 * '=')
+                    if i % 100 == 0:
+                        log.color_print(color=Color.YELLOW, text=i)
 
 
-            # print('Source is: %s And Count is: %s' % (source['name'], news))
+                # print('Source is: %s And Count is: %s' % (source['name'], news))
+    except Exception, e:
+        log.color_print(color=Color.RED, text=e.message)
 
 def news_text_fetch_old():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
