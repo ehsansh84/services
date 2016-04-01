@@ -129,6 +129,7 @@ def news_text_fetch_old():
     # selector = '#js-article-text > div:nth-child(8)'
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
+    log.color_print(color=Color.CYAN, text=soup)
     news_area = soup.select('div[itemprop="articleBody"]')[0]
     for script in news_area(["script", "style"]):
         script.extract()
