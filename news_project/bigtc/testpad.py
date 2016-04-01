@@ -107,7 +107,7 @@ def news_text_fetch():
             i = 0
             for item in news:
                 link = item['link']
-                log.color_print(color=Color.BLUE, text=link)
+                # log.color_print(color=Color.BLUE, text=link)
                 doc = urllib2.urlopen(link)
                 # soup = BeautifulSoup(str(doc).lower(), 'html.parser')
                 soup = BeautifulSoup(doc, 'html.parser')
@@ -119,12 +119,13 @@ def news_text_fetch():
                 # log.color_print(color=Color.CYAN, text=news_area)
                 for script in news_area(["script", "style"]):
                     script.extract()
-                print(news_area.text)
+                # print(news_area.text)
                 col.update({'link': link}, {'$set': {'text': news_area.text}})
                 i += 1
-                log.color_print(color=Color.RED, text=40 * '=')
-                if i == 2:
-                    exit()
+                # log.color_print(color=Color.RED, text=40 * '=')
+                if i % 100 == 0:
+                    log.color_print(color=Color.YELLOW, text=i)
+
 
             # print('Source is: %s And Count is: %s' % (source['name'], news))
 
