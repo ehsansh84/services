@@ -63,6 +63,15 @@ def import_xls_rss():
 
 # import_xls_rss()
 
+def backup_news():
+    news = col.find()
+    col_news_backup = db['news_backup_2016-04-01']
+    i = 1
+    for item in news:
+        col_news_backup.insert(item)
+        if i % 2000 == 0:
+            print(i)
+
 def news_text_fetch():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
     # selector = '#js-article-text > div:nth-child(8)'
@@ -75,4 +84,5 @@ def news_text_fetch():
     # print(len(news_area))
     print(news_area.text)
 
-news_text_fetch()
+# news_text_fetch()
+backup_news()

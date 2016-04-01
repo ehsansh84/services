@@ -1,3 +1,4 @@
+# This file will analyze documents and generates the final results
 import json
 import re
 from nltk.corpus import stopwords
