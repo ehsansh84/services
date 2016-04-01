@@ -109,6 +109,7 @@ def news_text_fetch():
                 link = item['link']
                 doc = urllib2.urlopen(link)
                 soup = BeautifulSoup(doc, 'html.parser')
+                log.color_print(color=Color.RED, text=soup.select(selector))
                 news_area = soup.select(selector)[0]
                 for script in news_area(["script", "style"]):
                     script.extract()
