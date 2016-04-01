@@ -120,7 +120,7 @@ def news_text_fetch():
                 for script in news_area(["script", "style"]):
                     script.extract()
                 print(news_area.text)
-                col.update({}, {})
+                col.update({'link': link}, {'$set': {'text': news_area.text}})
                 i += 1
                 log.color_print(color=Color.RED, text=40 * '=')
                 if i == 2:
@@ -140,7 +140,7 @@ def news_text_fetch_old():
         script.extract()
     # news_text = BeautifulSoup(news_area, 'html.parser')
     # print(len(news_area))
-    print(news_area.text)
+    print(news_area.text)l
 
 news_text_fetch()
 # news_text_fetch_old()
