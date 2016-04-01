@@ -101,9 +101,10 @@ def news_text_fetch():
     for source in sources:
         selector = source['selector']
         if selector != '':
-            unread_news_count = col.count({'source': source['name'], 'text': '', 'category': {'$ne': 'Unknown'}})
+            unread_news_count = col.count({'source': source['name'], 'text': ''})
+            # unread_news_count = col.count({'source': source['name'], 'text': '', 'category': {'$ne': 'Unknown'}})
             log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
-            news = col.find({'source': source['name'], 'text': '', 'category': {'$ne': 'Unknown'}})
+            news = col.find({'source': source['name'], 'text': ''})
             i = 0
             for item in news:
                 try:
