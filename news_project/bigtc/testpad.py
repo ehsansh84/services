@@ -73,6 +73,19 @@ def backup_news():
         if i % 2000 == 0:
             print(i)
 
+def mark_news_as_unknown():
+    cats = ['Latest Stories', 'Top Stories', 'Latest Headlines', 'Most Recent', 'News', 'All News', 'World Headlines', 'Most Popular', 'All of CNET', 'Latest News', 'hot news', 'CNET News']
+    news = col.find()
+    i = 1
+    for item in news:
+        if item['category'] in cats:
+            col.update({'link': item['link']}, {'$set': {'category': 'Unknown'}})
+            print('Updated')
+        i += 1
+        if i % 2000 == 0:
+            print(40 * '='),
+            print(i)
+
 def news_text_fetch():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
     # selector = '#js-article-text > div:nth-child(8)'
@@ -86,4 +99,5 @@ def news_text_fetch():
     print(news_area.text)
 
 # news_text_fetch()
-backup_news()
+# backup_news()
+mark_news_as_unknown()
