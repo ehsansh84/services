@@ -101,9 +101,9 @@ def news_text_fetch():
     for source in sources:
         selector = source['selector']
         if selector != '':
-            unread_news_count = col.count({'source': source['name'], 'text': ''})
+            unread_news_count = col.count({'source': source['name'], 'text': '', 'category': {'$ne': 'Unknown'}})
             log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
-            news = col.find({'source': source['name'], 'text': ''})
+            news = col.find({'source': source['name'], 'text': '', 'category': {'$ne': 'Unknown'}})
             i = 0
             for item in news:
                 try:
@@ -143,6 +143,17 @@ def news_text_fetch_old():
     # news_text = BeautifulSoup(news_area, 'html.parser')
     # print(len(news_area))
     print(news_area.text)
+
+
+def create_temp_bigtc_dataset():
+    col = db['news']
+    db_bigtc = con.bigtc
+    col_news = db_bigtc['news']
+    news = col.find({'text': {'$ne': ''}})
+    for item in news:
+        col_news.insert(item)
+
+# create_temp_bigtc_dataset()
 
 news_text_fetch()
 # news_text_fetch_old()

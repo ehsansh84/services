@@ -28,7 +28,7 @@ def fetch(rss_item):
                 'category': rss_item['category'],
                 'sub_category': rss_item['sub_category'],
                 'title': item['title'],
-                'su mmary': item['summary'],
+                'summary': item['summary'],
                 'link': item['link'],
                 'text': ''
             }
