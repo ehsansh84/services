@@ -91,7 +91,7 @@ def mark_news_as_unknown():
 def add_empty_selector_field_to_sources():
     sources = col_sources.find()
     for item in sources:
-        col.update({'name': item['name']}, {'$set': {'selector': ''}})
+        col_sources.update({'name': item['name']}, {'$set': {'selector': ''}})
         print('Updated')
 
 
