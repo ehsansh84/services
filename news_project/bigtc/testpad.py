@@ -130,7 +130,8 @@ def news_text_fetch_old():
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
     log.color_print(color=Color.CYAN, text=soup)
-    news_area = soup.select('div[itemprop="articleBody"]')[0]
+    news_area = soup.select('div[itemprop="articleBody"]')
+    log.color_print(color=Color.RED, text=news_area)
     for script in news_area(["script", "style"]):
         script.extract()
     # news_text = BeautifulSoup(news_area, 'html.parser')
