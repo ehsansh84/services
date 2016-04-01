@@ -111,8 +111,8 @@ def news_text_fetch():
                 doc = urllib2.urlopen(link)
                 # soup = BeautifulSoup(str(doc).lower(), 'html.parser')
                 soup = BeautifulSoup(doc, 'html.parser')
-                log.color_print(color=Color.YELLOW, text=selector)
-                log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
+                # log.color_print(color=Color.YELLOW, text=selector)
+                # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
                 # news_area = soup.select(selector)
                 # news_area = soup.select('div[itemprop="articleBody"]')[0]
                 news_area = soup.select(selector)[0]
@@ -120,9 +120,10 @@ def news_text_fetch():
                 for script in news_area(["script", "style"]):
                     script.extract()
                 print(news_area.text)
+                col.update({}, {})
                 i += 1
                 log.color_print(color=Color.RED, text=40 * '=')
-                if i == 5:
+                if i == 2:
                     exit()
 
             # print('Source is: %s And Count is: %s' % (source['name'], news))
