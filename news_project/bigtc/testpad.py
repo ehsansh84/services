@@ -96,18 +96,26 @@ def add_empty_selector_field_to_sources():
 
 
 def news_text_fetch():
-    link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
-    # selector = '#js-article-text > div:nth-child(8)'
-    doc = urllib2.urlopen(link)
-    soup = BeautifulSoup(doc, 'html.parser')
-    news_area = soup.select('div[itemprop="articleBody"]')[0]
-    for script in news_area(["script", "style"]):
-        script.extract()
-    # news_text = BeautifulSoup(news_area, 'html.parser')
-    # print(len(news_area))
-    print(news_area.text)
+    sources = col_sources.find()
+    for source in sources:
+        selector = source['selector']
+        if selector != '':
+            # news = col.find({'source': source['name'], 'text': ''})
+            news = col.count({'source': source['name'], 'text': ''})
+            print('Source is: %s And Count is: %s' % (source['name'], news))
 
-# news_text_fetch()
+    # link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
+    # # selector = '#js-article-text > div:nth-child(8)'
+    # doc = urllib2.urlopen(link)
+    # soup = BeautifulSoup(doc, 'html.parser')
+    # news_area = soup.select('div[itemprop="articleBody"]')[0]
+    # for script in news_area(["script", "style"]):
+    #     script.extract()
+    # # news_text = BeautifulSoup(news_area, 'html.parser')
+    # # print(len(news_area))
+    # print(news_area.text)
+
+news_text_fetch()
 # backup_news()
 # mark_news_as_unknown()
-add_empty_selector_field_to_sources()
+# add_empty_selector_field_to_sources()
