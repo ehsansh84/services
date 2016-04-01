@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import urllib2
 col = db['news']
 col_temp = db['temp']
+col_sources = db['sources']
 
 def extract_summaries():
     results = col.find({}).limit(100)
@@ -86,6 +87,14 @@ def mark_news_as_unknown():
             print(40 * '='),
             print(i)
 
+
+def add_empty_selector_field_to_sources():
+    sources = col.find()
+    for item in sources:
+        col.update({'name': item['name']}, {'$set': {'selector': ''}})
+        print('Updated')
+
+
 def news_text_fetch():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
     # selector = '#js-article-text > div:nth-child(8)'
@@ -100,4 +109,5 @@ def news_text_fetch():
 
 # news_text_fetch()
 # backup_news()
-mark_news_as_unknown()
+# mark_news_as_unknown()
+add_empty_selector_field_to_sources()
