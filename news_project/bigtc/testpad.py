@@ -97,16 +97,16 @@ def add_empty_selector_field_to_sources():
 
 
 def news_text_fetch():
-    try:
-        sources = col_sources.find()
-        for source in sources:
-            selector = source['selector']
-            if selector != '':
-                unread_news_count = col.count({'source': source['name'], 'text': ''})
-                log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
-                news = col.find({'source': source['name'], 'text': ''})
-                i = 0
-                for item in news:
+    sources = col_sources.find()
+    for source in sources:
+        selector = source['selector']
+        if selector != '':
+            unread_news_count = col.count({'source': source['name'], 'text': ''})
+            log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
+            news = col.find({'source': source['name'], 'text': ''})
+            i = 0
+            for item in news:
+                try:
                     link = item['link']
                     # log.color_print(color=Color.BLUE, text=link)
                     doc = urllib2.urlopen(link)
@@ -126,11 +126,9 @@ def news_text_fetch():
                     # log.color_print(color=Color.RED, text=40 * '=')
                     if i % 100 == 0:
                         log.color_print(color=Color.YELLOW, text=i)
+                except Exception, e:
+                    log.color_print(color=Color.RED, text=e.message)
 
-
-                # print('Source is: %s And Count is: %s' % (source['name'], news))
-    except Exception, e:
-        log.color_print(color=Color.RED, text=e.message)
 
 def news_text_fetch_old():
     link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
