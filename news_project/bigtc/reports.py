@@ -46,7 +46,7 @@ def find_biggest_text():
     print(count)
     i = 0
     for item in news:
-        print(str(item))
+        # print(str(item))
         if len(item['text']) > size:
             size = len(item['text'])
             link = item['link']
