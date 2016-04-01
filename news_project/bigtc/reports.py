@@ -37,8 +37,19 @@ def rss_list():
             print('ERROR')
 
 
+def find_biggest_text():
+    link = ''
+    size = 0
+    col = db['news']
+    news = col.find({'text': {'$ne': ''}})
+    for item in news:
+        if len(item['text']) > size:
+            size = len(item['text'])
+            link = item['link']
+    print(link)
+    print(size)
 
-
+find_biggest_text()
 # rss_statistics()
 
 # rss_list()

@@ -153,6 +153,7 @@ def create_temp_bigtc_dataset():
     for item in news:
         col_news.insert(item)
 
+
 # create_temp_bigtc_dataset()
 
 news_text_fetch()
