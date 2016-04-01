@@ -43,6 +43,7 @@ def find_biggest_text():
     col = db['news']
     news = col.find({'text': {'$ne': ''}})
     for item in news:
+        print(str(item))
         if len(item['text']) > size:
             size = len(item['text'])
             link = item['link']
