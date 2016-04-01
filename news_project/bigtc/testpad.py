@@ -107,6 +107,7 @@ def news_text_fetch():
             i = 0
             for item in news:
                 link = item['link']
+                log.color_print(color=Color.BLUE, text=link)
                 doc = urllib2.urlopen(link)
                 soup = BeautifulSoup(doc, 'html.parser')
                 log.color_print(color=Color.RED, text=doc)
