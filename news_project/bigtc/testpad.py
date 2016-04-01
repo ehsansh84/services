@@ -149,7 +149,7 @@ def create_temp_bigtc_dataset():
     col = db['news']
     db_bigtc = con.bigtc
     col_news = db_bigtc['news']
-    news = col.find({'text': {'$ne': ''}})
+    news = col.find({'text': {'$ne': ''}, 'category': {'$ne': 'Unknown'}})
     for item in news:
         col_news.insert(item)
 
