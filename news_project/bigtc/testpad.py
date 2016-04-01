@@ -3,6 +3,7 @@ import re
 sys.path.append("/root/ehsan/services")
 from public_data import *
 import xlrd
+from tools import *
 from bs4 import BeautifulSoup
 import urllib2
 col = db['news']
@@ -100,20 +101,25 @@ def news_text_fetch():
     for source in sources:
         selector = source['selector']
         if selector != '':
-            # news = col.find({'source': source['name'], 'text': ''})
-            news = col.count({'source': source['name'], 'text': ''})
-            print('Source is: %s And Count is: %s' % (source['name'], news))
+            unread_news_count = col.count({'source': source['name'], 'text': ''})
+            log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
+            news = col.find({'source': source['name'], 'text': ''})
+            i = 0
+            for item in news:
+                link = item['link']
+                doc = urllib2.urlopen(link)
+                soup = BeautifulSoup(doc, 'html.parser')
+                news_area = soup.select(selector)[0]
+                for script in news_area(["script", "style"]):
+                    script.extract()
+                print(news_area.text)
+                i += 1
+                log.color_print(color=Color.RED, text=40 * '=')
+                if i == 5:
+                    exit()
 
-    # link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
-    # # selector = '#js-article-text > div:nth-child(8)'
-    # doc = urllib2.urlopen(link)
-    # soup = BeautifulSoup(doc, 'html.parser')
-    # news_area = soup.select('div[itemprop="articleBody"]')[0]
-    # for script in news_area(["script", "style"]):
-    #     script.extract()
-    # # news_text = BeautifulSoup(news_area, 'html.parser')
-    # # print(len(news_area))
-    # print(news_area.text)
+            # print('Source is: %s And Count is: %s' % (source['name'], news))
+
 
 news_text_fetch()
 # backup_news()
