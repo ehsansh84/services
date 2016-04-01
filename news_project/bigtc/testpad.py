@@ -113,8 +113,8 @@ def news_text_fetch():
                 soup = BeautifulSoup(doc, 'html.parser')
                 log.color_print(color=Color.YELLOW, text=selector)
                 # news_area = soup.select(selector)
-                # news_area = soup.select('div[itemprop="articleBody"]')[0]
-                news_area = soup.select(selector)[0]
+                news_area = soup.select("div[itemprop='articleBody']")[0]
+                # news_area = soup.select(selector)[0]
                 # log.color_print(color=Color.CYAN, text=news_area)
                 for script in news_area(["script", "style"]):
                     script.extract()
