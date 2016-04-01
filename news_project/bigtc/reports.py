@@ -36,6 +36,17 @@ def rss_list():
         except:
             print('ERROR')
 
-rss_statistics()
 
-rss_list()
+def create_temp_bigtc_dataset():
+    col = db['news']
+    db_bigtc = con.bigtc
+    col_news = db_bigtc['news']
+    news = col.find({'text': {'$ne': ''}})
+    for item in news:
+        col_news.insert(item)
+
+create_temp_bigtc_dataset()
+
+# rss_statistics()
+
+# rss_list()

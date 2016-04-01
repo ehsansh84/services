@@ -129,4 +129,4 @@ def update_source_info():
 
 # extract_sources()
 
-update_source_info()
+# update_source_info()

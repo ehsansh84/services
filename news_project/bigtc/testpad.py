@@ -149,3 +149,4 @@ news_text_fetch()
 # backup_news()
 # mark_news_as_unknown()
 # add_empty_selector_field_to_sources()
+
