@@ -114,7 +114,7 @@ def news_text_fetch():
                 log.color_print(color=Color.YELLOW, text=selector)
                 # news_area = soup.select(selector)
                 news_area = soup.select('div[itemprop="articleBody"]')[0]
-                log.color_print(color=Color.CYAN, text=news_area)
+                # log.color_print(color=Color.CYAN, text=news_area)
                 for script in news_area(["script", "style"]):
                     script.extract()
                 print(news_area.text)
