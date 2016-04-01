@@ -69,6 +69,7 @@ def backup_news():
     i = 1
     for item in news:
         col_news_backup.insert(item)
+        i += 1
         if i % 2000 == 0:
             print(i)
 
