@@ -147,9 +147,11 @@ def news_text_fetch_test_one():
         # selector = '#js-article-text > div:nth-child(8)'
         try:
             doc = urllib2.urlopen(link)
-        except Exception,e:
-            print(e.message)
+        except Exception, e:
+            print(e.args)
+            print(e)
             log.color_print(color=Color.CYAN, text=e.message)
+
         soup = BeautifulSoup(doc, 'html.parser')
         log.color_print(color=Color.CYAN, text=soup)
         news_area = soup.select('div[class="entry-content"]')[0]
