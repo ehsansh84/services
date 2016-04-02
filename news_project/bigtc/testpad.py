@@ -145,7 +145,10 @@ def news_text_fetch_test_one():
     try:
         link = 'http://cityroom.blogs.nytimes.com/2015/10/20/grieving-with-a-firefighter/?_r=0'
         # selector = '#js-article-text > div:nth-child(8)'
-        doc = urllib2.urlopen(link)
+        try:
+            doc = urllib2.urlopen(link)
+        except Exception,e:
+            log.color_print(color=Color.CYAN, text=e.message)
         soup = BeautifulSoup(doc, 'html.parser')
         log.color_print(color=Color.CYAN, text=soup)
         news_area = soup.select('div[class="entry-content"]')[0]
@@ -158,6 +161,7 @@ def news_text_fetch_test_one():
     except Exception, e:
         print('Error:'),
         log.color_print(color=Color.RED, text=e.message)
+
 
 def create_temp_bigtc_dataset():
     col = db['news']
