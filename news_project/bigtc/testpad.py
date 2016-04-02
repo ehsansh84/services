@@ -158,6 +158,10 @@ def news_text_fetch_v2():
                     request = urllib2.Request(link)
                     doc = opener.open(request)
                     soup = BeautifulSoup(doc, 'html.parser')
+                    log.color_print(color=Color.YELLOW, text=selector)
+                    # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
+                    news_area = soup.select(selector)
+                    log.color_print(color=Color.LIME, text=news_area)
                     news_area = soup.select(selector)[0]
                     for exclude_item in source['exclude']:
                         for div in news_area.select(exclude_item):
