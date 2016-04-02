@@ -159,6 +159,7 @@ def news_text_fetch_v2():
                     doc = opener.open(request)
                     soup = BeautifulSoup(doc, 'html.parser')
                     log.color_print(color=Color.YELLOW, text=selector)
+                    log.color_print(color=Color.BLUE, text=link)
                     # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
                     news_area = soup.select(selector)
                     log.color_print(color=Color.LIME, text=news_area)
