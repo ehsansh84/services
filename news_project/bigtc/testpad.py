@@ -169,7 +169,8 @@ def news_text_fetch_test_one():
         # news_text = BeautifulSoup(news_area, 'html.parser')
         # print(len(news_area))
         # print(news_area.text)
-        log.color_print(color=Color.LIME, text=str(news_area.text).encode('utf-8'))
+        t = str(news_area.text)
+        log.color_print(color=Color.LIME, text=t.encode('utf-8'))
     except Exception, e:
         # print('Error:'),
         # print(e.args),
