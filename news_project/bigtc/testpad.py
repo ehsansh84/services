@@ -10,6 +10,7 @@ col = db['news']
 col_temp = db['temp']
 col_sources = db['sources']
 
+
 def extract_summaries():
     results = col.find({}).limit(100)
     output = open('output.txt', 'w')
@@ -65,6 +66,7 @@ def import_xls_rss():
 
 # import_xls_rss()
 
+
 def backup_news():
     news = col.find()
     col_news_backup = db['news_backup_2016-04-01']
@@ -74,6 +76,7 @@ def backup_news():
         i += 1
         if i % 2000 == 0:
             print(i)
+
 
 def mark_news_as_unknown():
     cats = ['Latest Stories', 'Top Stories', 'Latest Headlines', 'Most Recent', 'News', 'All News', 'World Headlines', 'Most Popular', 'All of CNET', 'Latest News', 'hot news', 'CNET News']
@@ -94,6 +97,7 @@ def add_empty_selector_field_to_sources():
     for item in sources:
         col_sources.update({'name': item['name']}, {'$set': {'selector': ''}})
         print('Updated')
+
 
 def add_empty_exclude_field_to_sources():
     sources = col_sources.find()
@@ -163,7 +167,7 @@ def create_temp_bigtc_dataset():
 
 # create_temp_bigtc_dataset()
 
-news_text_fetch()
+# news_text_fetch()
 news_text_fetch_test_one()
 # backup_news()
 # mark_news_as_unknown()
