@@ -219,7 +219,8 @@ def create_temp_bigtc_dataset():
 # create_temp_bigtc_dataset()
 
 # news_text_fetch()
-news_text_fetch_test_one()
+news_text_fetch_v2()
+# news_text_fetch_test_one()
 # backup_news()
 # mark_news_as_unknown()
 # add_empty_selector_field_to_sources()
