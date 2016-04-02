@@ -161,14 +161,15 @@ def news_text_fetch_test_one():
             log.color_print(color=Color.CYAN, text=e.message)
 
         soup = BeautifulSoup(doc, 'html.parser')
-        log.color_print(color=Color.CYAN, text=soup)
+        # log.color_print(color=Color.CYAN, text=soup)
         news_area = soup.select('div[class="entry-content"]')[0]
         log.color_print(color=Color.RED, text=news_area)
         for script in news_area(["script", "style"]):
             script.extract()
         # news_text = BeautifulSoup(news_area, 'html.parser')
         # print(len(news_area))
-        print(news_area.text)
+        # print(news_area.text)
+        log.color_print(color=Color.LIME, text=news_area)
     except Exception, e:
         print('Error:'),
         log.color_print(color=Color.RED, text=e.message)
