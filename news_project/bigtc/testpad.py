@@ -156,6 +156,7 @@ def news_text_fetch_test_one():
         # print(len(news_area))
         print(news_area.text)
     except Exception, e:
+        print('Error:'),
         log.color_print(color=Color.RED, text=e.message)
 
 def create_temp_bigtc_dataset():
