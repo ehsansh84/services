@@ -164,7 +164,7 @@ def news_text_fetch_test_one():
         # log.color_print(color=Color.CYAN, text=soup)
         news_area = soup.select('div[class="entry-content"]')[0]
         log.color_print(color=Color.RED, text=news_area)
-        for div in news_area.select('div.inlineModule'):
+        for div in news_area.select('div[class=\"inlineModule\"]'):
             div.extract()
         for script in news_area(["script", "style"]):
             script.extract()
