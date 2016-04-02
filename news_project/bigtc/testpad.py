@@ -6,6 +6,7 @@ import xlrd
 from tools import *
 from bs4 import BeautifulSoup
 import urllib2
+import cookielib
 col = db['news']
 col_temp = db['temp']
 col_sources = db['sources']
@@ -140,6 +141,36 @@ def news_text_fetch():
                 except Exception, e:
                     log.color_print(color=Color.RED, text=e.message)
 
+def news_text_fetch_v2():
+    sources = col_sources.find()
+    for source in sources:
+        selector = source['selector']
+        if selector != '':
+            unread_news_count = col.count({'source': source['name'], 'text': ''})
+            log.color_print(color=Color.LIME, text='Source is: {} and unread news count is: {}'.format(source['name'], unread_news_count))
+            news = col.find({'source': source['name'], 'text': ''})
+            i = 0
+            for item in news:
+                try:
+                    link = item['link']
+                    cj = cookielib.CookieJar()
+                    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+                    request = urllib2.Request(link)
+                    doc = opener.open(request)
+                    soup = BeautifulSoup(doc, 'html.parser')
+                    news_area = soup.select(selector)[0]
+                    for exclude_item in source['exclude']:
+                        for div in news_area.select(exclude_item):
+                            div.extract()
+                    for script in news_area(["script", "style"]):
+                        script.extract()
+                    col.update({'link': link}, {'$set': {'text': news_area.text}})
+                    i += 1
+                    if i % 100 == 0:
+                        log.color_print(color=Color.YELLOW, text=i)
+                except Exception, e:
+                    log.color_print(color=Color.RED, text=e.message)
+
 
 def news_text_fetch_test_one():
     try:
@@ -147,9 +178,6 @@ def news_text_fetch_test_one():
         # selector = '#js-article-text > div:nth-child(8)'
         try:
             # doc = urllib2.urlopen(link)
-
-
-
             import cookielib, urllib2
             cj = cookielib.CookieJar()
             opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
@@ -176,6 +204,7 @@ def news_text_fetch_test_one():
         # print('Error:'),
         # print(e.args),
         log.color_print(color=Color.RED, text=log.get_exception())
+
 
 
 def create_temp_bigtc_dataset():
