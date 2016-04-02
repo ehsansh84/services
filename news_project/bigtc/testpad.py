@@ -142,19 +142,21 @@ def news_text_fetch():
 
 
 def news_text_fetch_test_one():
-    link = 'http://cityroom.blogs.nytimes.com/2015/10/20/grieving-with-a-firefighter/?_r=0'
-    # selector = '#js-article-text > div:nth-child(8)'
-    doc = urllib2.urlopen(link)
-    soup = BeautifulSoup(doc, 'html.parser')
-    log.color_print(color=Color.CYAN, text=soup)
-    news_area = soup.select('div[class="entry-content"]')[0]
-    log.color_print(color=Color.RED, text=news_area)
-    for script in news_area(["script", "style"]):
-        script.extract()
-    # news_text = BeautifulSoup(news_area, 'html.parser')
-    # print(len(news_area))
-    print(news_area.text)
-
+    try:
+        link = 'http://cityroom.blogs.nytimes.com/2015/10/20/grieving-with-a-firefighter/?_r=0'
+        # selector = '#js-article-text > div:nth-child(8)'
+        doc = urllib2.urlopen(link)
+        soup = BeautifulSoup(doc, 'html.parser')
+        log.color_print(color=Color.CYAN, text=soup)
+        news_area = soup.select('div[class="entry-content"]')[0]
+        log.color_print(color=Color.RED, text=news_area)
+        for script in news_area(["script", "style"]):
+            script.extract()
+        # news_text = BeautifulSoup(news_area, 'html.parser')
+        # print(len(news_area))
+        print(news_area.text)
+    except Exception, e:
+        log.color_print(color=Color.RED, text=e.message)
 
 def create_temp_bigtc_dataset():
     col = db['news']
