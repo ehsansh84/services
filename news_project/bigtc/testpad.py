@@ -172,6 +172,7 @@ def news_text_fetch_test_one():
         log.color_print(color=Color.LIME, text=news_area.text)
     except Exception, e:
         print('Error:'),
+        print(e.args),
         log.color_print(color=Color.RED, text=e.message)
 
 
