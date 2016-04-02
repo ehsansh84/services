@@ -168,8 +168,8 @@ def news_text_fetch_v2():
                     i += 1
                     if i % 100 == 0:
                         log.color_print(color=Color.YELLOW, text=i)
-                except Exception, e:
-                    log.color_print(color=Color.RED, text=e.message)
+                except:
+                    log.color_print(color=Color.RED, text=log.get_exception())
 
 
 def news_text_fetch_test_one():
