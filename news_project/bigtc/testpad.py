@@ -137,13 +137,13 @@ def news_text_fetch():
                     log.color_print(color=Color.RED, text=e.message)
 
 
-def news_text_fetch_old():
-    link = 'http://www.dailymail.co.uk/sport/football/article-3437261/Real-Madrid-just-11-fans-attend-win-Granada-Spanish-averse-travelling-away-games.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490'
+def news_text_fetch_test_one():
+    link = 'http://cityroom.blogs.nytimes.com/2015/10/20/grieving-with-a-firefighter/?_r=0'
     # selector = '#js-article-text > div:nth-child(8)'
     doc = urllib2.urlopen(link)
     soup = BeautifulSoup(doc, 'html.parser')
     log.color_print(color=Color.CYAN, text=soup)
-    news_area = soup.select('div[itemprop="articleBody"]')[0]
+    news_area = soup.select('div[class="entry-content"]')[0]
     log.color_print(color=Color.RED, text=news_area)
     for script in news_area(["script", "style"]):
         script.extract()
@@ -163,10 +163,10 @@ def create_temp_bigtc_dataset():
 
 # create_temp_bigtc_dataset()
 
-# news_text_fetch()
-# news_text_fetch_old()
+news_text_fetch()
+news_text_fetch_test_one()
 # backup_news()
 # mark_news_as_unknown()
 # add_empty_selector_field_to_sources()
-add_empty_exclude_field_to_sources()
+# add_empty_exclude_field_to_sources()
 
