@@ -146,7 +146,15 @@ def news_text_fetch_test_one():
         link = 'http://cityroom.blogs.nytimes.com/2015/10/20/grieving-with-a-firefighter/?_r=0'
         # selector = '#js-article-text > div:nth-child(8)'
         try:
-            doc = urllib2.urlopen(link)
+            # doc = urllib2.urlopen(link)
+
+
+
+            import cookielib, urllib2
+            cj = cookielib.CookieJar()
+            opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+            request = urllib2.Request(link)
+            doc = opener.open(request)
         except Exception, e:
             print(e.args)
             print(e)
