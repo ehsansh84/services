@@ -148,6 +148,7 @@ def news_text_fetch_test_one():
         try:
             doc = urllib2.urlopen(link)
         except Exception,e:
+            print(e.message)
             log.color_print(color=Color.CYAN, text=e.message)
         soup = BeautifulSoup(doc, 'html.parser')
         log.color_print(color=Color.CYAN, text=soup)
