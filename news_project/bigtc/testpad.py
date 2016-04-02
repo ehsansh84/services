@@ -95,6 +95,12 @@ def add_empty_selector_field_to_sources():
         col_sources.update({'name': item['name']}, {'$set': {'selector': ''}})
         print('Updated')
 
+def add_empty_exclude_field_to_sources():
+    sources = col_sources.find()
+    for item in sources:
+        col_sources.update({'name': item['name']}, {'$set': {'exclude': ''}})
+        print('Updated')
+
 
 def news_text_fetch():
     sources = col_sources.find()
@@ -157,9 +163,10 @@ def create_temp_bigtc_dataset():
 
 # create_temp_bigtc_dataset()
 
-news_text_fetch()
+# news_text_fetch()
 # news_text_fetch_old()
 # backup_news()
 # mark_news_as_unknown()
 # add_empty_selector_field_to_sources()
+add_empty_exclude_field_to_sources()
 
