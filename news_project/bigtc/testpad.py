@@ -234,7 +234,7 @@ def create_output_excel():
 
         news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(10)
         for item in news:
-            worksheet.write('A' + str(row), item['_id'])
+            worksheet.write('A' + str(row), str(item['_id']))
             worksheet.write('B' + str(row), item['category'])
             worksheet.write('C' + str(row), item['text'])
             row += 1
