@@ -8,6 +8,8 @@ from tools import *
 from bs4 import BeautifulSoup
 import urllib2
 import cookielib
+from classes.text import Text
+
 col = db['news']
 col_temp = db['temp']
 col_sources = db['sources']
@@ -225,26 +227,58 @@ def create_temp_bigtc_dataset():
 def create_output_excel():
     try:
         workbook = xlsxwriter.Workbook('output/results.xls')
-        worksheet = workbook.add_worksheet('Step1')
+        worksheet_step1 = workbook.add_worksheet('Raw Data')
+        worksheet_step2 = workbook.add_worksheet('Unigrams')
+        worksheet_step3 = workbook.add_worksheet('Bigrams')
+        worksheet_step4 = workbook.add_worksheet('Unigrams+POS')
+        worksheet_step5 = workbook.add_worksheet('Bigrams+POS')
+        worksheet_step6 = workbook.add_worksheet('Unigrams+Bigrams+POS')
+
+        # Step 1 => Creating Raw Data
         row = 2
+        worksheet_step1.write('A1', 'ID')
+        worksheet_step1.write('B1', 'CLASS')
+        worksheet_step1.write('C1', 'TEXT')
 
-        worksheet.write('A1', 'ID')
-        worksheet.write('B1', 'CLASS')
-        worksheet.write('C1', 'TEXT')
-
-        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(10)
+        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(100)
         for item in news:
-            worksheet.write('A' + str(row), str(item['_id']))
-            worksheet.write('B' + str(row), item['category'])
-            worksheet.write('C' + str(row), item['text'])
+            worksheet_step1.write('A' + str(row), str(item['_id']))
+            worksheet_step1.write('B' + str(row), item['category'])
+            worksheet_step1.write('C' + str(row), item['text'])
             row += 1
+
+        # Pre Process All Documents
+        total_words_in_docs = []
+        for item in news:
+            current_doc_words = []
+            text = news['text']
+            t = Text.remove_special_chars(text)
+            t = Text.make_list_of_words(t)
+            t = Text.remove_stop_words_and_stem()
+            current_doc_words = t['unique_words']
+
+
+        # Step 2 => Creating Unigrams
+        row = 2
+        worksheet_step1.write('A1', 'ID')
+        worksheet_step1.write('B1', 'CLASS')
+        worksheet_step1.write('C1', 'TEXT')
+
+        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(100)
+        for item in news:
+            worksheet_step1.write('A' + str(row), str(item['_id']))
+            worksheet_step1.write('B' + str(row), item['category'])
+            worksheet_step1.write('C' + str(row), item['text'])
+            row += 1
+
+
 
         workbook.close()
     except:
         log.color_print(color=Color.RED, text=log.get_exception())
 
-# create_temp_bigtc_dataset()
-create_output_excel()
+create_temp_bigtc_dataset()
+# create_output_excel()
 # news_text_fetch()
 # news_text_fetch_v2()
 # news_text_fetch_test_one()
