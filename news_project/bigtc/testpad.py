@@ -223,22 +223,25 @@ def create_temp_bigtc_dataset():
 
 
 def create_output_excel():
-    workbook = xlsxwriter.Workbook('output/results.xls')
-    worksheet = workbook.add_worksheet('Step1')
-    row = 2
+    try:
+        workbook = xlsxwriter.Workbook('output/results.xls')
+        worksheet = workbook.add_worksheet('Step1')
+        row = 2
 
-    worksheet.write('A1', 'ID')
-    worksheet.write('B1', 'CLASS')
-    worksheet.write('C1', 'TEXT')
+        worksheet.write('A1', 'ID')
+        worksheet.write('B1', 'CLASS')
+        worksheet.write('C1', 'TEXT')
 
-    news = col.find({'category': {'$ne': 'Unknown', 'text': {'$ne': ''}}}).limit(10)
-    for item in news:
-        worksheet.write('A' + str(row), item['1'])
-        worksheet.write('B' + str(row), item['category'])
-        worksheet.write('C' + str(row), item['text'])
+        news = col.find({'category': {'$ne': 'Unknown', 'text': {'$ne': ''}}}).limit(10)
+        for item in news:
+            worksheet.write('A' + str(row), item['1'])
+            worksheet.write('B' + str(row), item['category'])
+            worksheet.write('C' + str(row), item['text'])
+            row += 1
 
-    workbook.close()
-
+        workbook.close()
+    except:
+        log.color_print(color=Color.RED, text=log.get_exception())
 
 # create_temp_bigtc_dataset()
 create_output_excel()
