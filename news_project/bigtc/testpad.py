@@ -232,7 +232,7 @@ def create_output_excel():
         worksheet.write('B1', 'CLASS')
         worksheet.write('C1', 'TEXT')
 
-        news = col.find({'category': {'$ne': 'Unknown', 'text': {'$ne': ''}}}).limit(10)
+        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(10)
         for item in news:
             worksheet.write('A' + str(row), item['1'])
             worksheet.write('B' + str(row), item['category'])
