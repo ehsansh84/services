@@ -3,6 +3,7 @@ import re
 sys.path.append("/root/ehsan/services")
 from public_data import *
 import xlrd
+import xlsxwriter
 from tools import *
 from bs4 import BeautifulSoup
 import urllib2
@@ -158,11 +159,11 @@ def news_text_fetch_v2():
                     request = urllib2.Request(link)
                     doc = opener.open(request)
                     soup = BeautifulSoup(doc, 'html.parser')
-                    log.color_print(color=Color.YELLOW, text=selector)
-                    log.color_print(color=Color.BLUE, text=link)
+                    # log.color_print(color=Color.YELLOW, text=selector)
+                    # log.color_print(color=Color.BLUE, text=link)
                     # log.color_print(color=Color.YELLOW, text='div[itemprop="articleBody"]')
-                    news_area = soup.select(selector)
-                    log.color_print(color=Color.LIME, text=news_area)
+                    # news_area = soup.select(selector)
+                    # log.color_print(color=Color.LIME, text=news_area)
                     news_area = soup.select(selector)[0]
                     for exclude_item in source['exclude']:
                         for div in news_area.select(exclude_item):
@@ -221,10 +222,28 @@ def create_temp_bigtc_dataset():
         col_news.insert(item)
 
 
+def create_output_excel():
+    workbook = xlsxwriter.Workbook('output/results.xls')
+    worksheet = workbook.add_worksheet('Step1')
+    row = 2
+
+    worksheet.write('A1', 'ID')
+    worksheet.write('B1', 'CLASS')
+    worksheet.write('C1', 'TEXT')
+
+    news = col.find({'category': {'$ne': 'Unknown', 'text': {'$ne': ''}}}).limit(10)
+    for item in news:
+        worksheet.write('A' + str(row), item['1'])
+        worksheet.write('B' + str(row), item['category'])
+        worksheet.write('C' + str(row), item['text'])
+
+    workbook.close()
+
+
 # create_temp_bigtc_dataset()
 
 # news_text_fetch()
-news_text_fetch_v2()
+# news_text_fetch_v2()
 # news_text_fetch_test_one()
 # backup_news()
 # mark_news_as_unknown()
