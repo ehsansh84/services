@@ -241,7 +241,7 @@ def create_output_excel():
 
 
 # create_temp_bigtc_dataset()
-
+create_output_excel()
 # news_text_fetch()
 # news_text_fetch_v2()
 # news_text_fetch_test_one()
