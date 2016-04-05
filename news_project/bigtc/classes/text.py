@@ -26,5 +26,5 @@ class Text:
                 # Here I want to create unique_words
                 if w not in unique_words:
                     unique_words.append(w)
-        return {'refined_list': new_list, 'unique_words': unique_words}
+        return {'words': new_list, 'unique_words': unique_words}
 

@@ -214,7 +214,6 @@ def news_text_fetch_test_one():
         log.color_print(color=Color.RED, text=log.get_exception())
 
 
-
 def create_temp_bigtc_dataset():
     col = db['news']
     db_bigtc = con.bigtc
@@ -224,61 +223,140 @@ def create_temp_bigtc_dataset():
         col_news.insert(item)
 
 
-def create_output_excel():
+def create_output():
+    col_news = db_bigtc['news']
+    col_step1 = db_bigtc['step1']
+    col_step2 = db_bigtc['step2']
+    col_step3 = db_bigtc['step3']
+    col_step4 = db_bigtc['step4']
+    col_step5 = db_bigtc['step5']
+    col_step6 = db_bigtc['step6']
+    col_bag_of_words = db_bigtc['bag_of_words']
+    tmr = timer()
     try:
-        workbook = xlsxwriter.Workbook('output/results.xls')
-        worksheet_step1 = workbook.add_worksheet('Raw Data')
-        worksheet_step2 = workbook.add_worksheet('Unigrams')
-        worksheet_step3 = workbook.add_worksheet('Bigrams')
-        worksheet_step4 = workbook.add_worksheet('Unigrams+POS')
-        worksheet_step5 = workbook.add_worksheet('Bigrams+POS')
-        worksheet_step6 = workbook.add_worksheet('Unigrams+Bigrams+POS')
 
-        # Step 1 => Creating Raw Data
-        row = 2
-        worksheet_step1.write('A1', 'ID')
-        worksheet_step1.write('B1', 'CLASS')
-        worksheet_step1.write('C1', 'TEXT')
+        #
+        # news = col_news.find({})
+        # id = 1
+        # tmr.start()
+        # for item in news:
+        #     # current_doc_words = []
+        #     # current_doc_unique_words = []
+        #     text = item['text']
+        #     t = Text.remove_special_chars(text)
+        #     t = Text.make_list_of_words(t)
+        #     t = Text.remove_stop_words_and_stem(t)
+        #     current_doc_words = t['words']
+        #     current_doc_unique_words = t['unique_words']
+        #
+        #     col_step1.insert({'id': id,
+        #                       'class': item['category'],
+        #                       'text': item['text'],
+        #                       'refined_text': ' '.join(current_doc_words),
+        #                       'words': current_doc_words,
+        #                       'unique_words': current_doc_unique_words
+        #                       })
+        #     id += 1
+        #     if id % 100 == 0:
+        #         print(id)
+        # print('Time: {}' % tmr.end())
 
-        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(100)
-        for item in news:
-            worksheet_step1.write('A' + str(row), str(item['_id']))
-            worksheet_step1.write('B' + str(row), item['category'])
-            worksheet_step1.write('C' + str(row), item['text'])
-            row += 1
-
-        # Pre Process All Documents
-        total_words_in_docs = []
-        for item in news:
-            current_doc_words = []
-            text = news['text']
-            t = Text.remove_special_chars(text)
-            t = Text.make_list_of_words(t)
-            t = Text.remove_stop_words_and_stem()
-            current_doc_words = t['unique_words']
-
-
-        # Step 2 => Creating Unigrams
-        row = 2
-        worksheet_step1.write('A1', 'ID')
-        worksheet_step1.write('B1', 'CLASS')
-        worksheet_step1.write('C1', 'TEXT')
-
-        news = col.find({'category': {'$ne': 'Unknown'}, 'text': {'$ne': ''}}).limit(100)
-        for item in news:
-            worksheet_step1.write('A' + str(row), str(item['_id']))
-            worksheet_step1.write('B' + str(row), item['category'])
-            worksheet_step1.write('C' + str(row), item['text'])
-            row += 1
+        tmr.start()
+        tmr_lap = timer()
+        bag_of_words = []
+        docs = col_step1.find()
+        i = 0
+        for doc in docs:
+            if i % 100 == 0:
+                tmr_lap.start()
+            for word in doc['unique_words']:
+                if not word in bag_of_words:
+                    bag_of_words.append(word)
+            i += 1
+            if i % 100 == 0:
+                print('Doc processed: %s time takesn: %s' % (i, tmr_lap.end()))
+        print(len(bag_of_words))
+        col_bag_of_words.insert({'len': len(bag_of_words),'words': bag_of_words})
+        print('Time: {}' % tmr.end())
 
 
 
-        workbook.close()
+
+        # workbook.close()
     except:
         log.color_print(color=Color.RED, text=log.get_exception())
 
-create_temp_bigtc_dataset()
-# create_output_excel()
+
+def covert_bag_of_words():
+    col_bag_of_words = db_bigtc['bag_of_words']
+    bag = col_bag_of_words.find()[0]['words']
+    bag_json = {}
+    for item in bag:
+        bag_json[item] = 0
+    col_bag_of_words.insert({'words': bag_json})
+
+
+def count_word_repetition():
+    col_bag_of_words = db_bigtc['bag_of_words']
+    col_step1 = db_bigtc['step1']
+    bag = col_bag_of_words.find()[1]['words']
+    news = col_step1.find()
+    i = 1
+    for item in news:
+        words = item['words']
+        for word in words:
+            bag[word] += 1
+        if i % 100 == 0:
+            print(i)
+        i+=1
+    col_bag_of_words.insert({'words': bag})
+
+
+def insert_bag_and_sort():
+    col_bag_of_words = db_bigtc['bag_of_words']
+    col_bag_of_words_sorted = db_bigtc['bag_of_words_sorted']
+    bag = col_bag_of_words.find()[2]['words']
+    for k,v in bag.iteritems():
+        col_bag_of_words_sorted.insert({'words': k, 'count': v})
+    # print(bag)
+
+def send_sorted_to_excel():
+    workbook = xlsxwriter.Workbook('output/words_less50.xls')
+    worksheet_step1 = workbook.add_worksheet('Words')
+
+    row = 2
+    worksheet_step1.write('A1', 'Wordd')
+    worksheet_step1.write('B1', 'Count')
+
+    col_bag_of_words_sorted = db_bigtc['bag_of_words_sorted']
+    bag = col_bag_of_words_sorted.find({'count': {'$gt': 50}}).sort('count', -1)
+
+    for item in bag:
+        if row % 1000 == 0:
+            print(row)
+        row += 1
+        worksheet_step1.write('A' + str(row), item['words'])
+        worksheet_step1.write('B' + str(row), item['count'])
+    workbook.close()
+
+
+def find_unused_rss():
+    col_rss = db['rss']
+    col_rss_log = db['rss_log']
+    rss = col_rss.find()
+    for item in rss:
+        count = col_rss_log.count({'link': item['link']})
+        print('Count is: %s For %s' % (count, item['link']))
+find_unused_rss()
+# send_sorted_to_excel()
+# insert_bag_and_sort()
+# count_word_repetition()
+# covert_bag_of_words()
+
+# create_temp_bigtc_dataset()
+# create_output()
+
+
 # news_text_fetch()
 # news_text_fetch_v2()
 # news_text_fetch_test_one()
@@ -287,3 +365,40 @@ create_temp_bigtc_dataset()
 # add_empty_selector_field_to_sources()
 # add_empty_exclude_field_to_sources()
 
+
+
+
+
+
+
+
+
+
+
+        # workbook = xlsxwriter.Workbook('output/results.xls')
+        # worksheet_step1 = workbook.add_worksheet('Raw Data')
+        # worksheet_step2 = workbook.add_worksheet('Unigrams')
+        # worksheet_step3 = workbook.add_worksheet('Bigrams')
+        # worksheet_step4 = workbook.add_worksheet('Unigrams+POS')
+        # worksheet_step5 = workbook.add_worksheet('Bigrams+POS')
+        # worksheet_step6 = workbook.add_worksheet('Unigrams+Bigrams+POS')
+
+        # Step 1 => Creating Raw Data
+        # row = 2
+        # worksheet_step1.write('A1', 'ID')
+        # worksheet_step1.write('B1', 'CLASS')
+        # worksheet_step1.write('C1', 'TEXT')
+
+
+
+
+            # worksheet_step1.write('A' + str(row), str(item['_id']))
+            # worksheet_step1.write('B' + str(row), item['category'])
+            # worksheet_step1.write('C' + str(row), item['text'])
+            # row += 1
+
+        # Step 2 => Creating Unigrams
+        # row = 2
+        # worksheet_step1.write('A1', 'ID')
+        # worksheet_step1.write('B1', 'CLASS')
+        # worksheet_step1.write('C1', 'TEXT')
