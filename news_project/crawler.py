@@ -73,19 +73,20 @@ try:
 except:
     pass
 if exec_type == 'micro':
-    rss_links = col_rss.find({'duration': {'$lt': 6}}).sort('duration', -1)
+    rss_links = col_rss.find({'duration': {'$lt': 6}}).sort('duration', 1)
 elif exec_type == 'small':
-    rss_links = col_rss.find({'duration': {'$lt': 10}}).sort('duration', -1)
+    rss_links = col_rss.find({'duration': {'$lt': 10}}).sort('duration', 1)
 elif exec_type == 'large':
-    rss_links = col_rss.find({'duration': {'$gte': 10}}).sort('duration', -1)
+    rss_links = col_rss.find({'duration': {'$gte': 10}}).sort('duration', 1)
 else:
-    rss_links = col_rss.find({}).sort('duration', -1)
+    rss_links = col_rss.find({}).sort('duration', 1)
 
 
 try:
     for item in rss_links:
         try:
             log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
+            t.start()
             if item['active'] == 1:
                 print(i),
                 fetch(item)
@@ -95,6 +96,8 @@ try:
             # print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
             error_count += 1
         i += 1
+        log.color_print(text='it took %s this time!' % (t.end()), color=Color.LIME)
+
 
     total_count_new = col_news.count()
     log.color_print(color=Color.RED ,
