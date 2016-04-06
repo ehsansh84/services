@@ -100,10 +100,11 @@ try:
 
 
     total_count_new = col_news.count()
-    log.color_print(color=Color.RED ,
+    log.color_print(color=Color.BLUE,
                     text='Mode: %s, Errors: %s Total news was %s and now it''s %s, added %s:' % (exec_type, error_count, total_count_old, total_count_new, total_count_new - total_count_old)),
     # print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
     log.color_print(text=log.get_exception(), color=Color.RED)
+    log.color_print(text='it took %s this time! and error stopped it!' % (t.end()), color=Color.LIME)
     # print('Error:= => %s' % e.message)
     # print('Error:= => %s' % str(e.args))
