@@ -9,6 +9,7 @@ from datetime import  datetime
 col_news = db['news']
 col_rss = db['rss']
 col_rss_log = db['rss_log']
+col_errors_log = db['errors_log']
 t = timer()
 
 
@@ -82,9 +83,12 @@ else:
     rss_links = col_rss.find({}).sort('duration', 1)
 
 
+link_processing = ''
+duration = 0
 try:
     for item in rss_links:
         try:
+            link_processing = item['link']
             log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
             t.start()
             if item['active'] == 1:
@@ -96,7 +100,8 @@ try:
             # print('%s - Source: %s, Category: %s, Sub Category: %s' % (i, item['source'], item['category'], item['sub_category']))
             error_count += 1
         i += 1
-        log.color_print(text='it took %s this time!' % (t.end()), color=Color.LIME)
+        duration = t.end()
+        log.color_print(text='it took %s this time!' % (duration), color=Color.LIME)
 
 
     total_count_new = col_news.count()
@@ -105,6 +110,8 @@ try:
     # print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
     log.color_print(text=log.get_exception(), color=Color.RED)
+    log.color_print(text=log.get_exception(), color=Color.RED)
     log.color_print(text='it took %s this time! and error stopped it!' % (t.end()), color=Color.LIME)
+    col_errors_log.insert({'exception_details': log.get_exception(), 'link': link_processing, 'duration': duration})
     # print('Error:= => %s' % e.message)
     # print('Error:= => %s' % str(e.args))
