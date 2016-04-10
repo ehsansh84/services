@@ -11,6 +11,7 @@ col_rss = db['rss']
 col_rss_log = db['rss_log']
 col_errors_log = db['errors_log']
 t = timer()
+total_time = timer()
 
 
 def exists(link):
@@ -86,6 +87,7 @@ else:
 link_processing = ''
 duration = 0
 try:
+    total_time.start()
     for item in rss_links:
         try:
             link_processing = item['link']
@@ -106,12 +108,13 @@ try:
 
     total_count_new = col_news.count()
     log.color_print(color=Color.BLUE,
-                    text='Mode: %s, Errors: %s Total news was %s and now it''s %s, added %s:' % (exec_type, error_count, total_count_old, total_count_new, total_count_new - total_count_old)),
+                    text='Mode: %s, Errors: %s Total news was %s and now it''s %s, added %s total time: %s' % (exec_type, error_count, total_count_old, total_count_new, total_count_new - total_count_old, total_time.end())),
     # print('Oops! %s Errors happend!' % error_count)
 except Exception, e:
+    time = total_time.end()
     log.color_print(text=log.get_exception(), color=Color.RED)
     log.color_print(text=log.get_exception(), color=Color.RED)
-    log.color_print(text='it took %s this time! and error stopped it!' % (t.end()), color=Color.LIME)
-    col_errors_log.insert({'exception_details': log.get_exception(), 'link': link_processing, 'duration': duration})
+    log.color_print(text='it took %s this time! and error stopped it! total time: %s' % (t.end(), time), color=Color.LIME)
+    col_errors_log.insert({'exception_details': log.get_exception(), 'link': link_processing, 'duration': duration, 'total_time': time})
     # print('Error:= => %s' % e.message)
     # print('Error:= => %s' % str(e.args))
