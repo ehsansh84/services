@@ -80,6 +80,8 @@ elif exec_type == 'small':
     rss_links = col_rss.find({'duration': {'$lt': 10}}).sort('duration', 1)
 elif exec_type == 'large':
     rss_links = col_rss.find({'duration': {'$gte': 10}}).sort('duration', 1)
+elif exec_type == 'huge':
+    rss_links = col_rss.find({'duration': {'$gte': 40}}).sort('duration', 1)
 else:
     rss_links = col_rss.find({}).sort('duration', 1)
 
