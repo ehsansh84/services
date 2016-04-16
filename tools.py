@@ -27,7 +27,10 @@ class timer:
 class log:
     @classmethod
     def color_print(self,text,color):
-        print '\033[1;3'+str(color)+'m'+str(text)+'\033[1;m'
+        try:
+            print '\033[1;3'+str(color)+'m'+str(text)+'\033[1;m'
+        except Exception, e:
+            print(e.message)
 
     @classmethod
     def get_exception(self):
