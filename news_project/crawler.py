@@ -74,6 +74,8 @@ try:
     exec_type = sys.argv[1]
 except:
     pass
+if exec_type == 'new':
+    rss_links = col_rss.find({'duration': -1})
 if exec_type == 'micro':
     rss_links = col_rss.find({'duration': {'$lt': 6}}).sort('duration', 1)
 elif exec_type == 'small':
