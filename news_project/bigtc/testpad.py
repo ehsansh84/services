@@ -68,6 +68,16 @@ def import_xls_rss():
             #     print(link)
     print('NEW: %s DUP: %s' % (rss_new, rss_dup))
 
+
+def import_json_rss():
+    from rss_data import rss_links
+    for item in rss_links:
+        col_rss = db['rss']
+        count = col_rss.count({'link': item['link']})
+        if count > 0:
+            print('EXIST')
+        else:
+            print('NEW RSS LINK')
 # import_xls_rss()
 
 
@@ -347,7 +357,13 @@ def find_unused_rss():
     for item in rss:
         count = col_rss_log.count({'link': item['link']})
         print('Count is: %s For %s' % (count, item['link']))
-find_unused_rss()
+# find_unused_rss()
+
+import_json_rss()
+
+
+
+
 # send_sorted_to_excel()
 # insert_bag_and_sort()
 # count_word_repetition()
