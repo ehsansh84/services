@@ -77,15 +77,15 @@ except:
 if exec_type == 'new':
     rss_links = col_rss.find({'duration': -1})
 if exec_type == 'micro':
-    rss_links = col_rss.find({'duration': {'$lt': 6}}).sort('duration', 1)
+    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1}).sort('duration', 1)
 elif exec_type == 'small':
-    rss_links = col_rss.find({'duration': {'$lt': 10}}).sort('duration', 1)
+    rss_links = col_rss.find({'duration': {'$lt': 10}, 'active': 1}).sort('duration', 1)
 elif exec_type == 'large':
-    rss_links = col_rss.find({'duration': {'$gte': 10}}).sort('duration', 1)
+    rss_links = col_rss.find({'duration': {'$gte': 10}, 'active': 1}).sort('duration', 1)
 elif exec_type == 'huge':
-    rss_links = col_rss.find({'duration': {'$gte': 30}}).sort('duration', 1)
+    rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1}).sort('duration', 1)
 else:
-    rss_links = col_rss.find({}).sort('duration', 1)
+    rss_links = col_rss.find({'active': 1}).sort('duration', 1)
 
 
 link_processing = ''
