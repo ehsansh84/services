@@ -94,9 +94,9 @@ try:
     total_time.start()
     for item in rss_links:
         try:
+            t.start()
             link_processing = item['link']
             log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
-            t.start()
             if item['active'] == 1:
                 print(i),
                 fetch(item)
