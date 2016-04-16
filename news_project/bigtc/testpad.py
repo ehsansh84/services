@@ -71,6 +71,7 @@ def import_xls_rss():
 
 def import_json_rss():
     from rss_data import rss_links
+    new_rss = 0
     for item in rss_links:
         col_rss = db['rss']
         count = col_rss.count({'link': item['link']})
@@ -78,6 +79,21 @@ def import_json_rss():
             print('EXIST')
         else:
             print('NEW RSS LINK')
+            new_rss += 1
+            col_rss.insert({
+                "category": item['category'],
+                "sub_category": item['sub_category'],
+                "source": item['source'],
+                "link": item['link'],
+                "active": 1,
+                "handy": 1,
+                "duplicates": 0,
+                "total_count": 0,
+                "duration": -1,
+                "new": 0
+            })
+    print('%s new rss added!' % new_rss)
+
 # import_xls_rss()
 
 
