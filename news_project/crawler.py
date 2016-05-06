@@ -5,7 +5,7 @@ from public_data import *
 import feedparser
 from tools import *
 from datetime import  datetime
-from datetime import  datetime as dt
+# from datetime import  datetime as dt
 # import  datetime as dt
 
 col_news = db['news']
@@ -16,7 +16,7 @@ t = timer()
 total_time = timer()
 hours_elapsed = 2
 
-query_before_time = datetime.now() - dt.timedelta(hours=2)
+# query_before_time = datetime.now() - dt.timedelta(hours=2)
 
 
 def exists(link):
