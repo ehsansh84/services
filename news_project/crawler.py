@@ -5,8 +5,6 @@ from public_data import *
 import feedparser
 from tools import *
 from datetime import  datetime
-# from datetime import  datetime as dt
-# import  datetime as dt
 
 col_news = db['news']
 col_rss = db['rss']
@@ -14,9 +12,6 @@ col_rss_log = db['rss_log']
 col_errors_log = db['errors_log']
 t = timer()
 total_time = timer()
-hours_elapsed = 2
-
-# query_before_time = datetime.now() - dt.timedelta(hours=2)
 
 
 def exists(link):
@@ -93,22 +88,21 @@ elif exec_type == 'large':
     rss_count = col_rss.count({'duration': {'$gte': 10}, 'active': 1})
 elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
+    rss_coubnt = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
 else:
     rss_links = col_rss.find({'active': 1}).sort('duration', 1)
     rss_count = col_rss.count({'active': 1})
 
-log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUE)
 
 link_processing = ''
 duration = 0
 try:
-    log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
     total_time.start()
     for item in rss_links:
         try:
             t.start()
             link_processing = item['link']
+            log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
             log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
             if item['active'] == 1:
                 print(i),
