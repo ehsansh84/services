@@ -88,7 +88,7 @@ elif exec_type == 'large':
     rss_count = col_rss.count({'duration': {'$gte': 10}, 'active': 1})
 elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1}).sort('duration', 1)
-    rss_coubnt = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
+    rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
 else:
     rss_links = col_rss.find({'active': 1}).sort('duration', 1)
     rss_count = col_rss.count({'active': 1})
