@@ -15,6 +15,7 @@ t = timer()
 total_time = timer()
 hours_elapsed = 2
 query_before_time = dt.datetime.now() - dt.timedelta(hours=2)
+
 log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
 
 def exists(link):
