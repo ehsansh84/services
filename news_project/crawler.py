@@ -17,7 +17,6 @@ hours_elapsed = 2
 
 query_before_time = dt.datetime.now() - dt.timedelta(hours=2)
 
-log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
 
 def exists(link):
     return col_news.find({'link': link}).limit(1).count()
@@ -98,6 +97,7 @@ else:
     rss_links = col_rss.find({'active': 1}).sort('duration', 1)
     rss_count = col_rss.count({'active': 1})
 
+log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUE)
 
 link_processing = ''
 duration = 0
