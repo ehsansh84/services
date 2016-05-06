@@ -5,6 +5,7 @@ from public_data import *
 import feedparser
 from tools import *
 from datetime import  datetime
+from datetime import  datetime as dt
 
 col_news = db['news']
 col_rss = db['rss']
@@ -13,7 +14,7 @@ col_errors_log = db['errors_log']
 t = timer()
 total_time = timer()
 hours_elapsed = 2
-query_before_time = datetime.now() - timedelta(hours=2)
+query_before_time = dt.datetime.now() - dt.timedelta(hours=2)
 log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
 
 def exists(link):
