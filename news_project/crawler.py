@@ -93,6 +93,7 @@ else:
     rss_links = col_rss.find({'active': 1}).sort('duration', 1)
     rss_count = col_rss.count({'active': 1})
 
+log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUE)
 
 link_processing = ''
 duration = 0
@@ -102,7 +103,6 @@ try:
         try:
             t.start()
             link_processing = item['link']
-            log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
             log.color_print(text='processing %s with link %s' % (item['duration'], item['link']), color=Color.YELLOW)
             if item['active'] == 1:
                 print(i),
