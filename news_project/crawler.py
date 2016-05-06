@@ -5,7 +5,7 @@ from public_data import *
 import feedparser
 from tools import *
 from datetime import  datetime
-from datetime import  datetime as dt
+import  datetime as dt
 
 col_news = db['news']
 col_rss = db['rss']
