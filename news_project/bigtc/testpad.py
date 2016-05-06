@@ -351,7 +351,7 @@ def send_sorted_to_excel():
     worksheet_step1 = workbook.add_worksheet('Words')
 
     row = 2
-    worksheet_step1.write('A1', 'Wordd')
+    worksheet_step1.write('A1', 'Word')
     worksheet_step1.write('B1', 'Count')
 
     col_bag_of_words_sorted = db_bigtc['bag_of_words_sorted']

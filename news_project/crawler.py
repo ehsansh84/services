@@ -12,7 +12,9 @@ col_rss_log = db['rss_log']
 col_errors_log = db['errors_log']
 t = timer()
 total_time = timer()
-
+hours_elapsed = 2
+query_before_time = datetime.datetime.now() - datetime.timedelta(hours=2)
+log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
 
 def exists(link):
     return col_news.find({'link': link}).limit(1).count()
@@ -76,21 +78,28 @@ except:
     pass
 if exec_type == 'new':
     rss_links = col_rss.find({'duration': -1})
+    rss_count = col_rss.count({'duration': -1})
 if exec_type == 'micro':
     rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1})
 elif exec_type == 'small':
     rss_links = col_rss.find({'duration': {'$lt': 10}, 'active': 1}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$lt': 10}, 'active': 1})
 elif exec_type == 'large':
     rss_links = col_rss.find({'duration': {'$gte': 10}, 'active': 1}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$gte': 10}, 'active': 1})
 elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
 else:
     rss_links = col_rss.find({'active': 1}).sort('duration', 1)
+    rss_count = col_rss.count({'active': 1})
 
 
 link_processing = ''
 duration = 0
 try:
+    log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUES)
     total_time.start()
     for item in rss_links:
         try:
