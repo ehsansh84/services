@@ -23,7 +23,7 @@ class WebSystemApplication(tornado.web.Application):
             debug=True,
             autoreload=False,
             cookie_secret=config.global_config['cookie_secret'],
-            xsrf_cookies=True,
+            xsrf_cookies=False,
             login_url=config.global_config['login_url'],
             logout_url=config.global_config['logout_url'],
             template_path=config.web['template_address'],
