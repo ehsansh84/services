@@ -31,24 +31,24 @@ class ReportsHandler(tornado.web.RequestHandler):
         # db.domain.update({},{$unset: {affLink:1}},{multi: true});
 
 
-        # # Create source collection from RSS collection
-        # col_sources.drop()
-        # rss = col_rss.find()
-        # for item in rss:
-        #     if col_sources.find({'name': item['source']}).count() == 0:
-        #         col_sources.insert({'name': item['source']})
+        # Create source collection from RSS collection
+        col_sources.drop()
+        rss = col_rss.find()
+        for item in rss:
+            if col_sources.find({'name': item['source']}).count() == 0:
+                col_sources.insert({'name': item['source']})
 
 
 
 
 
-        # # Updating source table
-        # sources = col_sources.find()
-        # for item in sources:
-        #     news_source = col_news.find({'source': item['name']}).count()
-        #     col_sources.update({'name': item['name']}, {'$set': {
-        #         'total_news': news_source
-        #     }})
+        # Updating source table
+        sources = col_sources.find()
+        for item in sources:
+            news_source = col_news.find({'source': item['name']}).count()
+            col_sources.update({'name': item['name']}, {'$set': {
+                'total_news': news_source
+            }})
 
         self.write('Documents summary:<br> %s <br>' % (30 * '='))
         self.write('Total documents: %s<br>' % news_count)
