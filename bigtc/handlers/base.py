@@ -57,7 +57,7 @@ class ReportsHandler(tornado.web.RequestHandler):
         i = 1
         for item in news:
             if i % 10000 == 0:
-                self.write(i)
+                self.write(str(i))
                 # print(i)
             i += 1
             if col_categories.find({'name': item['category']}).count() == 0:
