@@ -52,30 +52,30 @@ class ReportsHandler(tornado.web.RequestHandler):
         #     }})
 
 
-        # Generates all categories from news
-        news = col_news.find()
-        i = 1
-        for item in news:
-            if i % 10000 == 0:
-                self.write(str(i))
-                # print(i)
-            i += 1
-            if col_categories.find({'name': item['category']}).count() == 0:
-                col_categories.insert({
-                    'name': item['category'],
-                    'count': 0
-                })
+        # # Generates all categories from news
+        # news = col_news.find()
+        # i = 1
+        # for item in news:
+        #     if i % 10000 == 0:
+        #         self.write(str(i))
+        #         # print(i)
+        #     i += 1
+        #     if col_categories.find({'name': item['category']}).count() == 0:
+        #         col_categories.insert({
+        #             'name': item['category'],
+        #             'count': 0
+        #         })
 
 
 
-        # Updates categories news count
-        categories = col_categories.find()
-        i = 1
-        for item in categories:
-            print(i)
-            i += 1
-            count = col_news.find({'category': item['name']}).count()
-            col_categories.update({'name': item['name']}, {'$set': {'count': count}})
+        # # Updates categories news count
+        # categories = col_categories.find()
+        # i = 1
+        # for item in categories:
+        #     print(i)
+        #     i += 1
+        #     count = col_news.find({'category': item['name']}).count()
+        #     col_categories.update({'name': item['name']}, {'$set': {'count': count}})
 
 
 
