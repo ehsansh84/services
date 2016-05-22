@@ -5,10 +5,53 @@
     <title>Title</title>
 </head>
 <body>
-Reports
-    <form method="post" action="/reports">
+    <!--<form method="post" action="/reports">-->
         <!--<input type="text" name="name">-->
-        <input type="submit" value="overall" name="overall">
-    </form>
+        <!--<input type="submit" value="overall" name="overall">-->
+    <!--</form>-->
+    <h1>Documents summary:</h1>
+    <table>
+      {% for summary in summary_items %}
+        <tr>
+            <td>
+                {{summary['name']}}
+            </td>
+            <td>
+                {{summary['value']}}
+            </td>
+        </tr>
+      {% end %}
+    </table>
+
+    <h1>These are top 10 of news sources:</h1>
+    <table>
+      {% for item in sources_items %}
+        <tr>
+            <td>
+                {{item['name']}}
+            </td>
+            <td>
+                {{item['value']}}
+            </td>
+        </tr>
+      {% end %}
+    </table>
+
+
+    <h1>These are top 10 of news categories:</h1>
+    <table>
+      {% for item in categories_items %}
+        <tr>
+            <td>
+                {{item['name']}}
+            </td>
+            <td>
+                {{item['value']}}
+            </td>
+        </tr>
+      {% end %}
+    </table>
+
+
 </body>
 </html>

@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from handlers import base
+from handlers import reports
 
 url_patterns = [
     ("/", base.IndexHandler, None, "index"),
-    ("/reports", base.ReportsHandler, None, "reports"),
+    ("/reports", reports.ReportsHandler, None, "reports"),
+    ("/test", base.TestHandler, None, "test"),
 ]
