@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import tornado.web
+import math
 
 
 class ReportsHandler(tornado.web.RequestHandler):
@@ -69,9 +70,6 @@ class ReportsHandler(tornado.web.RequestHandler):
         #     count = col_news.find({'category': item['name']}).count()
         #     col_categories.update({'name': item['name']}, {'$set': {'count': count}})
 
-
-
-
         summary_items = [
             {'name': 'Documents count', 'value': news_count},
             {'name': 'RSS count', 'value': rss_count},
@@ -81,38 +79,15 @@ class ReportsHandler(tornado.web.RequestHandler):
         ]
 
         # Print sources
-        sources_items = [
-        ]
-        sources = col_sources.find().sort('total_news', -1).limit(10)
-        # self.write('<br>These are top 10 of news sources:<br>')
-        # self.write(30 * '=')
-        # self.write('<br>')
+        sources_items = []
+        sources = col_sources.find().sort('total_news', -1).limit(20)
         for item in sources:
-            sources_items.append({'name': item['name'], 'value': item['total_news']})
-
-            # self.write(': %s News count: %s<br>' % (item['name'], item['total_news']))
-
-
+            sources_items.append({'name': item['name'], 'value': item['total_news'], 'percent': int(item['total_news'] /  (news_count * 0.01))})
         # Print Categories
         categories_items = []
-        categories = col_categories.find().sort('count',-1).limit(10)
-        # self.write('<br>These are top 10 of news categories:<br>')
-        # self.write(30 * '=')
-        # self.write('<br>')
+        categories = col_categories.find().sort('count',-1).limit(20)
         for item in categories:
-            categories_items.append({'name': item['name'], 'value': item['count']})
-
-            # self.write('Category: %s News count: %s<br>' % (item['name'], item['count']))
-
-
-
-        # name = self.get_argument('name', 'ok')
-        # self.write('Hey Shit')
-        # print(news_count)
-        # self.write('Name:')
-        # self.write(name)
-        # self.render('reports.html')
-
+            categories_items.append({'name': item['name'], 'value': item['count'], 'percent': int(item['count'] /  (news_count * 0.01))})
 
         self.render('reports.html',
                     summary_items=summary_items,

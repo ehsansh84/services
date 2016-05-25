@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>This page is for crawler management!</h1>
+    <div>
+        <label>Crawler Status:</label><span>{{crawler_data['status']}}</span><br>
+        <label>Expire in:</label><span>{{crawler_data['expire']}} Seconds</span>
+    </div>
+    <form action="/crawler" method="get">
+        <input type="hidden" name="action" value="start">
+        <input type="submit" value="Start">
+    </form>
+    <form action="/crawler" method="get">
+        <input type="hidden" name="action" value="update">
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>

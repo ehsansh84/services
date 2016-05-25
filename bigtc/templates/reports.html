@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        td {padding: 0px 30px;}
+    </style>
 </head>
 <body>
     <!--<form method="post" action="/reports">-->
@@ -10,7 +13,7 @@
         <!--<input type="submit" value="overall" name="overall">-->
     <!--</form>-->
     <h1>Documents summary:</h1>
-    <table>
+    <table border="1">
       {% for summary in summary_items %}
         <tr>
             <td>
@@ -24,7 +27,7 @@
     </table>
 
     <h1>These are top 10 of news sources:</h1>
-    <table>
+    <table border="1">
       {% for item in sources_items %}
         <tr>
             <td>
@@ -33,13 +36,16 @@
             <td>
                 {{item['value']}}
             </td>
+            <td>
+                {{item['percent']}}%
+            </td>
         </tr>
       {% end %}
     </table>
 
 
     <h1>These are top 10 of news categories:</h1>
-    <table>
+    <table border="1">
       {% for item in categories_items %}
         <tr>
             <td>
@@ -47,6 +53,9 @@
             </td>
             <td>
                 {{item['value']}}
+            </td>
+            <td>
+                {{item['percent']}}%
             </td>
         </tr>
       {% end %}
