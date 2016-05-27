@@ -76,7 +76,7 @@ except:
     pass
 
 d = (datetime.now() - timedelta(hours=4))
-
+print(d)
 if exec_type == 'new':
     rss_links = col_rss.find({'duration': -1, 'last_read': {'$gt':  d}})
     rss_count = col_rss.count({'duration': -1, 'last_read': {'$gt':  d}})
