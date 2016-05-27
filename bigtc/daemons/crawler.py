@@ -76,7 +76,7 @@ try:
 except:
     pass
 
-d = (datetime.now() - timedelta(hours=4))
+d = (datetime.now() - timedelta(hours=3))
 print(datetime.now())
 print(d)
 if exec_type == 'new':
