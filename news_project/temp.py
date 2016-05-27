@@ -27,7 +27,7 @@ from datetime import datetime, timedelta
 con = MongoClient()
 db_bigtc = con.bigtc
 col_rss = db_bigtc['rss']
-d = (datetime.now() - timedelta(hours=10))
+d = (datetime.now() - timedelta(hours=4))
 # d1 = (datetime.now() - timedelta(hours=10))
 rss_links = col_rss.count({'last_read': {'$gt':  d}})
 # print(d1)

@@ -4,7 +4,7 @@ sys.path.append("/root/ehsan/services")
 from public_data import *
 import feedparser
 from tools import *
-from datetime import  datetime
+from datetime import datetime, timedelta
 
 col_news = db_bigtc['news']
 col_rss = db_bigtc['rss']
@@ -74,24 +74,27 @@ try:
     exec_type = sys.argv[1]
 except:
     pass
+
+d = (datetime.now() - timedelta(hours=4))
+
 if exec_type == 'new':
-    rss_links = col_rss.find({'duration': -1})
-    rss_count = col_rss.count({'duration': -1})
+    rss_links = col_rss.find({'duration': -1, 'last_read': {'$gt':  d}})
+    rss_count = col_rss.count({'duration': -1, 'last_read': {'$gt':  d}})
 if exec_type == 'micro':
-    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1})
+    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$gt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$gt':  d}})
 elif exec_type == 'small':
-    rss_links = col_rss.find({'duration': {'$lt': 10}, 'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$lt': 10}, 'active': 1})
+    rss_links = col_rss.find({'duration': {'$lt': 10}, 'active': 1, 'last_read': {'$gt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$lt': 10}, 'active': 1, 'last_read': {'$gt':  d}})
 elif exec_type == 'large':
-    rss_links = col_rss.find({'duration': {'$gte': 10}, 'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$gte': 10}, 'active': 1})
+    rss_links = col_rss.find({'duration': {'$gte': 10}, 'active': 1, 'last_read': {'$gt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$gte': 10}, 'active': 1, 'last_read': {'$gt':  d}})
 elif exec_type == 'huge':
-    rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1})
+    rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$gt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$gt':  d}})
 else:
-    rss_links = col_rss.find({'active': 1}).sort('duration', 1)
-    rss_count = col_rss.count({'active': 1})
+    rss_links = col_rss.find({'active': 1, 'last_read': {'$gt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'active': 1, 'last_read': {'$gt':  d}})
 
 log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUE)
 
