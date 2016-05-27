@@ -106,10 +106,12 @@ duration = 0
 try:
     total_time.start()
     for item in rss_links:
+        last_duration = 'Empty'
         try:
+            last_duration = int(item['duration'])
             t.start()
             link_processing = item['link']
-            log.color_print(text='processing %s, Last Read: %s with link %s' % (int(item['duration']), item['last_read'], item['link']), color=Color.YELLOW)
+            log.color_print(text='processing: Last Read: %s with link %s' % (item['last_read'].strftime("%Y-%m-%d %H:%M:%S"), item['link']), color=Color.YELLOW)
             if item['active'] == 1:
                 print(i),
                 fetch(item)
@@ -120,7 +122,8 @@ try:
             error_count += 1
         i += 1
         duration = t.end()
-        log.color_print(text='it took %s this time!' % (int(duration)), color=Color.LIME)
+        # log.color_print(text='it was %s took %s this time!' % (last_duration, int(duration)), color=Color.LIME)
+        log.color_print(text='time from %s to %s' % (last_duration, int(duration)), color=Color.LIME)
 
 
     total_count_new = col_news.count()
