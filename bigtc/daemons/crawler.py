@@ -64,7 +64,7 @@ def fetch(rss_item):
             'duration': duration
         })
     except:
-        log.color_print(text=log.get_exception(), color=Color.YELLOW)
+        log.color_print(text=log.get_exception(), color=Color.RED)
 
 total_count_old = col_news.count()
 error_count = 0
