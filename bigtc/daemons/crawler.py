@@ -46,10 +46,8 @@ def fetch(rss_item):
         # log.color_print(color=Color.LIME, text='DUP: %s NEW: %s TIME: %s SOURCE: %s LINK: %s' % (dup_count, new_count, duration, rss_item['category'], link))
         log.color_print(color=Color.LIME, text='DUP: %s NEW: %s SOURCE: %s' % (dup_count, new_count, rss_item['category']))
         if dup_count == 0 and new_count > 0:
-            print(),
             log.color_print(color=Color.CYAN, text='ALL NEW!')
         elif new_count == 0:
-            print(),
             log.color_print(color=Color.RED, text='NOTHING NEW!')
 
         total_count = new_count + dup_count
