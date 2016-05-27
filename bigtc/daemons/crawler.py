@@ -44,7 +44,7 @@ def fetch(rss_item):
         duration = t.end()
         link = rss_item['link']
         # log.color_print(color=Color.LIME, text='DUP: %s NEW: %s TIME: %s SOURCE: %s LINK: %s' % (dup_count, new_count, duration, rss_item['category'], link))
-        log.color_print(color=Color.LIME, text='DUP: %s NEW: %s TIME: %s SOURCE: %s' % (dup_count, new_count, duration, rss_item['category']))
+        log.color_print(color=Color.LIME, text='DUP: %s NEW: %s TIME: %s SOURCE: %s' % (dup_count, new_count, int(duration), rss_item['category']))
         total_count = new_count + dup_count
         last_read = datetime.now()
         col_rss.update({'link': link}, {"$set": {
@@ -109,7 +109,7 @@ try:
         try:
             t.start()
             link_processing = item['link']
-            log.color_print(text='processing %s, Last Read: %s with link %s' % (item['duration'], item['last_read'], item['link']), color=Color.YELLOW)
+            log.color_print(text='processing %s, Last Read: %s with link %s' % (int(item['duration']), item['last_read'], item['link']), color=Color.YELLOW)
             if item['active'] == 1:
                 print(i),
                 fetch(item)
@@ -120,7 +120,7 @@ try:
             error_count += 1
         i += 1
         duration = t.end()
-        log.color_print(text='it took %s this time!' % (duration), color=Color.LIME)
+        log.color_print(text='it took %s this time!' % (int(duration)), color=Color.LIME)
 
 
     total_count_new = col_news.count()
