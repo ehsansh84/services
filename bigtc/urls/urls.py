@@ -9,4 +9,5 @@ url_patterns = [
     ("/reports", reports.ReportsHandler, None, "reports"),
     ("/test", base.TestHandler, None, "test"),
     ("/crawler", crawler.CrawlerHandler, None, "crawler"),
+    ("/rss", crawler.RssHandler, None, "rss"),
 ]
