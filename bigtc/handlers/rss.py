@@ -11,6 +11,7 @@ class RssHandler(tornado.web.RequestHandler):
         db_bigtc = con_bigtc.bigtc
         col_rss = db_bigtc['rss']
         col_rss_log = db_bigtc['rss_log']
+        col_rss_performance = db_bigtc['rss_performance']
         rss = col_rss.find({'active': 1})
         rss_data = []
         for rss_item in rss:
@@ -26,6 +27,15 @@ class RssHandler(tornado.web.RequestHandler):
                 if rss_log_item['new'] == 0:
                     empty_rounds += 1
                 total_new += rss_log_item['new']
+                col_rss_performance.insert({
+                    'link':rss_log_item['link'],
+                    'rounds': rounds,
+                    'full_rounds': full_rounds,
+                    'empty_rounds': empty_rounds,
+                    'total_new': total_new
+                })
+
+
                 rss_data.append({
                     'link':rss_log_item['link'],
                     'rounds': rounds,
@@ -33,5 +43,6 @@ class RssHandler(tornado.web.RequestHandler):
                     'empty_rounds': empty_rounds,
                     'total_new': total_new
                 })
+
         self.render('rss.html', rss_data=rss_data)
 
