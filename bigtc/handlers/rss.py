@@ -33,5 +33,5 @@ class RssHandler(tornado.web.RequestHandler):
                     'empty_rounds': empty_rounds,
                     'total_new': total_new
                 })
-        self.render('crawler.html', rss_data=rss_data)
+        self.render('rss.html', rss_data=rss_data)
 
