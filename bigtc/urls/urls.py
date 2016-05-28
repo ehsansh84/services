@@ -3,6 +3,7 @@
 from handlers import base
 from handlers import reports
 from handlers import crawler
+from handlers import rss
 
 url_patterns = [
     ("/", base.IndexHandler, None, "index"),
