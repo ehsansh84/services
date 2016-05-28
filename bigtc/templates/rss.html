@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>This page is for RSS info</h1>
+    {% for item in rss_data%}
+        {{ item['rounds'] }}
+        {{ item['full_rounds'] }}
+        {{ item['empty_rounds'] }}
+        {{ item['total_new'] }}
+        {{ item['link'] }}
+    {% end %}
+</body>
+</html>
