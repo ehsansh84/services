@@ -101,7 +101,8 @@ elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
     rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}})
 else:
-    rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
+    rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('last_read', 1)
+    # rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
     rss_count = col_rss.count({'active': 1, 'last_read': {'$lt':  d}})
 
 log.color_print(text='processing %s RSS' % rss_count, color=Color.BLUE)
