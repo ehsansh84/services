@@ -88,9 +88,9 @@ print(d)
 if exec_type == 'new':
     rss_links = col_rss.find({'duration': -1, 'last_read': {'$l':  d}})
     rss_count = col_rss.count({'duration': -1, 'last_read': {'$lt':  d}})
-if exec_type == 'micro':
-    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}})
+elif exec_type == 'micro':
+    rss_links = col_rss.find({'$where': 'this.new > (this.duplicates)'})
+    rss_links = col_rss.count({'$where': 'this.new > (this.duplicates)'})
 elif exec_type == 'small':
     rss_links = col_rss.find({'duration': {'$lt': 10}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
     rss_count = col_rss.count({'duration': {'$lt': 10}, 'active': 1, 'last_read': {'$lt':  d}})
@@ -100,6 +100,9 @@ elif exec_type == 'large':
 elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
     rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}})
+elif exec_type == 'full':
+    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
+    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}})
 else:
     rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('last_read', 1)
     # rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
