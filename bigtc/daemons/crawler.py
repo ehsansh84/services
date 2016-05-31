@@ -101,8 +101,8 @@ elif exec_type == 'huge':
     rss_links = col_rss.find({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
     rss_count = col_rss.count({'duration': {'$gte': 30}, 'active': 1, 'last_read': {'$lt':  d}})
 elif exec_type == 'full':
-    rss_links = col_rss.find({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
-    rss_count = col_rss.count({'duration': {'$lt': 6}, 'active': 1, 'last_read': {'$lt':  d}})
+    rss_links = col_rss.find({'active': 1, '$where': 'this.new > (this.duplicates)'})
+    rss_count = col_rss.count({'active': 1, '$where': 'this.new > (this.duplicates)'})
 else:
     rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('last_read', 1)
     # rss_links = col_rss.find({'active': 1, 'last_read': {'$lt':  d}}).sort('duration', 1)
